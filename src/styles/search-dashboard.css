@@ -1,0 +1,87 @@
+:root {
+  --accent: #7f5af0;
+  --bg: #0f0f1a;
+  --fg: #ffffff;
+  --muted: #888;
+  --border: #2a2a3a;
+}
+
+.search-dashboard {
+  background-color: var(--bg);
+  color: var(--fg);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  font-family: 'Inter', sans-serif;
+}
+
+.search-dashboard input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background-color: #1a1a2a;
+  color: var(--fg);
+}
+
+.search-dashboard h2,
+.search-dashboard h3 {
+  margin-top: 1.5rem;
+  color: var(--accent);
+}
+
+.search-dashboard label {
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.search-dashboard code {
+  background-color: #1f1f2f;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+.search-dashboard ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.search-dashboard li {
+  margin-bottom: 0.5em;
+}
+
+.search-dashboard a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.search-dashboard a:hover {
+  text-decoration: underline;
+}
+
+.search-dashboard #pagination {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.search-dashboard #pagination button {
+  background-color: var(--accent);
+  color: var(--fg);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-dashboard #pagination button:hover {
+  background-color: #9f7aff;
+}

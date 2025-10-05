@@ -1,0 +1,57 @@
+---
+import SearchDashboard from '../components/SearchDashboard.astro';
+import { getCollection } from 'astro:content';
+
+const characters = await getCollection('characters');
+const companions = await getCollection('companions');
+const factions = await getCollection('factions');
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Velvet Chains — Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/velvet-chains-ttrpg" />
+  </head>
+  <body>
+    <main data-pagefind-body>
+      <h1>🕸️ Velvet Chains TTRPG</h1>
+      <p>Explore the living ecosystem of glyph-marked souls, planar factions, and bonded companions.</p>
+
+      <section>
+        <h2>🧙 Featured Characters</h2>
+        <ul>
+          {characters.map(c => (
+            <li><a href={`/characters/${c.slug}`}>{c.data.name}</a> — Level {c.data.level} {c.data.class}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section>
+        <h2>🧝‍♀️ Featured Companions</h2>
+        <ul>
+          {companions.map(c => (
+            <li><a href={`/companions/${c.slug}`}>{c.data.name}</a> — {c.data.species}</li>
+          ))}
+        </ul>
+      </section>
+
+      <section>
+        <h2>🕸️ Featured Factions</h2>
+        <ul>
+          {factions.map(f => (
+            <li><a href={`/factions/${f.slug}`}>{f.data.name}</a> — {f.data.alignment}</li>
+          ))}
+        </ul>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>🔍 Search the Archive</h2>
+        <SearchDashboard />
+      </section>
+    </main>
+  </body>
+</html>

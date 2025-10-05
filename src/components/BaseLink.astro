@@ -1,0 +1,7 @@
+---
+const { href, children } = Astro.props;
+const base = '/velvet-chains-ttrpg';
+const fullHref = href.startsWith('/') ? `${base}${href}` : href;
+---
+
+<a href={fullHref}>{children}</a>

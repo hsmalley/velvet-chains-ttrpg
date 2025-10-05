@@ -1,0 +1,158 @@
+---
+import { getCollection } from 'astro:content';
+
+const characters = await getCollection('characters');
+const companions = await getCollection('companions');
+const factions = await getCollection('factions');
+
+const entries = [
+  ...characters.map(c => ({ ...c.data, type: 'character', url: `/characters/${c.slug}` })),
+  ...companions.map(c => ({ ...c.data, type: 'companion', url: `/companions/${c.slug}` })),
+  ...factions.map(f => ({ ...f.data, type: 'faction', url: `/factions/${f.slug}` }))
+];
+
+const allTags = [...new Set(entries.flatMap(e => e.tags))];
+const allTypes = ['character', 'companion', 'faction'];
+---
+
+<div class="search-dashboard">
+  <h2>🔍 Search Dashboard</h2>
+  <input type="text" id="search-input" placeholder="Search by name, tag, type..." />
+
+  <h3>🔖 Filter by Tag</h3>
+  <div id="tag-filters">
+    {allTags.map(tag => (
+      <label>
+        <input type="checkbox" value={tag} />
+        {tag}
+      </label>
+    ))}
+  </div>
+
+  <h3>🧩 Filter by Type</h3>
+  <div id="type-filters">
+    {allTypes.map(type => (
+      <label>
+        <input type="checkbox" value={type} checked />
+        {type}
+      </label>
+    ))}
+  </div>
+
+  <hr />
+
+  <div id="results"></div>
+  <div id="pagination"></div>
+
+  <script type="application/json" id="entry-data">
+    {JSON.stringify(entries)}
+  </script>
+
+  <script type="module">
+    import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.esm.js';
+
+    const entries = JSON.parse(document.getElementById('entry-data').textContent);
+    const fuse = new Fuse(entries, {
+      keys: ['name', 'tags', 'type'],
+      threshold: 0.3
+    });
+
+    let searchTerm = '';
+    let selectedTags = new Set();
+    let selectedTypes = new Set(['character', 'companion', 'faction']);
+    let currentPage = 1;
+    const pageSize = 10;
+
+    const input = document.getElementById('search-input');
+    const tagFilters = document.getElementById('tag-filters');
+    const typeFilters = document.getElementById('type-filters');
+    const resultsContainer = document.getElementById('results');
+    const paginationContainer = document.getElementById('pagination');
+
+    input.addEventListener('input', (e) => {
+      searchTerm = e.target.value;
+      currentPage = 1;
+      updateResults();
+    });
+
+    tagFilters.querySelectorAll('input').forEach(input => {
+      input.addEventListener('change', () => {
+        input.checked ? selectedTags.add(input.value) : selectedTags.delete(input.value);
+        currentPage = 1;
+        updateResults();
+      });
+    });
+
+    typeFilters.querySelectorAll('input').forEach(input => {
+      input.addEventListener('change', () => {
+        input.checked ? selectedTypes.add(input.value) : selectedTypes.delete(input.value);
+        currentPage = 1;
+        updateResults();
+      });
+    });
+
+    function updateResults() {
+      const results = fuse.search(searchTerm).map(r => r.item);
+      const filtered = results.filter(entry =>
+        selectedTypes.has(entry.type) &&
+        (selectedTags.size === 0 || entry.tags.some(tag => selectedTags.has(tag)))
+      );
+
+      const grouped = {
+        character: [],
+        companion: [],
+        faction: []
+      };
+
+      filtered.forEach(entry => grouped[entry.type].push(entry));
+
+      resultsContainer.innerHTML = '';
+      for (const type of ['character', 'companion', 'faction']) {
+        if (grouped[type].length > 0) {
+          const groupDiv = document.createElement('div');
+          const heading = document.createElement('h3');
+          heading.textContent = type.charAt(0).toUpperCase() + type.slice(1) + 's';
+          groupDiv.appendChild(heading);
+
+          const ul = document.createElement('ul');
+          const start = (currentPage - 1) * pageSize;
+          const end = start + pageSize;
+          grouped[type].slice(start, end).forEach(entry => {
+            const li = document.createElement('li');
+            li.innerHTML = `<a href="${entry.url}">${entry.name}</a> — ${entry.tags.join(', ')}`;
+            ul.appendChild(li);
+          });
+
+          groupDiv.appendChild(ul);
+          resultsContainer.appendChild(groupDiv);
+        }
+      }
+
+      paginationContainer.innerHTML = '';
+      const prevBtn = document.createElement('button');
+      prevBtn.textContent = '⬅ Prev';
+      prevBtn.onclick = () => {
+        if (currentPage > 1) {
+          currentPage--;
+          updateResults();
+        }
+      };
+
+      const nextBtn = document.createElement('button');
+      nextBtn.textContent = 'Next ➡';
+      nextBtn.onclick = () => {
+        currentPage++;
+        updateResults();
+      };
+
+      const pageLabel = document.createElement('span');
+      pageLabel.textContent = `Page ${currentPage}`;
+
+      paginationContainer.appendChild(prevBtn);
+      paginationContainer.appendChild(pageLabel);
+      paginationContainer.appendChild(nextBtn);
+    }
+
+    window.addEventListener('DOMContentLoaded', updateResults);
+  </script>
+</div>

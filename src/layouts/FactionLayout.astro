@@ -1,0 +1,24 @@
+---
+const { name, alignment, tags } = Astro.props.entry.data;
+const tagList = Array.isArray(tags) ? tags.join(', ') : '—';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{name} — Velvet Chains</title>
+  </head>
+  <body>
+    <main data-pagefind-body>
+      <h1>🕸️ {name}</h1>
+      <h2>Alignment: {alignment}</h2>
+
+      <table>
+        <tr><th>Alignment</th><td>{alignment}</td></tr>
+        <tr><th>Tags</th><td>{tagList}</td></tr>
+      </table>
+
+      <slot />
+    </main>
+  </body>
+</html>

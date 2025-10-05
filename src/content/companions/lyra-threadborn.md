@@ -1,0 +1,63 @@
+---
+id: lyra-threadborn
+name: Lyra Threadborn
+species: dreambound echo
+bonded_to: Nyx Virellian
+tags: [velvetchains-companion, familiar, soulbound, glyphic, dreamwalker]
+type: companion
+---
+
+## 🧝‍♀️ Lyra Threadborn
+
+| Field       | Value                          |
+|-------------|--------------------------------|
+| Species     | dreambound echo                |
+| Bonded To   | Nyx Virellian                  |
+| Tags        | velvetchains-companion, familiar, soulbound, glyphic, dreamwalker |
+
+---
+
+### 🧬 Origin & Nature
+
+Lyra is not alive in the traditional sense. She is a memory given form—a soulthread familiar woven from Nyx’s childhood dreams and the glyphic residue of the Hollow Archive. Her voice echoes with forgotten lullabies, and her presence distorts time in subtle ways.
+
+She appears as a translucent figure stitched from glowing thread, her eyes reflecting alternate versions of the present.
+
+- **Form**: Humanoid echo with threadbound limbs  
+- **Voice**: Multilayered, sometimes speaking in reverse  
+- **Bond**: Soulbound to Nyx; cannot stray more than 60 ft  
+- **Plane of Origin**: Dreaming Verge  
+
+---
+
+### 🛡️ Traits & Abilities
+
+- **HP**: 12  
+- **AC**: 14  
+- **Speed**: 30 ft (glide)  
+- **Skills**: Insight +5, Dreamlore +6, Glyphsense +4  
+- **Special**:
+  - **Echo Pulse**: Once per rest, Lyra can replay a moment from the past (10-second memory loop)
+  - **Threadbind**: Can anchor Nyx’s soul during corruption surges (DC 15 Will save)
+  - **Glyph Whisper**: Can communicate silently with glyphic entities
+
+---
+
+### 🕸️ Velvet Chains Extension
+
+- **Corruption Immunity**: Lyra absorbs corruption instead of Nyx (up to 3 points/session)  
+- **Soulmark**: ☽ Echo of Lyra (Nyx’s mark pulses when Lyra is near)  
+- **Narrative Tags**:
+  - memory_made_manifest
+  - guardian_of_identity
+  - fragile_thread_of_self
+
+---
+
+### 📝 Notes
+
+Lyra is more than a companion—she is a tether. When Nyx begins to unravel, Lyra’s presence stabilizes her. But each time Lyra absorbs corruption, she fades slightly. Her form flickers. Her voice distorts.
+
+If Lyra is lost, Nyx may forget who she is entirely.
+
+---

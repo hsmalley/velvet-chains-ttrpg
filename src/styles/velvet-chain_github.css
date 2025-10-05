@@ -1,0 +1,261 @@
+/* Global styles for the velvet-chains GitHub Pages deployment */
+
+body {
+  font-family: 'Crimson Text', 'Playfair Display', 'Times New Roman', serif;
+  background: linear-gradient(135deg, #000000 0%, #0a0005 15%, #0f0008 30%, #1a0010 45%, #0d0208 60%, #050002 80%, #000000 100%);
+  background-attachment: fixed;
+  color: #e8d5e8;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+/* Spectacular headers with dark romance corsair flair */
+h1, h2, h3, h4, h5, h6 {
+  background: linear-gradient(45deg, #d946ef 0%, #9333ea 25%, #c2410c 50%, #dc2626 75%, #be123c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 25px rgba(217, 70, 239, 0.4), 0 0 50px rgba(147, 51, 234, 0.2);
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 30px rgba(217, 70, 239, 0.6), 0 0 60px rgba(147, 51, 234, 0.3);
+}
+
+/* Code blocks with dark romance pirate aesthetics */
+pre {
+  background: linear-gradient(145deg, #000000 0%, #0a0005 100%);
+  border: 2px solid #d946ef;
+  border-radius: 12px;
+  padding: 2rem;
+  overflow-x: auto;
+  box-shadow:
+    0 0 25px rgba(217, 70, 239, 0.3),
+    inset 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+code {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.95), rgba(5, 0, 2, 0.98));
+  padding: 0.3em 0.6em;
+  border-radius: 6px;
+  font-family: 'Fira Code', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  color: #f3e8ff;
+  border: 1px solid rgba(217, 70, 239, 0.3);
+}
+
+/* Code blocks within cards need special handling */
+.card pre {
+  background: linear-gradient(145deg, #000000 0%, #0a0005 100%);
+  border: 1px solid rgba(217, 70, 239, 0.5);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow:
+    0 0 15px rgba(217, 70, 239, 0.2),
+    inset 0 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.card pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+/* Links with dark romance corsair charm */
+a {
+  color: #d946ef;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 0 0 8px rgba(217, 70, 239, 0.3);
+}
+
+a:hover {
+  color: #be123c;
+  text-shadow: 0 0 15px rgba(190, 18, 60, 0.6), 0 0 30px rgba(217, 70, 239, 0.4);
+  text-decoration: underline;
+  text-decoration-color: rgba(190, 18, 60, 0.5);
+}
+
+/* Blockquotes with dark romance theatrical flair */
+blockquote {
+  border-left: 5px solid #d946ef;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.95), rgba(3, 0, 1, 0.98));
+  margin: 2rem 0;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0 15px 15px 0;
+  box-shadow:
+    0 4px 15px rgba(217, 70, 239, 0.2),
+    inset 0 2px 8px rgba(0, 0, 0, 0.9);
+  font-style: italic;
+  position: relative;
+}
+
+blockquote::before {
+  content: '❝';
+  font-size: 4rem;
+  color: rgba(217, 70, 239, 0.3);
+  position: absolute;
+  left: 0.5rem;
+  top: -1rem;
+}
+
+/* Tables with dark romance spectacle */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: linear-gradient(145deg, rgba(0, 0, 0, 0.9), rgba(5, 0, 2, 0.95));
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(217, 70, 239, 0.2);
+}
+
+th, td {
+  padding: 1.2rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(217, 70, 239, 0.3);
+}
+
+th {
+  background: linear-gradient(135deg, rgba(217, 70, 239, 0.3), rgba(147, 51, 234, 0.2));
+  font-weight: bold;
+  color: #f3e8ff;
+  text-shadow: 0 0 8px rgba(217, 70, 239, 0.4);
+}
+
+/* Custom component styles with dark romance theme */
+.callout {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  border-radius: 15px;
+  border-left: 6px solid;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.callout.info {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.98), rgba(1, 0, 1, 0.99));
+  border-color: #9333ea;
+  box-shadow: 0 6px 20px rgba(147, 51, 234, 0.3);
+}
+
+.callout.warning {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.98), rgba(1, 0, 0, 0.99));
+  border-color: #d946ef;
+  box-shadow: 0 6px 20px rgba(217, 70, 239, 0.3);
+}
+
+.callout.error {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.98), rgba(1, 0, 0, 0.99));
+  border-color: #be123c;
+  box-shadow: 0 6px 20px rgba(190, 18, 60, 0.3);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.card {
+  background: linear-gradient(145deg, rgba(0, 0, 0, 0.98), rgba(1, 0, 0, 0.99));
+  border: 2px solid rgba(217, 70, 239, 0.4);
+  border-radius: 18px;
+  padding: 2rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(15px);
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #d946ef, #9333ea, #be123c, #d946ef);
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow:
+    0 15px 40px rgba(217, 70, 239, 0.4),
+    0 5px 15px rgba(190, 18, 60, 0.3);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+/* Additional dark romance elements */
+::selection {
+  background: rgba(217, 70, 239, 0.4);
+  color: #f3e8ff;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #000000, #0a0005);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d946ef, #be123c);
+  border-radius: 10px;
+  border: 2px solid #1a0e1a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #be123c, #d946ef);
+}
+
+/* Add subtle animations */
+@keyframes darkPulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+h1 {
+  animation: darkPulse 4s ease-in-out infinite;
+}
+
+/* Responsive design for mobile corsairs */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  pre {
+    padding: 1.5rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}

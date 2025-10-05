@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Velvet Chains Character Sheet",
+  "type": "object",
+  "required": ["id", "name", "level", "system", "class", "abilities", "hp", "ac"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "level": { "type": "integer", "minimum": 1 },
+    "system": { "type": "string", "enum": ["pathfinder2e", "starfinder2e", "velvetchains"] },
+    "class": { "type": "string" },
+    "ancestry": { "type": "string" },
+    "background": { "type": "string" },
+    "alignment": { "type": "string" },
+    "deity": { "type": ["string", "null"] },
+    "traits": { "type": "array", "items": { "type": "string" } },
+    "abilities": {
+      "type": "object",
+      "properties": {
+        "str": { "type": "integer" },
+        "dex": { "type": "integer" },
+        "con": { "type": "integer" },
+        "int": { "type": "integer" },
+        "wis": { "type": "integer" },
+        "cha": { "type": "integer" }
+      }
+    },
+    "hp": {
+      "type": "object",
+      "properties": {
+        "max": { "type": "integer" },
+        "current": { "type": "integer" },
+        "temp": { "type": "integer" }
+      }
+    },
+    "ac": { "type": "integer" },
+    "initiative": { "type": "integer" },
+    "speed": { "type": "string" },
+    "saves": {
+      "type": "object",
+      "properties": {
+        "fortitude": { "type": "integer" },
+        "reflex": { "type": "integer" },
+        "will": { "type": "integer" }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "properties": {
+        "arcana": { "type": "integer" },
+        "society": { "type": "integer" },
+        "occultism": { "type": "integer" },
+        "perception": { "type": "integer" },
+        "stealth": { "type": "integer" }
+      }
+    },
+    "velvetchains": {
+      "type": "object",
+      "properties": {
+        "corruption_level": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "soul_marks": { "type": "array", "items": { "type": "string" } },
+        "custom_feats": { "type": "array", "items": { "type": "string" } },
+        "narrative_tags": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+i---
+import { getCollection } from 'astro:content';
+
+const companions = await getCollection('companions');
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Companions — Velvet Chains</title>
+  </head>
+  <body>
+    <main data-pagefind-body>
+      <h1>🧝‍♀️ Companions</h1>
+      <ul>
+        {companions.map(c => (
+          <li><a href={`/companions/${c.slug}`}>{c.data.name}</a></li>
+        ))}
+      </ul>
+    </main>
+  </body>
+</html>
