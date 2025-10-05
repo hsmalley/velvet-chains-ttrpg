@@ -1,3 +1,8 @@
+.vscode
+.vscode/**
+.obsidian
+.obsidian/**
+
 # build output
 dist/
 # generated types

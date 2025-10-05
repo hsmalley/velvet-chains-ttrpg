@@ -1,0 +1,44 @@
+name: Validate Character Sheets
+
+on:
+  push:
+    paths:
+      - 'characters/*.yaml'
+  pull_request:
+    paths:
+      - 'characters/*.yaml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml jsonschema
+
+      - name: Validate YAML files
+        run: |
+          SCHEMA_PATH="schema/character.schema.json"
+          for file in characters/*.yaml; do
+            echo "Validating $file..."
+            python -c "
+import yaml, json, jsonschema, sys
+with open('$SCHEMA_PATH') as s: schema = json.load(s)
+with open('$file') as f: data = yaml.safe_load(f)
+try:
+  jsonschema.validate(instance=data, schema=schema)
+  print('✅', '$file', 'is valid.')
+except jsonschema.exceptions.ValidationError as e:
+  print('❌', '$file', 'is invalid.')
+  print(e.message)
+  sys.exit(1)
+"
+          done

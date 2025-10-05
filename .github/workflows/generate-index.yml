@@ -1,0 +1,150 @@
+name: Full Character Sheet Pipeline
+
+on:
+  push:
+    paths:
+      - 'characters/*.yaml'
+  pull_request:
+    paths:
+      - 'characters/*.yaml'
+
+jobs:
+  character-pipeline:
+    runs-on: ubuntu-latest
+    name: Validate, Index, Lint, and Trigger
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml jsonschema yamllint
+
+      - name: Lint character YAML files
+        run: |
+          yamllint characters/
+
+      - name: Validate character YAML files
+        run: |
+          SCHEMA_PATH="schema/character.schema.json"
+          for file in characters/*.yaml; do
+            echo "Validating $file..."
+            python -c "
+import yaml, json, jsonschema, sys
+with open('$SCHEMA_PATH') as s: schema = json.load(s)
+with open('$file') as f: data = yaml.safe_load(f)
+try:
+  jsonschema.validate(instance=data, schema=schema)
+  print('✅', '$file', 'is valid.')
+except jsonschema.exceptions.ValidationError as e:
+  print('❌', '$file', 'is invalid.')
+  print(e.message)
+  sys.exit(1)
+"
+          done
+
+      - name: Generate index.json
+        run: |
+          mkdir -p characters
+          echo "[" > characters/index.json
+          for file in characters/*.yaml; do
+            python -c "
+import yaml, json
+with open('$file') as f:
+  data = yaml.safe_load(f)
+summary = {
+  'id': data.get('id'),
+  'name': data.get('name'),
+  'class': data.get('class'),
+  'level': data.get('level'),
+  'system': data.get('system')
+}
+print(json.dumps(summary) + ',')
+" >> characters/index.json
+          done
+          sed -i '$ s/,$//' characters/index.json
+          echo "]" >> characters/index.json
+
+      - name: Generate index.md
+        run: |
+          echo "# 🧙 Velvet Chains Character Index" > characters/index.md
+          echo "" >> characters/index.md
+          echo "| Name | Class | Level | System |" >> characters/index.md
+          echo "|------|-------|--------|--------|" >> characters/index.md
+          for file in characters/*.yaml; do
+            python -c "
+import yaml
+with open('$file') as f:
+  data = yaml.safe_load(f)
+row = f\"| {data.get('name')} | {data.get('class')} | {data.get('level')} | {data.get('system')} |\"
+print(row)
+" >> characters/index.md
+          done
+
+      - name: Generate individual Markdown sheets
+        run: |
+          mkdir -p characters/md
+          for file in characters/*.yaml; do
+            python -c "
+import yaml
+from pathlib import Path
+
+with open('$file') as f:
+  data = yaml.safe_load(f)
+
+id = data.get('id')
+name = data.get('name')
+system = data.get('system')
+char_class = data.get('class')
+level = data.get('level')
+alignment = data.get('alignment')
+tags = data.get('tags', [])
+notes = data.get('notes', '').strip()
+
+frontmatter = f\"\"\"---
+id: {id}
+name: {name}
+class: {char_class}
+level: {level}
+system: {system}
+alignment: {alignment}
+tags: [{', '.join(tags)}]
+type: character
+---
+\"\"\"
+
+table = f\"\"\"## 🧙 {name} ({char_class}, Level {level})
+
+| Field     | Value         |
+|-----------|---------------|
+| System    | {system}      |
+| Alignment | {alignment}   |
+| Tags      | {', '.join(tags)} |
+\"\"\"
+
+content = frontmatter + '\\n' + table + '\\n\\n' + '### 📝 Notes\\n' + notes + '\\n'
+Path(f'characters/md/{id}.md').write_text(content)
+"
+          done
+
+      - name: Commit index and Markdown sheets
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add characters/index.json characters/index.md characters/md/*.md
+          git commit -m "Update character index and Markdown sheets"
+          git push
+        continue-on-error: true
+
+      - name: Trigger downstream build
+        run: |
+          echo "Triggering campaign dashboard update..."
+          # Replace with your actual build or webhook command
+          # Example: npm run build && npm run deploy
+          # Or: curl -X POST https://your-webhook-url
