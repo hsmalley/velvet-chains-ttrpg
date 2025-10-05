@@ -6,20 +6,13 @@ updates:
       interval: weekly
       day: monday
       time: "08:00"
+      timezone: "UTC"
     open-pull-requests-limit: 5
-    groups:
-      astro:
-        patterns:
-          - "astro"
-          - "@astrojs/*"
-      tooling:
-        patterns:
-          - "sharp"
-          - "pagefind"
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
       interval: weekly
       day: monday
       time: "08:30"
+      timezone: "UTC"
     open-pull-requests-limit: 5
