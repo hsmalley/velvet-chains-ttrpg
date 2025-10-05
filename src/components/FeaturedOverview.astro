@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import { withBasePath } from '../utils/url';
+
+const docs = await getCollection('docs');
+const sortByTitle = (a, b) => {
+  const titleA = (a.data.name ?? a.data.title ?? '').toLowerCase();
+  const titleB = (b.data.name ?? b.data.title ?? '').toLowerCase();
+  return titleA.localeCompare(titleB);
+};
+
+const byType = (type) =>
+  docs.filter((entry) => entry.data.entryType === type).sort(sortByTitle);
+
+const characters = byType('character');
+const companions = byType('companion');
+const factions = byType('faction');
+
+const makeUrl = (entry) => withBasePath(`/${entry.slug}/`);
+const getName = (entry) => entry.data.name ?? entry.data.title ?? entry.slug;
+---
+
+<section>
+  <h2>🧙 Featured Characters</h2>
+  {characters.length > 0 ? (
+    <ul>
+      {characters.map((entry) => (
+        <li>
+          <a href={makeUrl(entry)}>{getName(entry)}</a>
+          {entry.data.level && entry.data.class ? (
+            <>
+              {' '}
+              — Level {entry.data.level} {entry.data.class}
+            </>
+          ) : null}
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No characters found yet.</p>
+  )}
+</section>
+
+<section>
+  <h2>🧝‍♀️ Featured Companions</h2>
+  {companions.length > 0 ? (
+    <ul>
+      {companions.map((entry) => (
+        <li>
+          <a href={makeUrl(entry)}>{getName(entry)}</a>
+          {entry.data.species ? <> — {entry.data.species}</> : null}
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No companions to display yet.</p>
+  )}
+</section>
+
+<section>
+  <h2>🕸️ Featured Factions</h2>
+  {factions.length > 0 ? (
+    <ul>
+      {factions.map((entry) => (
+        <li>
+          <a href={makeUrl(entry)}>{getName(entry)}</a>
+          {entry.data.alignment ? <> — {entry.data.alignment}</> : null}
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No factions recorded yet.</p>
+  )}
+</section>

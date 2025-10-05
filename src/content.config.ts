@@ -1,41 +1,23 @@
 import { defineCollection, z } from 'astro:content';
+import { docsSchema } from '@astrojs/starlight/schema';
 
-const characters = defineCollection({
-  schema: z.object({
-    id: z.string(),
-    name: z.string(),
-    class: z.string(),
-    level: z.number(),
-    system: z.string(),
-    alignment: z.string(),
-    tags: z.array(z.string()).optional(),
-    type: z.literal('character')
-  })
-});
-
-const companions = defineCollection({
-  schema: z.object({
-    id: z.string(),
-    name: z.string(),
-    species: z.string(),
-    bonded_to: z.string(),
-    tags: z.array(z.string()).optional(),
-    type: z.literal('companion')
-  })
-});
-
-const factions = defineCollection({
-  schema: z.object({
-    id: z.string(),
-    name: z.string(),
-    alignment: z.string(),
-    tags: z.array(z.string()).optional(),
-    type: z.literal('faction')
-  })
+const docs = defineCollection({
+  schema: docsSchema({
+    extend: z.object({
+      entryType: z.enum(['page', 'character', 'companion', 'faction']).default('page'),
+      id: z.string().optional(),
+      name: z.string().optional(),
+      class: z.string().optional(),
+      level: z.number().optional(),
+      system: z.string().optional(),
+      alignment: z.string().optional(),
+      species: z.string().optional(),
+      bonded_to: z.string().optional(),
+      tags: z.array(z.string()).default([]),
+    }),
+  }),
 });
 
 export const collections = {
-  characters,
-  companions,
-  factions
+  docs,
 };

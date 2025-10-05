@@ -1,18 +1,67 @@
 ---
 import { getCollection } from 'astro:content';
+import { withBasePath } from '../utils/url';
 
-const characters = await getCollection('characters');
-const companions = await getCollection('companions');
-const factions = await getCollection('factions');
+const docs = await getCollection('docs');
+const ENTRY_TYPES = ['character', 'companion', 'faction'] as const;
 
-const entries = [
-  ...characters.map(c => ({ ...c.data, type: 'character', url: `/characters/${c.slug}` })),
-  ...companions.map(c => ({ ...c.data, type: 'companion', url: `/companions/${c.slug}` })),
-  ...factions.map(f => ({ ...f.data, type: 'faction', url: `/factions/${f.slug}` }))
-];
+type EntryType = (typeof ENTRY_TYPES)[number];
 
-const allTags = [...new Set(entries.flatMap(e => e.tags))];
-const allTypes = ['character', 'companion', 'faction'];
+type SearchEntry = {
+  slug: string;
+  entryType: EntryType;
+  tags: string[];
+  name: string;
+  title: string;
+  subtitle: string;
+  url: string;
+};
+
+const describeEntry = (entry: SearchEntry, data: Record<string, unknown>) => {
+  switch (entry.entryType) {
+    case 'character': {
+      const level = data.level as number | undefined;
+      const klass = data.class as string | undefined;
+      return level && klass ? `Level ${level} ${klass}` : '';
+    }
+    case 'companion':
+      return (data.species as string | undefined) ?? '';
+    case 'faction':
+      return (data.alignment as string | undefined) ?? '';
+    default:
+      return '';
+  }
+};
+
+const entries: SearchEntry[] = docs
+  .map(({ data, slug }) => {
+    const entryType = data.entryType as EntryType | undefined;
+
+    if (!entryType || !ENTRY_TYPES.includes(entryType)) {
+      return null;
+    }
+
+    const tags = Array.isArray(data.tags) ? (data.tags as string[]) : [];
+    const name = (data.name as string | undefined) ?? (data.title as string | undefined) ?? slug;
+
+    const entry: SearchEntry = {
+      slug,
+      entryType,
+      tags,
+      name,
+      title: (data.title as string | undefined) ?? name,
+      subtitle: '',
+      url: withBasePath(`/${slug}/`),
+    };
+
+    entry.subtitle = describeEntry(entry, data as Record<string, unknown>);
+    return entry;
+  })
+  .filter((entry): entry is SearchEntry => Boolean(entry));
+
+const allTags = [...new Set(entries.flatMap((entry) => entry.tags))].sort((a, b) => a.localeCompare(b));
+const allTypes = [...ENTRY_TYPES];
+const serializedEntries = JSON.stringify(entries).replace(/</g, '\\u003c');
 ---
 
 <div class="search-dashboard">
@@ -21,7 +70,7 @@ const allTypes = ['character', 'companion', 'faction'];
 
   <h3>🔖 Filter by Tag</h3>
   <div id="tag-filters">
-    {allTags.map(tag => (
+    {allTags.map((tag) => (
       <label>
         <input type="checkbox" value={tag} />
         {tag}
@@ -31,7 +80,7 @@ const allTypes = ['character', 'companion', 'faction'];
 
   <h3>🧩 Filter by Type</h3>
   <div id="type-filters">
-    {allTypes.map(type => (
+    {allTypes.map((type) => (
       <label>
         <input type="checkbox" value={type} checked />
         {type}
@@ -44,22 +93,21 @@ const allTypes = ['character', 'companion', 'faction'];
   <div id="results"></div>
   <div id="pagination"></div>
 
-  <script type="application/json" id="entry-data">
-    {JSON.stringify(entries)}
-  </script>
+  <script type="application/json" id="entry-data" set:html={serializedEntries}></script>
 
   <script type="module">
     import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.esm.js';
 
+    const ENTRY_TYPES = {JSON.stringify(allTypes)};
     const entries = JSON.parse(document.getElementById('entry-data').textContent);
     const fuse = new Fuse(entries, {
-      keys: ['name', 'tags', 'type'],
-      threshold: 0.3
+      keys: ['name', 'tags', 'entryType', 'subtitle'],
+      threshold: 0.3,
     });
 
     let searchTerm = '';
     let selectedTags = new Set();
-    let selectedTypes = new Set(['character', 'companion', 'faction']);
+    let selectedTypes = new Set(ENTRY_TYPES);
     let currentPage = 1;
     const pageSize = 10;
 
@@ -75,7 +123,7 @@ const allTypes = ['character', 'companion', 'faction'];
       updateResults();
     });
 
-    tagFilters.querySelectorAll('input').forEach(input => {
+    tagFilters.querySelectorAll('input').forEach((input) => {
       input.addEventListener('change', () => {
         input.checked ? selectedTags.add(input.value) : selectedTags.delete(input.value);
         currentPage = 1;
@@ -83,7 +131,7 @@ const allTypes = ['character', 'companion', 'faction'];
       });
     });
 
-    typeFilters.querySelectorAll('input').forEach(input => {
+    typeFilters.querySelectorAll('input').forEach((input) => {
       input.addEventListener('change', () => {
         input.checked ? selectedTypes.add(input.value) : selectedTypes.delete(input.value);
         currentPage = 1;
@@ -92,41 +140,48 @@ const allTypes = ['character', 'companion', 'faction'];
     });
 
     function updateResults() {
-      const results = fuse.search(searchTerm).map(r => r.item);
-      const filtered = results.filter(entry =>
-        selectedTypes.has(entry.type) &&
-        (selectedTags.size === 0 || entry.tags.some(tag => selectedTags.has(tag)))
+      const results = fuse.search(searchTerm).map((r) => r.item);
+      const filtered = results.filter(
+        (entry) =>
+          selectedTypes.has(entry.entryType) &&
+          (selectedTags.size === 0 || entry.tags.some((tag) => selectedTags.has(tag)))
       );
 
-      const grouped = {
-        character: [],
-        companion: [],
-        faction: []
-      };
+      const grouped = ENTRY_TYPES.reduce((acc, type) => {
+        acc[type] = [];
+        return acc;
+      }, {});
 
-      filtered.forEach(entry => grouped[entry.type].push(entry));
+      filtered.forEach((entry) => {
+        grouped[entry.entryType].push(entry);
+      });
 
       resultsContainer.innerHTML = '';
-      for (const type of ['character', 'companion', 'faction']) {
-        if (grouped[type].length > 0) {
-          const groupDiv = document.createElement('div');
-          const heading = document.createElement('h3');
-          heading.textContent = type.charAt(0).toUpperCase() + type.slice(1) + 's';
-          groupDiv.appendChild(heading);
 
-          const ul = document.createElement('ul');
-          const start = (currentPage - 1) * pageSize;
-          const end = start + pageSize;
-          grouped[type].slice(start, end).forEach(entry => {
-            const li = document.createElement('li');
-            li.innerHTML = `<a href="${entry.url}">${entry.name}</a> — ${entry.tags.join(', ')}`;
-            ul.appendChild(li);
-          });
+      ENTRY_TYPES.forEach((type) => {
+        const groupEntries = grouped[type];
+        if (groupEntries.length === 0) return;
 
-          groupDiv.appendChild(ul);
-          resultsContainer.appendChild(groupDiv);
-        }
-      }
+        const groupDiv = document.createElement('div');
+        const heading = document.createElement('h3');
+        heading.textContent = type.charAt(0).toUpperCase() + type.slice(1) + 's';
+        groupDiv.appendChild(heading);
+
+        const ul = document.createElement('ul');
+        const start = (currentPage - 1) * pageSize;
+        const end = start + pageSize;
+
+        groupEntries.slice(start, end).forEach((entry) => {
+          const li = document.createElement('li');
+          const subtitleText = entry.subtitle ? ` — ${entry.subtitle}` : '';
+          const tagText = entry.tags.length ? ` <span class="tags">(${entry.tags.join(', ')})</span>` : '';
+          li.innerHTML = `<a href="${entry.url}">${entry.name}</a>${subtitleText}${tagText}`;
+          ul.appendChild(li);
+        });
+
+        groupDiv.appendChild(ul);
+        resultsContainer.appendChild(groupDiv);
+      });
 
       paginationContainer.innerHTML = '';
       const prevBtn = document.createElement('button');

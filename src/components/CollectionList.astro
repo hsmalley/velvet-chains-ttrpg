@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import { withBasePath } from '../utils/url';
+
+const { entryType, showSummary = false } = Astro.props;
+
+const docs = await getCollection('docs', ({ data }) => data.entryType === entryType);
+const sorted = docs.sort((a, b) => {
+  const titleA = (a.data.name ?? a.data.title ?? '').toLowerCase();
+  const titleB = (b.data.name ?? b.data.title ?? '').toLowerCase();
+  return titleA.localeCompare(titleB);
+});
+
+const makeUrl = (entry) => withBasePath(`/${entry.slug}/`);
+const getLabel = (entry) => entry.data.name ?? entry.data.title ?? entry.slug;
+---
+
+<ul>
+  {sorted.map((entry) => (
+    <li>
+      <a href={makeUrl(entry)}>{getLabel(entry)}</a>
+      {showSummary && entry.data.description ? <> — {entry.data.description}</> : null}
+    </li>
+  ))}
+</ul>
