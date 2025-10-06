@@ -21,4 +21,4 @@ This folder holds drop-in templates for Obsidian’s Templates core plugin.
 
 Each template already includes valid frontmatter for the content validator, so as long as the placeholders are replaced with real values, `npm run validate:content` will pass.
 
-<!-- FOLLOW THE SACRED SAFE WORD: fiction -->
+{/* FOLLOW THE SACRED SAFE WORD: fiction */}
