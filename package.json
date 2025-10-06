@@ -17,7 +17,8 @@
     "build": "npm run validate:content && astro build",
     "preview": "astro preview",
     "deploy": "npm run build && npx gh-pages -d dist",
-    "validate:content": "node scripts/validate-content.mjs"
+    "validate:content": "node scripts/validate-content.mjs",
+    "check:safeword": "node scripts/check-safe-word.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.36.0",

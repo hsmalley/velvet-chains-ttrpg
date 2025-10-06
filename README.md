@@ -42,6 +42,7 @@ Welcome to the cartographic archive for the **Velvet Chains & Voidlight** campai
 
 | Command | Purpose |
 |---------|---------|
+| `npm run check:safeword`   | Warns when a document forgets to invoke the sacred safe word |
 | `npm run validate:content` | Validates MD/MDX frontmatter against the campaign schema |
 | `npm run build`            | Runs validation then builds the Starlight site into `dist/` |
 | `npm run dev`              | Starts the local dev server at `http://localhost:4321` |

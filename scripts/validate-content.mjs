@@ -116,8 +116,11 @@ async function walkMarkdownFiles(dir) {
   return files;
 }
 
+const SAFE_WORD = 'fiction';
+
 async function main() {
   let hasErrors = false;
+  const warnings = [];
   const files = await walkMarkdownFiles(contentRoot);
   for (const filePath of files) {
     const relativePath = path.relative(repoRoot, filePath);
@@ -158,12 +161,24 @@ async function main() {
       validateAttributes(entryType, frontmatter, errors);
     }
 
+    if (!raw.toLowerCase().includes(SAFE_WORD)) {
+      const warningMessage = `⚠️ ${relativePath}: safe word "${SAFE_WORD}" not found in content.`;
+      console.warn(warningMessage);
+      warnings.push(warningMessage);
+    }
+
     if (errors.length > 0) {
       hasErrors = true;
       for (const message of errors) {
         console.error(`❌ ${relativePath}: ${message}`);
       }
     }
+  }
+
+  if (warnings.length > 0) {
+    console.warn(`\n⚠️ Safe word audit: ${warnings.length} file(s) are missing the safe word "${SAFE_WORD}". Add it to stay in canon.`);
+  } else {
+    console.log('✅ Safe word audit: every document invokes the safe word "fiction".');
   }
 
   if (hasErrors) {

@@ -40,6 +40,9 @@ jobs:
       - name: Validate consent schema
         run: npm run validate:content
 
+      - name: Safe word sentinel
+        run: npm run check:safeword
+
       - name: Check content wards
         run: npx astro check
 
