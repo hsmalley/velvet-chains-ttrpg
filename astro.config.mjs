@@ -89,6 +89,34 @@ export default defineConfig({
           autogenerate: { directory: 'adventures' },
         },
         {
+          label: 'Story Arcs',
+          autogenerate: { directory: 'arcs' },
+        },
+        {
+          label: 'Artifact Collections',
+          autogenerate: { directory: 'artifact-collections' },
+        },
+        {
+          label: 'Artifacts',
+          autogenerate: { directory: 'artifacts' },
+        },
+        {
+          label: 'Rituals',
+          autogenerate: { directory: 'rituals' },
+        },
+        {
+          label: 'Logbooks',
+          autogenerate: { directory: 'logbooks' },
+        },
+        {
+          label: 'Ships',
+          autogenerate: { directory: 'ships' },
+        },
+        {
+          label: 'GM Guides',
+          autogenerate: { directory: 'gm-guides' },
+        },
+        {
           label: 'Places',
           autogenerate: { directory: 'places' },
         },

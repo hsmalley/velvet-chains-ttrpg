@@ -7,6 +7,7 @@ on:
       - 'src/content/**'
       - 'src/components/**'
       - 'src/styles/**'
+      - 'scripts/**'
       - 'package.json'
       - 'package-lock.json'
   pull_request:
@@ -15,6 +16,7 @@ on:
       - 'src/content/**'
       - 'src/components/**'
       - 'src/styles/**'
+      - 'scripts/**'
       - 'package.json'
       - 'package-lock.json'
 

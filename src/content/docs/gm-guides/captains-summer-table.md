@@ -1,3 +1,15 @@
+---
+title: "GM Reflection Protocols — The Captains Summary Table"
+description: "Practical empathy tools for running mirror-themed adventures."
+entryType: gm-guide
+id: "gm-captains-summary-table"
+arc: "Mirror-Current"
+safeword: fiction
+tags:
+  - gm
+  - mirror-current
+---
+
 ## ⚓ 𝘊𝘢𝘱𝘵𝘢𝘪𝘯’𝘴 𝘚𝘶𝘮𝘮𝘢𝘳𝘺 𝘛𝘢𝘣𝘭𝘦 ✨⛓️🔥  
 
 | Arc | Tone & Genre | Core Mechanic | Central Theme | Drama Focus | Signature Phrase |

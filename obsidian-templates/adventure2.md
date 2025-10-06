@@ -10,6 +10,9 @@ safeword: fiction
 tags:
   - adventure
   - "{{arc-tag}}"
+name: "{{Adventure Title}}"
+duration: "{{How long this should take}}"
+recommendedLevel: "{{String Value of Recommended Play levels}}"
 ---
 
 # ⚔️ {{title}} ✨⛓️🔥  

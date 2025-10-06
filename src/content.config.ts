@@ -5,7 +5,22 @@ const docs = defineCollection({
   schema: docsSchema({
     extend: z.object({
       entryType: z
-        .enum(['page', 'character', 'companion', 'faction', 'adventure', 'place', 'map'])
+        .enum([
+          'page',
+          'character',
+          'companion',
+          'faction',
+          'adventure',
+          'place',
+          'map',
+          'artifact',
+          'artifact-collection',
+          'arc',
+          'ritual',
+          'logbook',
+          'ship',
+          'gm-guide',
+        ])
         .default('page'),
       id: z.string().optional(),
       name: z.string().optional(),
@@ -20,6 +35,13 @@ const docs = defineCollection({
       duration: z.string().optional(),
       mapScale: z.string().optional(),
       mapDimensions: z.string().optional(),
+      rarity: z.string().optional(),
+      arc: z.string().optional(),
+      affiliation: z.string().optional(),
+      captain: z.string().optional(),
+      castingTime: z.string().optional(),
+      participants: z.string().optional(),
+      author: z.string().optional(),
       tags: z.array(z.string()).default([]),
     }),
   }),

@@ -3,9 +3,39 @@ import { getCollection } from 'astro:content';
 import { withBasePath } from '../utils/url';
 
 const docs = await getCollection('docs');
-const ENTRY_TYPES = ['character', 'companion', 'faction', 'adventure', 'place', 'map'] as const;
+const ENTRY_TYPES = [
+  'character',
+  'companion',
+  'faction',
+  'adventure',
+  'place',
+  'map',
+  'artifact',
+  'artifact-collection',
+  'arc',
+  'ritual',
+  'logbook',
+  'ship',
+  'gm-guide',
+] as const;
 
 type EntryType = (typeof ENTRY_TYPES)[number];
+
+const TYPE_LABELS: Record<EntryType, string> = {
+  character: 'Characters',
+  companion: 'Companions',
+  faction: 'Factions',
+  adventure: 'Adventures',
+  place: 'Places',
+  map: 'Maps',
+  artifact: 'Artifacts',
+  'artifact-collection': 'Artifact Collections',
+  arc: 'Story Arcs',
+  ritual: 'Rituals',
+  logbook: 'Logbooks',
+  ship: 'Ships',
+  'gm-guide': 'GM Guides',
+};
 
 type SearchEntry = {
   slug: string;
@@ -49,6 +79,47 @@ const describeEntry = (entry: SearchEntry, data: Record<string, unknown>) => {
       }
       return scale ?? dimensions ?? '';
     }
+    case 'artifact': {
+      const rarity = data.rarity as string | undefined;
+      const level = data.level as number | undefined;
+      const arc = data.arc as string | undefined;
+      const bits = [
+        rarity,
+        level ? `Level ${level}` : undefined,
+        arc,
+      ].filter(Boolean) as string[];
+      return bits.join(' • ');
+    }
+    case 'artifact-collection':
+      return (data.arc as string | undefined) ?? '';
+    case 'arc':
+      return (data.arc as string | undefined) ?? '';
+    case 'ritual': {
+      const level = data.level as number | undefined;
+      const castingTime = data.castingTime as string | undefined;
+      const participants = data.participants as string | undefined;
+      const bits = [
+        level ? `Level ${level}` : undefined,
+        castingTime,
+        participants,
+      ].filter(Boolean) as string[];
+      return bits.join(' • ');
+    }
+    case 'logbook': {
+      const author = data.author as string | undefined;
+      const arc = data.arc as string | undefined;
+      const bits = [author, arc].filter(Boolean) as string[];
+      return bits.join(' • ');
+    }
+    case 'ship': {
+      const captain = data.captain as string | undefined;
+      const affiliation = data.affiliation as string | undefined;
+      const arc = data.arc as string | undefined;
+      const bits = [captain, affiliation, arc].filter(Boolean) as string[];
+      return bits.join(' • ');
+    }
+    case 'gm-guide':
+      return (data.arc as string | undefined) ?? '';
     default:
       return '';
   }
@@ -83,6 +154,7 @@ const entries: SearchEntry[] = docs
 const allTags = [...new Set(entries.flatMap((entry) => entry.tags))].sort((a, b) => a.localeCompare(b));
 const allTypes = [...ENTRY_TYPES];
 const serializedEntries = JSON.stringify(entries).replace(/</g, '\\u003c');
+const serializedTypeLabels = JSON.stringify(TYPE_LABELS).replace(/</g, '\\u003c');
 ---
 
 <div class="search-dashboard">
@@ -104,7 +176,7 @@ const serializedEntries = JSON.stringify(entries).replace(/</g, '\\u003c');
     {allTypes.map((type) => (
       <label>
         <input type="checkbox" value={type} checked />
-        {type}
+        {TYPE_LABELS[type]}
       </label>
     ))}
   </div>
@@ -115,11 +187,13 @@ const serializedEntries = JSON.stringify(entries).replace(/</g, '\\u003c');
   <div id="pagination"></div>
 
   <script type="application/json" id="entry-data" set:html={serializedEntries}></script>
+  <script type="application/json" id="type-labels" set:html={serializedTypeLabels}></script>
 
   <script type="module">
     import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.esm.js';
 
     const ENTRY_TYPES = {JSON.stringify(allTypes)};
+    const TYPE_LABELS = JSON.parse(document.getElementById('type-labels').textContent);
     const entries = JSON.parse(document.getElementById('entry-data').textContent);
     const fuse = new Fuse(entries, {
       keys: ['name', 'tags', 'entryType', 'subtitle'],
@@ -185,7 +259,7 @@ const serializedEntries = JSON.stringify(entries).replace(/</g, '\\u003c');
 
         const groupDiv = document.createElement('div');
         const heading = document.createElement('h3');
-        heading.textContent = type.charAt(0).toUpperCase() + type.slice(1) + 's';
+        heading.textContent = TYPE_LABELS[type];
         groupDiv.appendChild(heading);
 
         const ul = document.createElement('ul');

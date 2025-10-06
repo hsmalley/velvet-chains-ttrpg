@@ -9,7 +9,22 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, '..');
 const contentRoot = path.join(repoRoot, 'src', 'content', 'docs');
 
-const ENTRY_TYPES = new Set(['page', 'character', 'companion', 'faction', 'adventure', 'place', 'map']);
+const ENTRY_TYPES = new Set([
+  'page',
+  'character',
+  'companion',
+  'faction',
+  'adventure',
+  'place',
+  'map',
+  'artifact',
+  'artifact-collection',
+  'arc',
+  'ritual',
+  'logbook',
+  'ship',
+  'gm-guide',
+]);
 
 function isString(value) {
   return typeof value === 'string' && value.trim().length > 0;
@@ -94,6 +109,50 @@ function validateAttributes(entryType, frontmatter, errors) {
       }
       if ('location' in frontmatter && !isString(frontmatter.location)) {
         errors.push('location must be a string when provided on maps');
+      }
+      break;
+    }
+    case 'artifact': {
+      if (!isString(frontmatter.arc)) errors.push('arc is required for artifacts');
+      if ('rarity' in frontmatter && !isString(frontmatter.rarity)) {
+        errors.push('rarity must be a string when provided on artifacts');
+      }
+      if ('level' in frontmatter && !isNumber(frontmatter.level)) {
+        errors.push('level must be numeric when provided on artifacts');
+      }
+      break;
+    }
+    case 'artifact-collection': {
+      if (!isString(frontmatter.arc)) errors.push('arc is required for artifact collections');
+      break;
+    }
+    case 'arc': {
+      if (!isString(frontmatter.arc)) errors.push('arc is required for story arcs');
+      break;
+    }
+    case 'ritual': {
+      if (!isString(frontmatter.castingTime)) errors.push('castingTime is required for rituals');
+      if (!isString(frontmatter.participants)) errors.push('participants is required for rituals');
+      if ('level' in frontmatter && !isNumber(frontmatter.level)) {
+        errors.push('level must be numeric when provided on rituals');
+      }
+      break;
+    }
+    case 'logbook': {
+      if ('author' in frontmatter && !isString(frontmatter.author)) {
+        errors.push('author must be a string when provided on logbooks');
+      }
+      break;
+    }
+    case 'ship': {
+      if (!isString(frontmatter.arc)) errors.push('arc is required for ships');
+      if (!isString(frontmatter.affiliation)) errors.push('affiliation is required for ships');
+      if (!isString(frontmatter.captain)) errors.push('captain is required for ships');
+      break;
+    }
+    case 'gm-guide': {
+      if ('arc' in frontmatter && !isString(frontmatter.arc)) {
+        errors.push('arc must be a string when provided on GM guides');
       }
       break;
     }

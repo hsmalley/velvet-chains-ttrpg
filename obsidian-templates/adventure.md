@@ -6,12 +6,13 @@ id: "{{slug-id}}"
 arc: "{{Arc Name}}"
 tier: "{{Level Range or Tier}}"
 location: "{{Primary Setting}}"
-recommendedLevel: "{{Recommended play levels}}"
+recommendedLevel: "{{String Value of Recommended Play levels}}"
 safeword: fiction
 duration: "{{How long this should take}}"
 tags:
   - adventure
   - "{{arc-tag}}"
+name: "{{Adventure Title}}"
 ---
 
 # 🪐 {{title}} ⚔️✨⛓️🔥  

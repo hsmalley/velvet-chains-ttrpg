@@ -1,15 +1,18 @@
 ---
-title: "Echoes in the Lucid Abyss"
-description: "A hyperspace rescue where corsairs negotiate with their own reflections to save a lost AI poet."
+title: Echoes in the Lucid Abyss
+description: A hyperspace rescue where corsairs negotiate with their own reflections to save a lost AI poet.
 entryType: adventure
-id: "adv-echoes-lucid-abyss"
-arc: "Mirror-Current"
-tier: "5-7"
-location: "The Lucid Abyss"
+id: adv-echoes-lucid-abyss
+arc: Mirror-Current
+tier: 5-7
+location: The Lucid Abyss
+recommendedLevel: '"Level 5 - 7"'
+duration: Two-session mini-arc
 safeword: fiction
 tags:
   - adventure
   - mirror-current
+name: Echoes in the Lucid Abyss
 ---
 
 # 🌒 Echoes in the Lucid Abyss ✨⛓️🔥  

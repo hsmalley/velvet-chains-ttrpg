@@ -4,6 +4,9 @@ description: "A codex of rites and spells born from negotiation with the self."
 entryType: ritual
 id: "ritual-reflexive-codex"
 arc: "Mirror-Current"
+level: 5
+castingTime: "Varies (see individual rites)"
+participants: "2–6 willing participants"
 safeword: fiction
 tags:
   - ritual

@@ -1,16 +1,19 @@
 ---
-title: "Bridge on Fire"
-description: "A rope-mage bridge burns in orbit; to save it, the crew must mend more than cables."
+title: Bridge on Fire
+description: A rope-mage bridge burns in orbit; to save it, the crew must mend more than cables.
 entryType: adventure
-id: "adv-bridge-on-fire"
-arc: "Spindle Belt"
-tier: "5–7"
-location: "The Central Loom Bridge"
+id: adv-bridge-on-fire
+arc: Spindle Belt
+tier: 5–7
+location: The Central Loom Bridge
+recommendedLevel: '"Level 5–7"'
+duration: One-shot (3–4 hours)
 safeword: fiction
 tags:
   - adventure
   - spindle-belt
   - velvet-chains
+name: Bridge on Fire
 ---
 
 # ⚔️ Bridge on Fire ✨⛓️🔥  
