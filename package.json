@@ -18,7 +18,8 @@
     "preview": "astro preview",
     "deploy": "npm run build && npx gh-pages -d dist",
     "validate:content": "node scripts/validate-content.mjs",
-    "check:safeword": "node scripts/check-safe-word.mjs"
+    "check:safeword": "node scripts/check-safe-word.mjs",
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.36.0",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
+    "husky": "^9.1.7",
     "yaml": "^2.8.1"
   }
 }

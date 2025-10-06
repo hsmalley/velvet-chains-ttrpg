@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🏴‍☠️ Running Voidlight validation..."
+npm run validate:content || exit 1
+
+echo "⚠️ Running safe word audit (non-blocking)..."
+npm run check:safeword || true
+
+echo "✨ Voidlight rituals passed. Onward to commit."

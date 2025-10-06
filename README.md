@@ -60,8 +60,9 @@ The bespoke CSS in `src/styles/velvet-chains-theme.css` imports the same fonts a
 ## 🤝 Contributing
 
 1. Fork and branch from `main`.
-2. Add or edit content/templates/components.
-3. Run `npm run validate:content` and `npm run build`.
-4. Open a PR. Share highlights in the commit message—hedonistic theatrics encouraged.
+2. Run `npm install` followed by `npm run prepare` once to install the pre-commit hooks.
+3. Add or edit content/templates/components.
+4. Run `npm run validate:content` and `npm run build`.
+5. Open a PR. Share highlights in the commit message—hedonistic theatrics encouraged.
 
 Remember: call the safe word if boundaries shift, celebrate every Drama Point, and let your stories shimmer with Voidlight.
