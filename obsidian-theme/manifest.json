@@ -1,0 +1,11 @@
+{
+  "id": "velvet-chains-voidlight",
+  "name": "Velvet Chains & Voidlight",
+  "author": "Velvet Chains Crew",
+  "description": "Neon corsair theme that matches the Velvet Chains & Voidlight codex.",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "homepage": "https://github.com/hsmalley/velvet-chains-ttrpg",
+  "authorUrl": "https://github.com/hsmalley",
+  "isDesktopOnly": false
+}

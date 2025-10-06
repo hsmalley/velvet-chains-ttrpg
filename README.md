@@ -18,6 +18,7 @@ Welcome to the cartographic archive for the **Velvet Chains & Voidlight** campai
 ├─ maps       → symlink to src/content/docs/maps/
 ├─ places     → symlink to src/content/docs/places/
 ├─ obsidian-templates/        # Authoring templates for the Obsidian vault
+├─ obsidian-theme/            # Optional Obsidian editor theme
 ├─ scripts/validate-content.mjs # Frontmatter validator
 ├─ src/
 │  ├─ assets/                  # Site imagery (sigils, promo art)
@@ -56,6 +57,8 @@ The **Deploy Velvet Codex to Pages** workflow (`.github/workflows/astro.yml`) pu
 ## 🕯️ Theming
 
 The bespoke CSS in `src/styles/velvet-chains-theme.css` imports the same fonts and gradients as the primary **velvet-chains** project. Feel free to extend the palette or add new callout variants; the stylesheet is intentionally unlayered so it overrides Starlight defaults.
+
+Want the same aesthetic in your editor? Copy the entire `obsidian-theme/` folder into your vault’s `.obsidian/themes/` directory (renaming it to `velvet-chains-voidlight` keeps everything tidy) and select **Velvet Chains & Voidlight** inside Obsidian. For bonus customisation, enable the **Style Settings** plugin to tweak accents, glow, and background animation.
 
 ## 🤝 Contributing
 
