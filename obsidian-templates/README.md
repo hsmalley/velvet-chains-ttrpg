@@ -20,3 +20,5 @@ This folder holds drop-in templates for Obsidian’s Templates core plugin.
 - Save the note with a slugged filename that matches the `id`/`entryType` conventions (e.g. `nyx-virellian.mdx`).
 
 Each template already includes valid frontmatter for the content validator, so as long as the placeholders are replaced with real values, `npm run validate:content` will pass.
+
+<!-- FOLLOW THE SACRED SAFE WORD: fiction -->
