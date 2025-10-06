@@ -15,6 +15,9 @@ const byType = (type) =>
 const characters = byType('character');
 const companions = byType('companion');
 const factions = byType('faction');
+const adventures = byType('adventure');
+const places = byType('place');
+const maps = byType('map');
 
 const makeUrl = (entry) => withBasePath(`/${entry.slug}/`);
 const getName = (entry) => entry.data.name ?? entry.data.title ?? entry.slug;
@@ -70,5 +73,69 @@ const getName = (entry) => entry.data.name ?? entry.data.title ?? entry.slug;
     </ul>
   ) : (
     <p>No factions recorded yet.</p>
+  )}
+</section>
+
+<section>
+  <h2>🎲 Spotlight Adventures</h2>
+  {adventures.length > 0 ? (
+    <ul>
+      {adventures.map((entry) => (
+        <li>
+          <a href={makeUrl(entry)}>{getName(entry)}</a>
+          {entry.data.recommendedLevel || entry.data.duration ? (
+            <>
+              {' '}
+              —
+              {entry.data.recommendedLevel ? ` Level ${entry.data.recommendedLevel}` : ''}
+              {entry.data.recommendedLevel && entry.data.duration ? ' •' : ''}
+              {entry.data.duration ? ` ${entry.data.duration}` : ''}
+            </>
+          ) : null}
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No adventures chronicled yet.</p>
+  )}
+</section>
+
+<section>
+  <h2>🏰 Notable Places</h2>
+  {places.length > 0 ? (
+    <ul>
+      {places.map((entry) => (
+        <li>
+          <a href={makeUrl(entry)}>{getName(entry)}</a>
+          {entry.data.location ? <> — {entry.data.location}</> : null}
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No places detailed yet.</p>
+  )}
+</section>
+
+<section>
+  <h2>🗺️ Cartographer's Picks</h2>
+  {maps.length > 0 ? (
+    <ul>
+      {maps.map((entry) => (
+        <li>
+          <a href={makeUrl(entry)}>{getName(entry)}</a>
+          {entry.data.mapScale || entry.data.mapDimensions ? (
+            <>
+              {' '}
+              —
+              {entry.data.mapScale ?? ''}
+              {entry.data.mapScale && entry.data.mapDimensions ? ' • ' : ''}
+              {entry.data.mapDimensions ?? ''}
+            </>
+          ) : null}
+        </li>
+      ))}
+    </ul>
+  ) : (
+    <p>No maps charted yet.</p>
   )}
 </section>

@@ -84,6 +84,18 @@ export default defineConfig({
           label: 'Factions',
           autogenerate: { directory: 'factions' },
         },
+        {
+          label: 'Adventures',
+          autogenerate: { directory: 'adventures' },
+        },
+        {
+          label: 'Places',
+          autogenerate: { directory: 'places' },
+        },
+        {
+          label: 'Maps',
+          autogenerate: { directory: 'maps' },
+        },
       ],
       // Include our custom stylesheet.  Starlight will load this file after
       // its own styles, allowing us to override variables and base styles.

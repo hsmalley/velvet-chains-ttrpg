@@ -1,26 +1,38 @@
-.vscode
-.vscode/**
-.obsidian
-.obsidian/**
+# IDE / editor settings
+.vscode/
+.idea/
+.obsidian/
 
-# build output
-dist/
-# generated types
+# Local workspace files
+*.code-workspace
+
+# Build output
 .astro/
+dist/
+coverage/
 
-# dependencies
+# Package managers & dependencies
 node_modules/
+pnp.cjs
+.pnp.loader.mjs
 
-# logs
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+*.log
 
-
-# environment variables
+# Environment variables
 .env
+.env.local
 .env.production
+.env.*.local
 
-# macOS-specific files
+# OS junk
 .DS_Store
+Thumbs.db
+
+# Obsidian vault artifacts
+obsidian-templates/.obsidian/
+obsidian-templates/.DS_Store

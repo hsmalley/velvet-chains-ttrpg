@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import { withBasePath } from '../utils/url';
 
 const docs = await getCollection('docs');
-const ENTRY_TYPES = ['character', 'companion', 'faction'] as const;
+const ENTRY_TYPES = ['character', 'companion', 'faction', 'adventure', 'place', 'map'] as const;
 
 type EntryType = (typeof ENTRY_TYPES)[number];
 
@@ -28,6 +28,27 @@ const describeEntry = (entry: SearchEntry, data: Record<string, unknown>) => {
       return (data.species as string | undefined) ?? '';
     case 'faction':
       return (data.alignment as string | undefined) ?? '';
+    case 'adventure': {
+      const level = data.recommendedLevel as string | number | undefined;
+      const duration = data.duration as string | undefined;
+      if (level && duration) {
+        return `Level ${level} • ${duration}`;
+      }
+      if (level) {
+        return `Level ${level}`;
+      }
+      return duration ?? '';
+    }
+    case 'place':
+      return (data.location as string | undefined) ?? '';
+    case 'map': {
+      const scale = data.mapScale as string | undefined;
+      const dimensions = data.mapDimensions as string | undefined;
+      if (scale && dimensions) {
+        return `${scale} • ${dimensions}`;
+      }
+      return scale ?? dimensions ?? '';
+    }
     default:
       return '';
   }

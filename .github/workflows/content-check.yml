@@ -37,6 +37,9 @@ jobs:
       - name: Astro sync content collections
         run: npx astro sync
 
+      - name: Validate frontmatter schema
+        run: npm run validate:content
+
       - name: Check content and types
         run: npx astro check
 

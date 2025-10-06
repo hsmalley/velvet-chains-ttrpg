@@ -4,9 +4,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "npm run validate:content && astro build",
     "preview": "astro preview",
-    "deploy": "astro build && npx gh-pages -d dist"
+    "deploy": "npm run build && npx gh-pages -d dist",
+    "validate:content": "node scripts/validate-content.mjs"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.36.0",
@@ -14,6 +15,7 @@
     "sharp": "^0.34.2"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^6.3.0",
+    "yaml": "^2.8.1"
   }
 }
