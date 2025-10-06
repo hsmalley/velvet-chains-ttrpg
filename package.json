@@ -2,6 +2,16 @@
   "name": "velvet-chains-ttrpg",
   "type": "module",
   "version": "0.0.1",
+  "description": "Neon corsair TTRPG codex for the Velvet Chains & Voidlight setting.",
+  "keywords": [
+    "velvet-chains",
+    "voidlight",
+    "ttrpg",
+    "astro",
+    "starlight",
+    "consent",
+    "space-pirate"
+  ],
   "scripts": {
     "dev": "astro dev",
     "build": "npm run validate:content && astro build",
