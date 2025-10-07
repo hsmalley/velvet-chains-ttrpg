@@ -15,7 +15,7 @@ tags:
 # Codex Version: 1.0 • Date: 2025-10-06 • Author: Voidlight Systems Archive
 # Format: Markdown • Language: EN • Encoding: UTF-8
 # File-Hash: VCSPPE-CXC-v1.0-20251006
-# License: CC-BY-NC-SA 4.0
+# License: CC-BY-SA 4.0
 # ─────────────────────────────────────────────────────────
 # Velvet Chains & Voidlight — Tri-Engine Prompt Codex
 # (VC = Heart • SP = Pulse • PE = Mind)
