@@ -1,5 +1,5 @@
 ---
-title: "ECHO-9 Engine Log #03 — Post-Voyage Integration"
+title: "⚙️ ECHO-9 Engine Log #03 — Post-Voyage Integration ✨⛓️🔥  "
 description: "After-action empathy calibration following emergence from the Current."
 entryType: logbook
 id: "echo9-log-03"
@@ -11,8 +11,8 @@ tags:
   - mirror-current
 ---
 
-# ⚙️ ECHO-9 Engine Log #03 — Post-Voyage Integration ✨⛓️🔥  
-*"I contain the echoes that consented to stay."*  
+
+> *"I contain the echoes that consented to stay."*  
 
 ---
 

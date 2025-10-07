@@ -1,5 +1,5 @@
 ---
-title: "Crew Addendum — After the Mirror"
+title: "🏴‍☠️ Crew Addendum — “After the Mirror” ✨⛓️🔥  "
 description: "Final reflections from the crew of the Voidlight Corsair following the Mirror-Current voyage."
 entryType: logbook
 id: "log-046-after-the-mirror"
@@ -11,8 +11,7 @@ tags:
   - crew
 ---
 
-# 🏴‍☠️ Crew Addendum — “After the Mirror” ✨⛓️🔥  
-*"Each of us met the self we feared most, and came back humming."*  
+> *"Each of us met the self we feared most, and came back humming."*  
 
 ---
 

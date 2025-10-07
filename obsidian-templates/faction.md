@@ -1,69 +1,83 @@
 ---
 title: "{{Faction Name}}"
-name: "{{Faction Name}}"
-description: "{{Faction credo or mission}}"
+description: "{{Short mission statement or poetic creed}}"
 entryType: faction
 id: "{{slug-id}}"
-arc: "{{Arc Name}}"
-alignment: "{{Faction Ethos}}"
+arc: "{{Associated Arc Name}}"
+alignment: "{{Faction Ethos or Moral Axis}}"
+File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
 tags:
   - faction
+  - "{{faction-name}}"
   - "{{arc-tag}}"
 ---
 
-# ⛓️ {{title}} ⚙️✨🔥  
-*"Every order binds itself by its own consent."*  
+# ⚙️ {{title}} ✨⛓️🔥  
+
+*"{{Faction motto or oath line}}"*  
 
 ---
 
-## 🧭 𝘖𝘷𝘦𝘳𝘷𝘪𝘦𝘸 𝘢𝘯𝘥 𝘐𝘥𝘦𝘰𝘭𝘰𝘨𝘺  
-Describe origins, guiding myth, and contradictions.  
-Quote one internal proverb or litany recited by initiates.  
+## 🧭 𝘖𝘳𝘪𝘨𝘪𝘯 & 𝘐𝘥𝘦𝘰𝘭𝘰𝘨𝘺  
+
+Describe the circumstances that created this group—who needed it, what injustice or dream they answered, what emotion sustains them.  
+Summarize their philosophy in one clear sentence, then echo it as poetry.  
 
 ---
 
 ## 🕸️ 𝘚𝘵𝘳𝘶𝘤𝘵𝘶𝘳𝘦 & 𝘚𝘺𝘮𝘣𝘰𝘭𝘴  
-- **Hierarchy:** {{cells, leaders, rituals}}  
-- **Glyphs & Colors:** {{visuals}}  
-- **Consent Codex:** {{how boundaries are enforced}}  
+- **Hierarchy:** {{How members relate; horizontal, guild, cultic, etc.}}  
+- **Symbols & Colors:** {{What they wear or display; visual language of belonging}}  
+- **Consent Codex:** {{How they define and enforce ethical boundaries}}  
 
 ---
 
-## 🧬 𝘐𝘯𝘧𝘭𝘶𝘦𝘯𝘤𝘦 𝘔𝘢𝘵𝘳𝘪𝘹  
-| Domain | Resources | Corruption Level |
-|---------|------------|-----------------|
-| {{Region 1}} | {{Assets}} | {{Value}} |
-| {{Region 2}} | {{Assets}} | {{Value}} |
+## ⚙️ 𝘙𝘦𝘴𝘰𝘶𝘳𝘤𝘦𝘴 & 𝘐𝘯𝘧𝘭𝘶𝘦𝘯𝘤𝘦  
+| Domain | Assets | Corruption Level | Drama Trigger |
+|---------|---------|-----------------|----------------|
+| {{Region 1}} | {{Resources}} | {{0–5}} | {{How Drama is gained}} |
+| {{Region 2}} | {{Resources}} | {{0–5}} | {{How Drama is lost}} |
+| {{Region 3}} | {{Resources}} | {{0–5}} | {{How Drama is tested}} |
 
 ---
 
 ## 🪐 𝘕𝘰𝘵𝘢𝘣𝘭𝘦 𝘔𝘦𝘮𝘣𝘦𝘳𝘴  
-| Name | Role | Quirk | Note |
-|------|------|--------|------|
-| {{Member 1}} | {{Role}} | {{Quirk}} | {{Detail}} |
-
----
-
-## ⚔️ 𝘙𝘦𝘭𝘢𝘵𝘪𝘰𝘯𝘴𝘩𝘪𝘱𝘴 & 𝘗𝘰𝘭𝘪𝘵𝘪𝘤𝘴  
-- **Allies:** {{List}}  
-- **Rivals:** {{List}}  
-- **Neutral Pacts:** {{Treaties or truces}}  
+| Name | Role | Quirk | Narrative Function |
+|------|------|-------|--------------------|
+| {{Member 1}} | {{Title}} | {{Distinctive trait}} | {{Motivation / tie to PCs}} |
+| {{Member 2}} | {{Title}} | {{Distinctive trait}} | {{Motivation / tie to PCs}} |
+| {{Member 3}} | {{Title}} | {{Distinctive trait}} | {{Motivation / tie to PCs}} |
 
 ---
 
 ## 🎭 𝘋𝘳𝘢𝘮𝘢 & 𝘌𝘵𝘩𝘪𝘤𝘴  
-How does this faction interpret consent?  
-When do members earn or lose Drama Points?  
+Explain how this faction treats Drama Points, consent, and power.  
+When do members earn Drama for empathy, and when do they lose it for coercion?  
+Offer one moral paradox the GM can use to test loyalty.  
 
 ---
 
 ## 🧩 𝘗𝘭𝘰𝘵 𝘏𝘰𝘰𝘬𝘴  
-1. {{Hook 1}}  
-2. {{Hook 2}}  
-3. {{Hook 3}}  
+1. {{Hook 1 — alliance or betrayal}}  
+2. {{Hook 2 — ideological split}}  
+3. {{Hook 3 — reflection of a PC’s flaw}}  
 
 ---
 
-> 🕯️ **Every oath in this dossier is bound by fiction.**  
-> Those who forget the safe word are written out of history. ✨⛓️🔥
+## 💋 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘈𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦  
+Give sensory shorthand for the group—how they sound, smell, and move; what their spaces feel like.  
+Mention any signature gestures or rituals that double as safety practices.  
+
+---
+
+## ⚔️ 𝘙𝘦𝘭𝘢𝘵𝘪𝘰𝘯𝘴 & 𝘗𝘰𝘭𝘪𝘵𝘪𝘤𝘴  
+- **Allies:** {{Other factions or arcs they cooperate with}}  
+- **Rivals:** {{Groups or ideologies they oppose}}  
+- **Neutral Pacts:** {{Trade or diplomatic treaties}}  
+
+---
+
+## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
+> *“{{Faction benediction or reflection}}”*  
+

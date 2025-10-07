@@ -1,5 +1,5 @@
 ---
-title: "Captain’s Log #045 — Emergence"
+title: "🌒 Captain’s Log #045 — Emergence ✨⛓️🔥 "
 description: "The Corsair leaves the Mirror-Current, changed but whole."
 entryType: logbook
 id: "log-045-emergence"
@@ -10,8 +10,7 @@ tags:
   - mirror-current
 ---
 
-# 🌒 Captain’s Log #045 — Emergence ✨⛓️🔥  
-*"We returned as light, and then remembered how to cast shadows."*  
+> *"We returned as light, and then remembered how to cast shadows."*  
 
 ---
 

@@ -1,11 +1,12 @@
 ---
 title: "{{Artifact Name}}"
-description: "{{One-line legend or flavor}}"
+description: "{{One-line legend or poetic tagline}}"
 entryType: artifact
 id: "{{slug-id}}"
-rarity: "{{Rarity}}"
+rarity: "{{Common / Uncommon / Rare / Unique}}"
 level: {{Item Level}}
-arc: "{{Arc Name}}"
+arc: "{{Associated Arc Name}}"
+File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
 tags:
   - artifact
@@ -13,38 +14,64 @@ tags:
 ---
 
 # 💎 {{title}} ✨⛓️🔥  
-*"Forged where memory consents to become matter."*  
+
+*"{{Evocative in-world quote or motto}}"*  
 
 ---
 
-## 🧰 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘷𝘦 𝘓𝘦𝘨𝘦𝘯  
-Describe its appearance, aura, and mythic creation scene.  
-List who first claimed it and what promise sealed its power.  
+## 🧰 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯  
+
+Describe the item as mythic craftsmanship—how it feels, how it sounds, how it remembers.  
+Explain what promise or emotion birthed it.  
+Example: *forged by lovers who refused to forget each other.*  
 
 ---
 
 ## ⚙️ 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤𝘴  
+
 | Trait | Effect |
 |-------|---------|
-| **Usage** | {{activation}} |
-| **Frequency** | {{frequency}} |
-| **Duration** | {{duration}} |
-| **Effect** | {{mechanics}} |
+| **Usage** | {{activation or wielding method}} |
+| **Frequency** | {{once per day / per scene / per act}} |
+| **Duration** | {{how long it lasts}} |
+| **Effect** | {{game or narrative effect}} |
+
+*(Keep one line per mechanical field for easy parsing.)*  
 
 ---
 
 ## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘐𝘯𝘵𝘦𝘳𝘢𝘤𝘵𝘪𝘰𝘯  
-Describe how this relic alters Drama Points or Echo Tokens.  
-> *Example:* “When wielded in mutual defense, both allies gain 1 Drama Point.”  
+
+Explain how this artifact touches the Drama economy.  
+- Does it spend or grant Drama Points?  
+- Can it reflect Echo Tokens or alter consent rituals?  
+Write this section as both rule and story beat.  
 
 ---
 
 ## 🔮 𝘓𝘰𝘳𝘦 & 𝘏𝘰𝘰𝘬𝘴  
-- {{Hook 1}}  
-- {{Hook 2}}  
-- {{Hook 3}}  
+
+Bullet two or three short legends or mysteries tied to the artifact.  
+1. {{Hook 1 — myth or rumor}}  
+2. {{Hook 2 — lost owner or echo}}  
+3. {{Hook 3 — moral test or prophecy}}  
 
 ---
 
-> 🕯️ **Artifacts remember only the consents they were given.**  
-> This record is fiction sanctified by choice. ✨⛓️🔥
+## 💋 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘚𝘺𝘮𝘣𝘰𝘭𝘪𝘴𝘮  
+
+Note textures, sounds, and emotional aura.  
+How does the artifact symbolize consent, connection, or corruption?  
+
+---
+
+## 🪞 𝘚𝘪𝘨𝘯𝘢𝘵𝘶𝘳𝘦 𝘜𝘴𝘦 𝘚𝘤𝘦𝘯𝘦  
+
+Write a short vignette describing a character using the artifact ethically or disastrously.  
+Use one paragraph, first-person or cinematic, to teach tone.  
+
+---
+
+## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
+
+> *“{{Artifact benediction or warning line}}”*  

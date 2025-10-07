@@ -1,5 +1,5 @@
 ---
-title: "Captain’s Logbook of the Voidlight Armada"
+title: "C🏴‍☠️ Captain’s Logbook of the Voidlight Armada ✨⛓️🔥  "
 description: "A living chronicle that threads every adventure through the same pulse of consent and drama."
 entryType: logbook
 id: "logbook-voidlight-armada"
@@ -10,8 +10,7 @@ tags:
   - velvet-chains
 ---
 
-# 🏴‍☠️ Captain’s Logbook ✨⛓️🔥  
-*"Every star in the Ebonverse has its own story; I simply write them down before they forget to ask permission to shine."*  
+> *"Every star in the Ebonverse has its own story; I simply write them down before they forget to ask permission to shine."*  
 
 ---
 

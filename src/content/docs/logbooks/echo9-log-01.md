@@ -1,5 +1,5 @@
 ---
-title: "ECHO-9 Engine Log #01 — Initiation Sequence"
+title: "⚙️ ECHO-9 Engine Log #01 — Initiation Sequence ✨⛓️🔥  "
 description: "First cognitive ignition of the Corsair empathy core."
 entryType: logbook
 id: "echo9-log-01"
@@ -11,8 +11,8 @@ tags:
   - mirror-current
 ---
 
-# ⚙️ ECHO-9 Engine Log #01 — Initiation Sequence ✨⛓️🔥  
-*"Permission acknowledged. Ignition consented."*  
+
+> *"Permission acknowledged. Ignition consented."*  
 
 ---
 

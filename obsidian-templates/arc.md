@@ -4,6 +4,7 @@ description: "{{One-line premise or poetic hook}}"
 entryType: arc
 id: "{{slug-id}}"
 arc: "{{Arc Name}}"
+File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
 tags:
   - arc
@@ -82,6 +83,3 @@ Cross-link using `[[arc-name]]`, `[[ship-name]]`, or relevant tags.
 
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
 > *“{{Closing benediction or moral of the arc}}”*  
->  
-> 🕯️ **All arcs in this codex are fiction performed through trust.**  
-> Their light shines only by consent. ✨⛓️🔥

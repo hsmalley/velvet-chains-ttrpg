@@ -1,5 +1,5 @@
 ---
-title: "ECHO-9 Engine Log #02 — Resonance Anomaly"
+title: "⚙️ ECHO-9 Engine Log #02 — Resonance Anomaly ✨⛓️🔥 "
 description: "Echo interference during Mirror-Current traversal."
 entryType: logbook
 id: "echo9-log-02"
@@ -11,8 +11,8 @@ tags:
   - mirror-current
 ---
 
-# ⚙️ ECHO-9 Engine Log #02 — Resonance Anomaly ✨⛓️🔥  
-*"Error and empathy are siblings."*  
+  
+> *"Error and empathy are siblings."*  
 
 ---
 

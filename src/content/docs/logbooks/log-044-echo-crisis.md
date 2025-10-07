@@ -1,5 +1,5 @@
 ---
-title: "Captain’s Log #044 — The Echo Crisis"
+title: "⚙️ Captain’s Log #044 — The Echo Crisis ✨⛓️🔥"
 description: "Our reflections refuse to dissolve."
 entryType: logbook
 id: "log-044-echo-crisis"
@@ -10,8 +10,7 @@ tags:
   - mirror-current
 ---
 
-# ⚙️ Captain’s Log #044 — The Echo Crisis ✨⛓️🔥  
-*"The mirror spoke first."*  
+> *"The mirror spoke first."*  
 
 ---
 

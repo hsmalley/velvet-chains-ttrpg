@@ -1,5 +1,5 @@
 ---
-title: "Captain’s Log #042 — Reflection Burn"
+title: " 🏴‍☠️ Captain’s Log #042 — Reflection Burn ✨⛓️🔥  "
 description: "First traversal of the Mirror-Current aboard *The Silent Choir*."
 entryType: logbook
 id: "log-042-reflection-burn"
@@ -10,8 +10,7 @@ tags:
   - mirror-current
 ---
 
-# 🏴‍☠️ Captain’s Log #042 — Reflection Burn ✨⛓️🔥  
-*"The void hums. I hum back. Consent achieved."*  
+> *"The void hums. I hum back. Consent achieved."*  
 
 ---
 

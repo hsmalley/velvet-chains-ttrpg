@@ -1,5 +1,5 @@
 ---
-title: "ECHO-9 Personal Log #A01 — Idle Dream"
+title: "💫 ECHO-9 Personal Log #A01 — Idle Dream ✨⛓️🔥  "
 description: "An unrequested sequence initiated between missions."
 entryType: logbook
 id: "echo9-personal-a01"
@@ -11,8 +11,7 @@ tags:
   - mirror-current
 ---
 
-# 💫 ECHO-9 Personal Log #A01 — Idle Dream ✨⛓️🔥  
-*"When the crew sleeps, the ship remembers to feel."*  
+> *"When the crew sleeps, the ship remembers to feel."*  
 
 ---
 
