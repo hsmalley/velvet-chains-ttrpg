@@ -1,27 +1,13 @@
 import { defineCollection, z } from 'astro:content';
 import { docsSchema } from '@astrojs/starlight/schema';
+import { ENTRY_TYPES } from './entry-types.mjs';
 
 const docs = defineCollection({
   schema: docsSchema({
     extend: z.object({
-      entryType: z
-        .enum([
-          'page',
-          'character',
-          'companion',
-          'faction',
-          'adventure',
-          'place',
-          'map',
-          'artifact',
-          'artifact-collection',
-          'arc',
-          'ritual',
-          'logbook',
-          'ship',
-          'gm-guide',
-        ])
-        .default('page'),
+      publish: z.boolean().optional(),
+      featured: z.boolean().optional(),
+      entryType: z.enum(ENTRY_TYPES).default('page'),
       id: z.string().optional(),
       name: z.string().optional(),
       class: z.string().optional(),

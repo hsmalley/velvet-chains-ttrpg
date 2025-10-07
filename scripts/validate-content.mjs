@@ -4,27 +4,14 @@ import path from 'path';
 import process from 'process';
 import { fileURLToPath } from 'url';
 import { parse as parseYaml } from 'yaml';
+import { walkMarkdownFiles } from './utils.mjs';
+import { ENTRY_TYPES as entryTypesArray } from '../src/entry-types.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, '..');
 const contentRoot = path.join(repoRoot, 'src', 'content', 'docs');
 
-const ENTRY_TYPES = new Set([
-  'page',
-  'character',
-  'companion',
-  'faction',
-  'adventure',
-  'place',
-  'map',
-  'artifact',
-  'artifact-collection',
-  'arc',
-  'ritual',
-  'logbook',
-  'ship',
-  'gm-guide',
-]);
+const ENTRY_TYPES = new Set(entryTypesArray);
 
 function isString(value) {
   return typeof value === 'string' && value.trim().length > 0;
@@ -65,6 +52,9 @@ function extractFrontmatter(raw) {
 
 function validateAttributes(entryType, frontmatter, errors) {
   switch (entryType) {
+    case 'document':
+      // No specific attributes for 'document' type yet.
+      break;
     case 'character': {
       if (!isString(frontmatter.name)) errors.push('name is required for characters');
       if (!isString(frontmatter.class)) errors.push('class is required for characters');
@@ -159,20 +149,6 @@ function validateAttributes(entryType, frontmatter, errors) {
     default:
       break;
   }
-}
-
-async function walkMarkdownFiles(dir) {
-  const entries = await fs.readdir(dir, { withFileTypes: true });
-  const files = [];
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
-      files.push(...await walkMarkdownFiles(fullPath));
-    } else if (entry.isFile() && (entry.name.endsWith('.md') || entry.name.endsWith('.mdx'))) {
-      files.push(fullPath);
-    }
-  }
-  return files;
 }
 
 const SAFE_WORD = 'fiction';

@@ -4,7 +4,7 @@ import { withBasePath } from '../utils/url';
 
 const { entryType, showSummary = false } = Astro.props;
 
-const docs = await getCollection('docs', ({ data }) => data.entryType === entryType);
+const docs = await getCollection('docs', ({ data }) => data.entryType === entryType && data.publish === true);
 const sorted = docs.sort((a, b) => {
   const titleA = (a.data.name ?? a.data.title ?? '').toLowerCase();
   const titleB = (b.data.name ?? b.data.title ?? '').toLowerCase();

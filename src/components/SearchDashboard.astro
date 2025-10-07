@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import { withBasePath } from '../utils/url';
 
-const docs = await getCollection('docs');
+const docs = await getCollection('docs', ({ data }) => data.publish === true);
 const ENTRY_TYPES = [
   'character',
   'companion',

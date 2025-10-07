@@ -1,0 +1,17 @@
+export const ENTRY_TYPES = [
+  'document',
+  'page',
+  'character',
+  'companion',
+  'faction',
+  'adventure',
+  'place',
+  'map',
+  'artifact',
+  'artifact-collection',
+  'arc',
+  'ritual',
+  'logbook',
+  'ship',
+  'gm-guide',
+];

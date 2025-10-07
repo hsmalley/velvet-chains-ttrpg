@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import { withBasePath } from '../utils/url';
 
-const docs = await getCollection('docs');
+const docs = await getCollection('docs', ({ data }) => data.featured === true && data.publish === true);
 const sortByTitle = (a, b) => {
   const titleA = (a.data.name ?? a.data.title ?? '').toLowerCase();
   const titleB = (b.data.name ?? b.data.title ?? '').toLowerCase();
