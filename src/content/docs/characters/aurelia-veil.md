@@ -151,6 +151,7 @@ Catalyst and conscience of *The Luminous Oath*. She tests the crew’s integrity
 3. Her ship’s AI, once her lover, now in a new body and ready to renegotiate consent.  
 
 Mirror Hooks:  
+
 - Faces an alternate self who chose logic over empathy.  
 - Confronted by a crew that refuses her rituals yet still claims love.  
 

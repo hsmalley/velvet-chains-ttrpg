@@ -1,18 +1,19 @@
 ---
-title: "{{🏴‍☠️ Logbook Title ✨⛓️🔥}}"
-name: "{{Logbook Name}}"
 alias: "{{Logbook Name}}"
-description: "{{One-line purpose or chronicle focus}}"
-entryType: logbook
-id: "{{slug-id}}"
 arc: "{{Associated Arc Name}}"
 captain: "{{Author or Chronicler}}"
+description: "{{One-line purpose or chronicle focus}}"
+entryType: logbook
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+id: "{{slug-id}}"
+name: "{{Logbook Name}}"
 publish: true
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - logbook
   - "{{arc-tag}}"
+title: "{{🏴‍☠️ Logbook Title ✨⛓️🔥}}"
 ---
 
 > "_{{VC: Quote from the captain in first person}}_"
@@ -95,4 +96,4 @@ Insert guidance for future captains: what to remember, what to avoid, how the cr
 
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
 
-> *“{{Dramatic Quote or personal observations}}”*  
+> _“{{Dramatic Quote or personal observations}}”_  

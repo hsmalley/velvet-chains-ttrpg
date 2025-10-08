@@ -1,17 +1,18 @@
 ---
-title: "{{📄 Document Title ✨⛓️🔥}}"
-name: "{{Document Name}}"
 alias: "{{Document Name}}"
+arc: "{{Associated Arc Name}}"
 description: "{{One-line summary or purpose}}"
 entryType: document
-id: "{{slug-id}}"
-arc: "{{Associated Arc Name}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+id: "{{slug-id}}"
+name: "{{Document Name}}"
 publish: true
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - document
   - "{{arc-tag}}"
+title: "{{📄 Document Title ✨⛓️🔥}}"
 ---
 
 > *"{{Evocative summary line}}"*  

@@ -9,6 +9,7 @@ arc: "{{Associated Arc Name}}"
 affiliation: "{{Fleet, Faction, or Organization}}"
 captain: "{{Captain or AI Core}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 safeword: fiction
 publish: true
 tags:

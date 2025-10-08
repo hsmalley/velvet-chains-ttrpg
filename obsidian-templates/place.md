@@ -1,18 +1,19 @@
 ---
-title: "{{🌌 Place Title ✨⛓️🔥}}"
-description: "{{Tagline}}"
-name: "{{Place Name}}"
 alias: "{{Place Name}}"
+arc: "{{Associated Arc Name}}"
+description: "{{Tagline}}"
 entryType: place
+File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 id: "{{slug-id}}"
 location: "{{Region or Plane}}"
-arc: "{{Associated Arc Name}}"
-File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+name: "{{Place Name}}"
 publish: true
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - place
   - "{{arc-tag}}"
+title: "{{🌌 Place Title ✨⛓️🔥}}"
 ---
 
 > _{{Evocative or Sensual Quote}}_
@@ -103,4 +104,4 @@ Mention how the space shifts when approached with Velvet Chains empathy, Space-P
 
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
 
-> *“{{Consent focused quote from a legendary corsair captain}}”*  
+> _“{{Consent focused quote from a legendary corsair captain}}”_  

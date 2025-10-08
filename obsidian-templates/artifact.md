@@ -1,19 +1,20 @@
 ---
-title: "{{💎 Artifact Name ✨⛓️🔥}}"
 alias: "{{Artifact Name}}"
-name: "{{Artifact Name}}"
+arc: "{{Associated Arc Name}}"
 description: "{{One-line legend or poetic tagline}}"
 entryType: artifact
-id: "{{slug-id}}"
-rarity: "{{Common / Uncommon / Rare / Unique}}"
-rank: "{{Hope Tier or Scar Depth}}"
-arc: "{{Associated Arc Name}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+id: "{{slug-id}}"
+name: "{{Artifact Name}}"
 publish: true
+rank: "{{Hope Tier or Scar Depth}}"
+rarity: "{{Common / Uncommon / Rare / Unique}}"
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - artifact
   - "{{arc-tag}}"
+title: "{{💎 Artifact Name ✨⛓️🔥}}"
 ---
 
 > *"{{Evocative or sensual in-world quote or motto}}"*  

@@ -1,19 +1,20 @@
 ---
-title: "{{⚙️ Faction Name ✨⛓️🔥}}"
-description: "{{Short mission statement or poetic creed}}"
 alias: "{{Faction Name}}"
-name: "{{Faction Name}}"
-entryType: faction
-id: "{{slug-id}}"
-arc: "{{Associated Arc Name}}"
 alignment: "{{Faction Ethos or Moral Axis}}"
+arc: "{{Associated Arc Name}}"
+description: "{{Short mission statement or poetic creed}}"
+entryType: faction
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+id: "{{slug-id}}"
+name: "{{Faction Name}}"
 publish: true
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - faction
   - "{{faction-name}}"
   - "{{arc-tag}}"
+title: "{{⚙️ Faction Name ✨⛓️🔥}}"
 ---
 
 > *"{{Faction motto or oath line}}"*  

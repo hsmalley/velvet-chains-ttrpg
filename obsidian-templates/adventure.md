@@ -1,21 +1,22 @@
 ---
-title: "{{⚔️ Adventure Title ✨⛓️🔥}}"
-description: "{{One-line teaser or poetic hook}}"
-name: "{{Adventure Title}}"
-duration: "{{How long this should take}}"
 alias: "{{Adventure Name}}"
-recommendedLevel: "{{String Value of Recommended Play levels}}"
+arc: "{{Parent Arc Name}}"
+description: "{{One-line teaser or poetic hook}}"
+duration: "{{How long this should take}}"
 entryType: adventure
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 id: "{{slug-id}}"
-arc: "{{Parent Arc Name}}"
-tier: "{{Recommended Level or Tier}}"
 location: "{{Primary Setting}}"
+name: "{{Adventure Title}}"
 publish: true
+recommendedLevel: "{{String Value of Recommended Play levels}}"
 safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - adventure
   - "{{arc-tag}}"
+tier: "{{Recommended Level or Tier}}"
+title: "{{⚔️ Adventure Title ✨⛓️🔥}}"
 ---
 
 > *"{{Tagline or in-world quotation}}"*  

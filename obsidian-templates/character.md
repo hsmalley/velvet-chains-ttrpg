@@ -1,22 +1,22 @@
 ---
-title: "{{⚔️ Character Title ✨⛓️🔥}}"
+alias: "{{Character Name}}"
+alignment: "{{Alignment}}"
+archetype: "{{Archetype or calling flair}}"
+arc: "{{Arc Name}}"
+characterEmojis: "{{Pick 2–4 emoji that reflect the archetype (e.g., ⚔️✨⛓️🔥)}}"
 description: "{{One-line legend whispered in starlight}}"
 entryType: character
+File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 id: "{{slug-id}}"
 name: "{{Character Name}}"
-alias: "{{Character Name}}"
-system: "Velvet Chains Daggerheart"
-alignment: "{{Alignment}}"
-tier: "{{Tier}}"
-arc: "{{Arc Name}}"
-affiliation: "{{Faction or Fleet}}"
-archetype: "{{Archetype or calling flair}}"
-File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
 publish: true
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - npc
   - "{{arc-tag}}"
+tier: "{{Tier}}"
+title: "{{Character Title}} {{Character Emojis}}"
 ---
 
 > *{{epithet or role — e.g., Keeper of Reflected Histories}}*  

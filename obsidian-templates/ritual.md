@@ -10,6 +10,7 @@ level: "{{Ritual Level}}"
 castingTime: "{{Casting Time}}"
 participants: "{{Number / Type}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 safeword: fiction
 publish: true
 tags:
@@ -85,4 +86,4 @@ Describe visual transformation or permanent empathy effects.
 
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
 
-> *“{{Ritual benediction}}”*  
+> _“{{Ritual benediction}}”_  

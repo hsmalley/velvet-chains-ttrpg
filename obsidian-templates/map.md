@@ -1,19 +1,20 @@
 ---
-title: "{{🗺️ Map Title ✨⛓️🔥}}"
-description: "{{What the chart reveals}}"
-name: "{{Map Title}}"
 alias: "{{Map Title}}"
-entryType: map
-id: "{{slug-id}}"
 arc: "{{Associated Arc Name}}"
+description: "{{What the chart reveals}}"
+entryType: map
+File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
+id: "{{slug-id}}"
 location: "{{Location}}"
 mapScale: "{{Scale or Units}}"
-File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+name: "{{Map Title}}"
 publish: true
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - map
   - "{{arc-tag}}"
+title: "{{🗺️ Map Title ✨⛓️🔥}}"
 ---
 
 > *"{{narrative saying about the world and this area}}"*

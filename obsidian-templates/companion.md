@@ -1,20 +1,21 @@
 ---
-title: "{{🤝 Companion Title✨⛓️🔥 }}"
-name: "{{Companion Name}}"
 alias: "{{Companion Name}}"
+arc: "{{Associated Arc Name}}"
+bonded_to: "{{Linked Character}}"
 description: "{{Bond summary}}"
 entryType: companion
-id: "{{slug-id}}"
-species: "{{Species or Form}}"
-bonded_to: "{{Linked Character}}"
-arc: "{{Associated Arc Name}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+id: "{{slug-id}}"
+name: "{{Companion Name}}"
 publish: true
+safeword: fiction
+species: "{{Species or Form}}"
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - companion
   - "{{bonded-character}}"
   - "{{arc-tag}}"
+title: "{{🤝 Companion Title✨⛓️🔥 }}"
 ---
 
 > *{{epithet or benediction — e.g bonded to {{hero}} or {{bonded-character}} their love knows no bounds}}*

@@ -1,16 +1,17 @@
 ---
-title: "{{🪐 Arc Title ✨⛓️🔥}}"
+alias: "{{Arc Name}}"
+arc: "{{Arc Name}}"
 description: "{{One-line premise or poetic hook}}"
 entryType: arc
-id: "{{slug-id}}"
-arc: "{{Arc Name}}"
-alias: "{{Arc Name}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+id: "{{slug-id}}"
 publish: true
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - arc
   - "{{arc-tag}}"
+title: "{{🪐 Arc Title ✨⛓️🔥}}"
 ---
 
 > *"{{Tagline or ritual line that defines the arc}}"*  

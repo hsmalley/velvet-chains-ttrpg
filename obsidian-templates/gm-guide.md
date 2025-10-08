@@ -1,19 +1,20 @@
 ---
-title: "{{⚙️ Guide Title ✨⛓️🔥}}"
-name: "{{Guide Name}}"
 alias: "{{Guide Name}}"
-description: "{{One-line summary of guidance}}"
-entryType: gm-guide
-id: "{{slug-id}}"
 arc: "{{Arc Name}}"
 author: "{{Author Name}}"
+description: "{{One-line summary of guidance}}"
+entryType: gm-guide
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-safeword: fiction
+id: "{{slug-id}}"
+name: "{{Guide Name}}"
 publish: true
+safeword: fiction
+system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
 tags:
   - gm
   - guide
   - "{{arc-tag}}"
+title: "{{⚙️ Guide Title ✨⛓️🔥}}"
 ---
 
 > *{{Guide Quote}} eg "A captain’s compass for empathy and drama."*
@@ -49,6 +50,7 @@ Offer examples of tone checks, debrief rituals, or fade-to-black cues.
 ## 🎴 Strings & Entanglements Toolkit
 
 Outline how Strings flow between NPCs and PCs in this arc.  
+
 - When to grant Strings for tenderness or transgression.  
 - Cost of burning Strings for Advantage, Hope, or narrative authority.  
 - Entanglement triangles or polycules to spotlight.
