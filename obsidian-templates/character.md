@@ -1,16 +1,16 @@
 ---
-title: "{{Character Title}}"
+title: "{{⚔️ Character Title ✨⛓️🔥}}"
 description: "{{One-line legend whispered in starlight}}"
 entryType: character
 id: "{{slug-id}}"
 name: "{{Character Name}}"
 alias: "{{Character Name}}"
-system: "Velvet Chains"
+system: "Velvet Chains Daggerheart"
 alignment: "{{Alignment}}"
-level: "{{Charater Level}}"
+tier: "{{Tier}}"
 arc: "{{Arc Name}}"
 affiliation: "{{Faction or Fleet}}"
-class: "{{Charater Class}}"
+archetype: "{{Archetype or calling flair}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
 publish: true
@@ -19,9 +19,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# ⚔️ {{title}} ✨⛓️🔥  
-
-*{{epithet or role — e.g., Keeper of Reflected Histories}}*  
+> *{{epithet or role — e.g., Keeper of Reflected Histories}}*  
 
 ---
 
@@ -44,14 +42,25 @@ Let this section breathe like a theatre monologue before the stats arrive.
 
 ---
 
+## ⚓ PC Flags & Crew Role  
+
+- **Starting Hope Reserve:** {{Hope pool}}  
+- **Crew Role / Specialty:** {{Pilot, Siren, Archivist, etc.}}  
+- **Personal North Star:** {{Ambition, kink, or redemption vow}}  
+- **Lines & Veils:** {{Player safety notes for the table}}  
+
+Use this section for quick reference so Guides can spotlight your character’s beats and boundaries.
+
+---
+
 ## ⚙️ 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤𝘴 & 𝘌𝘤𝘩𝘰𝘦𝘴  
 
 | Field | Value | Notes |
 |-------|------:|-------|
-| **Level / Tier** | {{level}} |  |
-| **Heart Stress** | {{heart_stress}} |  |
-| **Pulse Stress** | {{pulse_stress}} |  |
-| **Mind Stress** | {{mind_stress}} |  |
+| **Level / Tier** | {{tier}} |  |
+| **Heart Stress** | {{heart_stress_current}} / {{heart_stress_max}} |  |
+| **Pulse Stress** | {{pulse_stress_current}} / {{pulse_stress_max}} |  |
+| **Mind Stress** | {{mind_stress_current}} / {{mind_stress_max}} |  |
 | **Initiative Edge** | {{initiative_edge}} |  |
 | **System** | Velvet Chains / Daggerheart |  |
 
@@ -77,6 +86,17 @@ Outline how their outrageous consent rituals map to signature Daggerheart moves 
 
 ---
 
+## 📈 Advancement Sparks  
+
+- **String Burns:** {{When spending Strings granted milestones or talent unlocks}}  
+- **Scars Embraced:** {{Scars that evolved into new abilities or conditions}}  
+- **Reflection Rites:** {{Downtime scenes that refresh Hope or unlock custom moves}}  
+- **Tri-Engine Growth:** {{How VC/SP/PE experiences reshape talents next session}}  
+
+Use this checklist at session end to note XP triggers, new talents, or gear upgrades.
+
+---
+
 ## 🪐 𝘝𝘦𝘭𝘷𝘦𝘵 𝘊𝘩𝘢𝘪𝘯𝘴 𝘔𝘦𝘵𝘳𝘪𝘤𝘴  
 
 | Metric | Value |
@@ -84,21 +104,21 @@ Outline how their outrageous consent rituals map to signature Daggerheart moves 
 | **Corruption Level** | {{corruption}} |
 | **Soul Marks** | {{soul_marks}} |
 | **Custom Feats** | {{custom_feats}} |
-| **Drama Tags** | {{narrative_tags}} |
+| **Hope Tags** | {{narrative_tags}} |
 
-*Describe how these metrics manifest visually — do their eyes flicker when Drama surges? Does corruption hum like static silk?*
+*Describe how these metrics manifest visually — do their eyes flicker when Hope surges? Does corruption hum like static silk?*
 
 ---
 
-## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘗𝘶𝘭𝘴𝘦  
+## 🎭 Hope & Strings Resonance  
 
-**Trigger:** {{dramaTrigger}}  
-**Interaction:** {{dramaInteraction}}  
+**Trigger:** {{hopeTrigger}}  
+**Interaction:** {{hopeInteraction}}  
 **Consent Protocol:** {{consent_protocol}}  
 
-> *"Drama is the currency of empathy; spend it where hearts might break open."*
+> *"Hope is the currency of empathy; spend it where hearts might break open."*
 
-List any feats, spells, or gestures that convert emotion into mechanics.
+List any moves, rituals, or gestures that convert emotion into Hope/Danger swings.
 
 ---
 

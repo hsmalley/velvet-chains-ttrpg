@@ -1,12 +1,12 @@
 ---
-title: "{{Artifact Name}}"
+title: "{{💎 Artifact Name ✨⛓️🔥}}"
 alias: "{{Artifact Name}}"
 name: "{{Artifact Name}}"
 description: "{{One-line legend or poetic tagline}}"
 entryType: artifact
 id: "{{slug-id}}"
 rarity: "{{Common / Uncommon / Rare / Unique}}"
-level: {{Item Level}}
+rank: "{{Hope Tier or Scar Depth}}"
 arc: "{{Associated Arc Name}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
@@ -16,9 +16,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# 💎 {{title}} ✨⛓️🔥  
-
-*"{{Evocative in-world quote or motto}}"*  
+> *"{{Evocative or sensual in-world quote or motto}}"*  
 
 ---
 
@@ -38,17 +36,19 @@ Example: *forged by lovers who refused to forget each other.*
 | **Frequency** | {{once per day / per scene / per act}} |
 | **Duration** | {{how long it lasts}} |
 | **Effect** | {{game or narrative effect}} |
+| **Hope / Fear** | {{How it grants Hope dice or threatens Danger}} |
 
 *(Keep one line per mechanical field for easy parsing.)*  
 
 ---
 
-## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘐𝘯𝘵𝘦𝘳𝘢𝘤𝘵𝘪𝘰𝘯  
+## 🎭 Hope / Fear Interaction  
 
-Explain how this artifact touches the Drama economy.  
+Explain how this artifact manipulates the Hope/Fear economy.  
 
-- Does it spend or grant Drama Points?  
-- Can it reflect Echo Tokens or alter consent rituals?  
+- Does it shower the crew with Hope dice or Advantage when hearts align?  
+- When do Danger dice or scars escalate because of its darker pulse?  
+- Can it absorb Consent Tokens or translate Strings into power?  
 Write this section as both rule and story beat.  
 
 ---
@@ -94,7 +94,17 @@ Name the creators, the stellar event or rebellion that birthed it, and the parad
 ## 💋 Emotional Resonance
 
 Describe how the item glows, hums, or transforms in response to affection, tension, or betrayal.  
-Offer guidance for GMs on converting those emotions into Drama Point shifts or narrative consequences.  
+Offer guidance for Guides on converting those emotions into Hope swings, Danger spikes, or Strings earned/burned.  
+
+---
+
+## 🎴 Strings & Complications
+
+- **Strings It Grants:** {{Who gains leverage and why}}  
+- **Strings To Spend:** {{Effects unlocked when a wielder burns a String}}  
+- **Mixed Result Twist:** {{What happens when Hope and Fear collide while attuned}}  
+
+Use this to track how the artifact entwines relationships as well as combat or ritual outcomes.  
 
 ---
 

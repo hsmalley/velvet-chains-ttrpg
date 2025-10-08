@@ -1,5 +1,5 @@
 ---
-title: "{{Faction Name}}"
+title: "{{⚙️ Faction Name ✨⛓️🔥}}"
 description: "{{Short mission statement or poetic creed}}"
 alias: "{{Faction Name}}"
 name: "{{Faction Name}}"
@@ -16,9 +16,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# ⚙️ {{title}} ✨⛓️🔥  
-
-*"{{Faction motto or oath line}}"*  
+> *"{{Faction motto or oath line}}"*  
 
 ---
 
@@ -39,11 +37,11 @@ Summarize their philosophy in one clear sentence, then echo it as poetry.
 
 ## ⚙️ 𝘙𝘦𝘴𝘰𝘶𝘳𝘤𝘦𝘴 & 𝘐𝘯𝘧𝘭𝘶𝘦𝘯𝘤𝘦  
 
-| Domain | Assets | Corruption Level | Drama Trigger |
-|---------|---------|-----------------|----------------|
-| {{Region 1}} | {{Resources}} | {{0–5}} | {{How Drama is gained}} |
-| {{Region 2}} | {{Resources}} | {{0–5}} | {{How Drama is lost}} |
-| {{Region 3}} | {{Resources}} | {{0–5}} | {{How Drama is tested}} |
+| Domain | Assets | Corruption Level | Hope / Danger Flow |
+|---------|---------|-----------------|--------------------|
+| {{Region 1}} | {{Resources}} | {{0–5}} | {{When Hope surges or Danger spikes}} |
+| {{Region 2}} | {{Resources}} | {{0–5}} | {{Hope/Danger notes}} |
+| {{Region 3}} | {{Resources}} | {{0–5}} | {{Hope/Danger notes}} |
 
 ---
 
@@ -69,11 +67,11 @@ Detail how Favor rises through Hope spends, narrative beats, or downtime scenes�
 
 ---
 
-## 🎭 𝘋𝘳𝘢𝘮𝘢 & 𝘌𝘵𝘩𝘪𝘤𝘴  
+## 🎭 Hope, Strings & Ethics  
 
-Explain how this faction treats Drama Points, consent, and power.  
-When do members earn Drama for empathy, and when do they lose it for coercion?  
-Offer one moral paradox the GM can use to test loyalty.  
+Explain how this faction treats Hope, Strings, and consent.  
+When do members gift Hope for empathy, and when do they hurl Danger for coercion?  
+Offer one moral paradox the Guide can use to test loyalty.  
 List Advantage triggers, Danger escalations, and how VC/SP/PE modes bend Hope outcomes during negotiations.
 
 ---
@@ -119,7 +117,7 @@ Any ancient prophecies, forgotten rituals, or legendary figures that underpin th
 
 ---
 
-## 📝 DM Notes
+## 📝 Guide Notes
 
 Record reminders about spotlight rotation, internal disputes to escalate gently, and how to telegraph consent cues.  
 Include at least one prompt each for VC compassion, SP daring, and PE philosophy so facilitators can steer the faction’s tone.  

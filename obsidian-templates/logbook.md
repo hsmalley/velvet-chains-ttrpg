@@ -1,5 +1,5 @@
 ---
-title: "{{Logbook Title}}"
+title: "{{🏴‍☠️ Logbook Title ✨⛓️🔥}}"
 name: "{{Logbook Name}}"
 alias: "{{Logbook Name}}"
 description: "{{One-line purpose or chronicle focus}}"
@@ -15,9 +15,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# 🏴‍☠️ {{title}} ✨⛓️🔥
-
-*"Every star leaves a confession in its wake."*  
+> "_{{VC: Quote from the captain in first person}}_"
 
 ---
 
@@ -47,12 +45,12 @@ Chronicle turning points in brief:
 
 ---
 
-## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘗𝘶𝘭𝘴𝘦
+## 🎭 Hope Pulse
 
-Record table-wide surges in Drama Points or notable moments of empathy.  
-Note how consent or collaboration shifted the campaign tone.  
+Record table-wide surges in Hope dice or notable moments of empathy.  
+Note how consent or collaboration shifted the campaign tone and when Danger threatened to crash through.
 
-Map these swings to Hero Points, free archetype access, or mitigated conditions in Pathfinder 2E terms.
+Map these swings to Hope spent or gained, Strings exchanged, scars soothed, or new complications discovered.
 
 ---
 

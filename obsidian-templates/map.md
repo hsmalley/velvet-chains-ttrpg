@@ -1,5 +1,5 @@
 ---
-title: "{{Map Title}}"
+title: "{{🗺️ Map Title ✨⛓️🔥}}"
 description: "{{What the chart reveals}}"
 name: "{{Map Title}}"
 alias: "{{Map Title}}"
@@ -15,8 +15,6 @@ tags:
   - map
   - "{{arc-tag}}"
 ---
-
-# 🗺️ {{title}} ✨⛓️🔥
 
 > *"{{narrative saying about the world and this area}}"*
 
@@ -67,10 +65,10 @@ State Hope rewards, Danger spikes, and how VC/SP/PE alter hazard reactions.
 
 ---
 
-## 🎭 Drama of Discovery  
+## 🎭 Hope of Discovery  
 
-When do explorers earn Drama Points on this route?  
-Describe visual or sensory crescendos tied to success or failure.  
+When do explorers earn Hope dice or Advantage on this route?  
+Describe visual or sensory crescendos tied to success, mixed results, or Danger spikes.
 
 ---
 

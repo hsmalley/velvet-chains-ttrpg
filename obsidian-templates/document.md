@@ -1,5 +1,5 @@
 ---
-title: "{{Document Title}}"
+title: "{{📄 Document Title ✨⛓️🔥}}"
 name: "{{Document Name}}"
 alias: "{{Document Name}}"
 description: "{{One-line summary or purpose}}"
@@ -13,8 +13,6 @@ tags:
   - document
   - "{{arc-tag}}"
 ---
-
-# 📄 {{title}} ✨⛓️🔥  
 
 > *"{{Evocative summary line}}"*  
 

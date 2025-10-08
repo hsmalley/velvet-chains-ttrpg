@@ -1,5 +1,5 @@
 ---
-title: "{{Adventure Title}}"
+title: "{{⚔️ Adventure Title ✨⛓️🔥}}"
 description: "{{One-line teaser or poetic hook}}"
 name: "{{Adventure Title}}"
 duration: "{{How long this should take}}"
@@ -17,8 +17,6 @@ tags:
   - adventure
   - "{{arc-tag}}"
 ---
-
-# ⚔️ {{title}} ✨⛓️🔥  
 
 > *"{{Tagline or in-world quotation}}"*  
 

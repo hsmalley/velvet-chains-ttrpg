@@ -1,5 +1,5 @@
 ---
-title: "{{Companion Title}}"
+title: "{{🤝 Companion Title✨⛓️🔥 }}"
 name: "{{Companion Name}}"
 alias: "{{Companion Name}}"
 description: "{{Bond summary}}"
@@ -13,13 +13,11 @@ safeword: fiction
 publish: true
 tags:
   - companion
-  - "{{bonded-charater}}"
+  - "{{bonded-character}}"
   - "{{arc-tag}}"
 ---
 
-# 🤝 {{title}} ✨⛓️🔥  
-
-*"Two souls orbiting under mutual gravity."*  
+> *{{epithet or benediction — e.g bonded to {{hero}} or {{bonded-character}} their love knows no bounds}}*
 
 ---
 
@@ -36,18 +34,18 @@ Mention any rituals or safewords unique to this pairing.
 
 ---
 
-## 🛡️ Abilities  
+## 🛡️ Bonded Capabilities  
 
 | Trait | Details |
 |-------|----------|
-| HP | {{hp}} |
-| AC | {{ac}} |
-| Speed | {{speed}} |
-| Skills | {{skills}} |
+| **Bond Tier** | {{Initiate / Devoted / Sovereign}} |
+| **Hope Reservoir** | {{Shared Hope dice or tokens}} |
+| **Stress Thresholds** | {{Heart / Pulse / Mind stress they can absorb}} |
+| **Strings Shared** | {{How many Strings each partner begins with}} |
 
 ### Support Powers  
 
-1. **{{Ability 1}}** — {{Description}}  
+1. **{{Ability 1}}** — {{Description, include Triumph / Mixed / Setback beats}}  
 2. **{{Ability 2}}** — {{Description}}  
 
 ---
@@ -73,12 +71,12 @@ Provide notes on how the companion shares scars, stress tracks, or Hope reserves
 
 ---
 
-## 🎭 Drama Resonance  
+## 🎭 Hope & Strings Resonance  
 
 How shared emotion converts to game effect.  
-When does this bond generate or absorb Drama Points?  
+When does this bond generate Hope dice, add Danger, award Strings, or invite scars?  
 
-Translate those beats into Hope gains, Danger removal, or scar healing during Daggerheart play.
+Translate those beats into concrete Daggerheart outcomes (Hope boosts, Danger mitigation, scar healing, or new entanglements).
 
 ---
 
@@ -98,6 +96,17 @@ Detail the specific consent rituals or communication methods unique to the compa
 ## 🧬 Echo & Sentience
 
 Explore the nature of their consciousness, any unique psychic abilities, or how they perceive consent.
+
+---
+
+## 🎴 Strings in Motion
+
+| Moment | Earned / Spent | Result |
+|--------|----------------|--------|
+| {{Scene or ritual}} | {{Who gained or burned a String}} | {{Hope surge, leverage, or complication}} |
+| {{Another beat}} | {{String shift}} | {{Outcome}} |
+
+Track leverage so the crew knows who can tug on the bond during future scenes.
 
 ---
 

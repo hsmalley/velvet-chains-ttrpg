@@ -1,5 +1,5 @@
 ---
-title: "{{Ritual Title}}"
+title: "{{🔮 Ritual Title ✨⛓️🔥}}"
 name: "{{Ritual Name}}"
 alias: "{{Ritual Name}}"
 description: "{{Short invocation line}}"
@@ -17,9 +17,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# 🔮 {{title}} ✨⛓️🔥  
-
-*"Magic is consent shaped into pattern."*  
+> _{{Quote from someone who preformed the ritual}}_
 
 ---
 
@@ -33,33 +31,33 @@ Describe the ritual as sensory art: the space, light, sound, emotion, and intent
 
 | Parameter | Detail |
 |------------|--------|
-| **Level** | {{level}} |
+| **Ritual Rank** | {{rank or tier}} |
 | **Casting Time** | {{castingTime}} |
 | **Participants** | {{participants}} |
 | **Secondary Casters** | {{secondary_roles}} |
-| **Primary Checks** | {{Primary skill + DC}} |
-| **Secondary Checks** | {{Secondary skills + DCs}} |
-| **Counteract Level** | {{counteract_level / counteract_type}} |
+| **Hope Cost** | {{Hope dice/tokens spent}} |
+| **Danger Stakes** | {{How many Danger dice enter the pool}} |
+| **Consent Tokens** | {{Tokens needed or refreshed}} |
 | **Traits** | {{Emotion, Mental, Voidlight, Ritual}} |
 
 ---
 
 ## 🧮 Daggerheart Check Sequence
 
-| Phase | Skill / Save | Degrees of Success | Engine Inflection |
-|-------|--------------|--------------------|-------------------|
-| {{Opening Consent Oath}} | {{Skill + DC}} | {{Critical success/success/failure/critical failure text}} | {{VC effect}} |
-| {{Pulse Surge}} | {{Skill + DC}} | {{Outcome text}} | {{SP effect}} |
-| {{Mind Reflection}} | {{Skill + DC}} | {{Outcome text}} | {{PE effect}} |
+| Phase | Approach & Stakes | Degrees of Success | Engine Inflection |
+|-------|-------------------|--------------------|-------------------|
+| {{Opening Consent Oath}} | {{Approach die + Difficulty tokens}} | {{Triumph / Success / Mixed / Setback text}} | {{VC effect}} |
+| {{Pulse Surge}} | {{Approach & stakes}} | {{Outcome text}} | {{SP effect}} |
+| {{Mind Reflection}} | {{Approach & stakes}} | {{Outcome text}} | {{PE effect}} |
 
-Note how Advantage dice, Hope tokens, or Consent resources can substitute for failed checks. Mention required materials, cost, and backlash options.
+Note how Advantage dice, Hope tokens, or Consent resources can substitute for missed rolls. Mention required materials, cost, and backlash options.
 
 ---
 
 ## 💫 𝘌𝘧𝘧𝘦𝘤𝘵  
 
 Explain the mechanical outcome and dramatic symbolism.  
-Include Drama Point or Echo Token interactions.  
+Detail how Hope is granted or spent, when Danger dice escalate, and any Strings awarded or burned.
 
 ---
 

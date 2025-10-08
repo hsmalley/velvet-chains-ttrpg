@@ -1,5 +1,5 @@
 ---
-title: "{{Arc Title}}"
+title: "{{🪐 Arc Title ✨⛓️🔥}}"
 description: "{{One-line premise or poetic hook}}"
 entryType: arc
 id: "{{slug-id}}"
@@ -13,9 +13,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# 🪐 {{title}} ✨⛓️🔥
-
-*"{{Tagline or ritual line that defines the arc}}"*  
+> *"{{Tagline or ritual line that defines the arc}}"*  
 
 ---
 
@@ -39,8 +37,17 @@ Each should mirror a moral axis or sensory palette.
 
 ## ⚙️ 𝘕𝘦𝘸 𝘙𝘶𝘭𝘦𝘴 & 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤𝘴  
 
-If this arc introduces new Drama Point rules, currencies, or consent rituals, note them here.  
-Use short bullet paragraphs explaining what each adds to play.  
+If this arc introduces Hope/Fear tweaks, Strings triggers, or unique consent rituals, note them here.  
+Use short bullet paragraphs explaining what each adds to play and how VC/SP/PE engines interact with the changes.  
+
+---
+
+## 🌊 Hope Currents & Fear Shadows  
+
+- **Hope Sources:** {{Key beats that hand players Advantage dice or Hope tokens}}  
+- **Fear Escalation:** {{Moments the Guide adds Danger dice, scars, or mixed-result complications}}  
+- **Consent Tokens:** {{Arc-specific resources that cancel Fear, rewrite outcomes, or fuel rituals}}  
+- **Momentum Track:** {{How Difficulty tokens grow or shrink across the arc’s acts}}  
 
 ---
 
@@ -61,14 +68,14 @@ List the worlds, stations, or psychic spaces that define the geography of this s
 
 ## 🧬 𝘍𝘢𝘤𝘵𝘪𝘰𝘯𝘴 & 𝘍𝘪𝘨𝘶𝘳𝘦𝘴  
 
-| Name | Role | Description | Drama Trigger |
-|------|------|--------------|---------------|
-| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{How to earn Drama Points}} |
-| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{How to earn Drama Points}} |
-| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{How to earn Drama Points}} |
-| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{How to earn Drama Points}} |
-| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{How to earn Drama Points}} |
-| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{How to earn Drama Points}} |
+| Name | Role | Description | Hope / String Trigger |
+|------|------|--------------|------------------------|
+| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{How to earn Hope or gain Strings}} |
+| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{Hope/String trigger}} |
+| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{Hope/String trigger}} |
+| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{Hope/String trigger}} |
+| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{Hope/String trigger}} |
+| {{NPC or Faction}} | {{Role}} | {{Motivation or creed}} | {{Hope/String trigger}} |
 
 ---
 

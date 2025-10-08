@@ -1,5 +1,5 @@
 ---
-title: "{{Guide Title}}"
+title: "{{⚙️ Guide Title ✨⛓️🔥}}"
 name: "{{Guide Name}}"
 alias: "{{Guide Name}}"
 description: "{{One-line summary of guidance}}"
@@ -16,9 +16,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# ⚙️ {{title}} ✨⛓️🔥  
-
-*"A captain’s compass for empathy and drama."*  
+> *{{Guide Quote}} eg "A captain’s compass for empathy and drama."*
 
 ---
 
@@ -28,16 +26,16 @@ State the narrative intent of this guide—what tone it serves, what it protects
 
 ---
 
-## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘔𝘢𝘯𝘢𝘨𝘦𝘮𝘦𝘯𝘵  
+## 🎭 Hope & Strings Management  
 
-Explain how to award, spend, and interpret Drama Points or Echo Tokens.  
-Include sample triggers and table safety techniques.  
+Explain how to award, spend, and interpret Hope dice, Danger dice, and Strings.  
+Include sample triggers, safety techniques, and when to exchange Strings for leverage.
 
 ---
 
 ## 💎 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤 𝘔𝘰𝘥𝘪𝘧𝘪𝘦𝘳𝘴  
 
-List optional rules, scaling guidelines, or safety calibration advice for your arc.  
+List optional rules, Hope/Fear scaling guidelines, or safety calibration advice for your arc.
 
 ---
 
@@ -45,6 +43,15 @@ List optional rules, scaling guidelines, or safety calibration advice for your a
 
 Provide sample language for “fiction” declarations and scene negotiation.  
 Offer examples of tone checks, debrief rituals, or fade-to-black cues.  
+
+---
+
+## 🎴 Strings & Entanglements Toolkit
+
+Outline how Strings flow between NPCs and PCs in this arc.  
+- When to grant Strings for tenderness or transgression.  
+- Cost of burning Strings for Advantage, Hope, or narrative authority.  
+- Entanglement triangles or polycules to spotlight.
 
 ---
 
@@ -71,11 +78,11 @@ Encourage GMs to use sensory detail and consent-driven tension.
 
 List quick reference tables or emotional safety macros.  
 
-| Trigger | GM Response | Reward |
+| Trigger | Guide Response | Hope / String Reward |
 |----------|--------------|--------|
-| {{Event}} | {{Action}} | {{Drama Gain}} |
-| {{Event}} | {{Action}} | {{Drama Gain}} |
-| {{Event}} | {{Action}} | {{Drama Gain}} |
+| {{Event}} | {{Action}} | {{Hope or Strings gained}} |
+| {{Event}} | {{Action}} | {{Hope / Strings}} |
+| {{Event}} | {{Action}} | {{Hope / Strings}} |
 
 ---
 

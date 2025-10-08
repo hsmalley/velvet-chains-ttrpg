@@ -1,5 +1,5 @@
 ---
-title: "{{Place Title}}"
+title: "{{🌌 Place Title ✨⛓️🔥}}"
 description: "{{Tagline}}"
 name: "{{Place Name}}"
 alias: "{{Place Name}}"
@@ -15,9 +15,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# 🌌 {{title}} ✨⛓️🔥  
-
-*"Every starport hums with stories negotiated in starlight."*  
+> _{{Evocative or Sensual Quote}}_
 
 ---
 
@@ -52,9 +50,9 @@ Introduce its history, temperament, and mythic role.
 
 ---
 
-## 🎭 Drama Interactions  
+## 🎭 Hope Interactions  
 
-How actions here earn or challenge Drama Points.  
+How actions here earn or challenge Hope.  
 Include any signature performances or public rituals.
 Note which moves generate Hope, add Danger, or unlock Advantage when hearts, pulses, or minds take the lead.
 

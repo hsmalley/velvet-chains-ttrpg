@@ -63,10 +63,19 @@ function validateAttributes(entryType, frontmatter, errors) {
       break;
     case 'character': {
       if (!isString(frontmatter.name)) errors.push('name is required for characters');
-      if (!isString(frontmatter.class)) errors.push('class is required for characters');
-      if (!isNumber(frontmatter.level)) errors.push('level must be a number for characters');
       if (!isString(frontmatter.system)) errors.push('system is required for characters');
-      if ('alignment' in frontmatter && !isString(frontmatter.alignment)) errors.push('alignment must be a string when provided');
+      if (!isString(frontmatter.alignment)) errors.push('alignment is required for characters');
+      if (
+        !(
+          isString(frontmatter.tier) ||
+          isNumber(frontmatter.tier)
+        )
+      ) {
+        errors.push('tier must be a string or number for characters');
+      }
+      if (!isString(frontmatter.arc)) errors.push('arc is required for characters');
+      if (!isString(frontmatter.affiliation)) errors.push('affiliation is required for characters');
+      if (!isString(frontmatter.archetype)) errors.push('archetype is required for characters');
       break;
     }
     case 'companion': {

@@ -1,5 +1,5 @@
 ---
-title: "{{Ship Title}}"
+title: "{{🚀 Ship Title ✨⛓️🔥}}"
 title: "{{Ship Name}}"
 alias: "{{Ship Name}}"
 description: "{{One-line legend or purpose of the vessel}}"
@@ -16,9 +16,7 @@ tags:
   - "{{arc-tag}}"
 ---
 
-# 🚀 {{title}} ✨⛓️🔥  
-
-*"{{Inspirational line or motto}}"*  
+> *"{{Inspirational line or motto}}"*  
 
 ---
 
@@ -32,9 +30,9 @@ Explain how consent, communication, or empathy are integrated into its systems.
 
 ## ⚙️ 𝘚𝘱𝘦𝘤𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 & 𝘚𝘱𝘪𝘳𝘪𝘵  
 
-| Component | Description | Drama Interaction |
+| Component | Description | Hope / Danger Interaction |
 |------------|--------------|-------------------|
-| **Hull** | {{Composition & design style}} | {{How Drama Points affect defenses}} |
+| **Hull** | {{Composition & design style}} | {{How Hope shields or Danger scars the hull}} |
 | **Drive** | {{Engine or propulsion type}} | {{Emotional or ethical power source}} |
 | **Core** | {{AI, deity, or consciousness within}} | {{Unique role in consent system}} |
 | **Crew Complement** | {{Average number or type of crew}} | {{What happens when they act in sync}} |
@@ -51,9 +49,9 @@ Examples: safeword links, consent-field generators, empathic interfaces.
 
 ## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘊𝘺𝘤𝘭𝘦  
 
-Explain how the ship gains, spends, and channels Drama Points or Echo Tokens.  
+Explain how the ship gains, spends, and channels Hope, Strings, and Danger dice.  
 Define thresholds for group bonuses, special maneuvers, or moral lessons.  
-Example: At 3 Drama Points, the ship manifests a luminous aura of solidarity.  
+Example: At 3 Hope dice, the ship manifests a luminous aura of solidarity; at 2 Danger dice, the engines stutter with fear.  
 
 ---
 

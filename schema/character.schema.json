@@ -2,66 +2,84 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Velvet Chains Character Sheet",
   "type": "object",
-  "required": ["id", "name", "level", "system", "class", "abilities", "hp", "ac"],
+  "required": ["id", "name", "system", "alignment", "tier", "arc", "affiliation", "archetype"],
   "properties": {
+    "title": { "type": "string" },
+    "alias": { "type": "string" },
+    "description": { "type": "string" },
+    "entryType": { "type": "string" },
     "id": { "type": "string" },
     "name": { "type": "string" },
-    "level": { "type": "integer", "minimum": 1 },
-    "system": { "type": "string", "enum": ["pathfinder2e", "starfinder2e", "velvetchains"] },
-    "class": { "type": "string" },
-    "ancestry": { "type": "string" },
-    "background": { "type": "string" },
+    "system": {
+      "type": "string",
+      "enum": ["Velvet Chains Daggerheart", "velvetchains-daggerheart"]
+    },
     "alignment": { "type": "string" },
-    "deity": { "type": ["string", "null"] },
-    "traits": { "type": "array", "items": { "type": "string" } },
-    "abilities": {
-      "type": "object",
-      "properties": {
-        "str": { "type": "integer" },
-        "dex": { "type": "integer" },
-        "con": { "type": "integer" },
-        "int": { "type": "integer" },
-        "wis": { "type": "integer" },
-        "cha": { "type": "integer" }
+    "tier": { "type": ["string", "integer"] },
+    "arc": { "type": "string" },
+    "affiliation": { "type": "string" },
+    "archetype": { "type": "string" },
+    "File-Hash": { "type": "string" },
+    "safeword": { "type": "string" },
+    "publish": { "type": "boolean" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "hopeTags": { "type": "array", "items": { "type": "string" } },
+    "corruptionLevel": { "type": ["integer", "string"] },
+    "soulMarks": { "type": "array", "items": { "type": "string" } },
+    "customFeats": { "type": "array", "items": { "type": "string" } },
+    "stringBonds": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "target": { "type": "string" },
+          "reason": { "type": "string" }
+        },
+        "required": ["target"],
+        "additionalProperties": true
       }
     },
-    "hp": {
+    "stressTracks": {
       "type": "object",
       "properties": {
-        "max": { "type": "integer" },
-        "current": { "type": "integer" },
-        "temp": { "type": "integer" }
+        "heart": {
+          "type": "object",
+          "properties": {
+            "current": { "type": "integer", "minimum": 0 },
+            "max": { "type": "integer", "minimum": 0 }
+          },
+          "required": ["current", "max"],
+          "additionalProperties": false
+        },
+        "pulse": {
+          "type": "object",
+          "properties": {
+            "current": { "type": "integer", "minimum": 0 },
+            "max": { "type": "integer", "minimum": 0 }
+          },
+          "required": ["current", "max"],
+          "additionalProperties": false
+        },
+        "mind": {
+          "type": "object",
+          "properties": {
+            "current": { "type": "integer", "minimum": 0 },
+            "max": { "type": "integer", "minimum": 0 }
+          },
+          "required": ["current", "max"],
+          "additionalProperties": false
+        }
       }
     },
-    "ac": { "type": "integer" },
-    "initiative": { "type": "integer" },
-    "speed": { "type": "string" },
-    "saves": {
+    "approaches": {
       "type": "object",
       "properties": {
-        "fortitude": { "type": "integer" },
-        "reflex": { "type": "integer" },
-        "will": { "type": "integer" }
-      }
-    },
-    "skills": {
-      "type": "object",
-      "properties": {
-        "arcana": { "type": "integer" },
-        "society": { "type": "integer" },
-        "occultism": { "type": "integer" },
-        "perception": { "type": "integer" },
-        "stealth": { "type": "integer" }
-      }
-    },
-    "velvetchains": {
-      "type": "object",
-      "properties": {
-        "corruption_level": { "type": "integer", "minimum": 0, "maximum": 10 },
-        "soul_marks": { "type": "array", "items": { "type": "string" } },
-        "custom_feats": { "type": "array", "items": { "type": "string" } },
-        "narrative_tags": { "type": "array", "items": { "type": "string" } }
-      }
+        "body": { "type": "string" },
+        "mind": { "type": "string" },
+        "spirit": { "type": "string" }
+      },
+      "additionalProperties": true
     }
-  }
+  },
+  "additionalProperties": true
 }
