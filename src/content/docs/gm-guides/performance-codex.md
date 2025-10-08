@@ -1,10 +1,11 @@
 ---
-title: "Performance Codex: The Practice of Drama and Light"
+title: "🎭 Performance Codex — The Practice of Drama and Light ✨⛓️🔥"
 description: "A guide for enacting the Velvet Chains ethos through movement, tone, and table ritual."
 entryType: gm-guide
 id: "performance-codex"
 arc: "The Luminous Oath"
 safeword: fiction
+publish: true
 tags:
   - performance
   - gm
@@ -12,9 +13,7 @@ tags:
   - voidlight
 ---
 
-# 🎭 Performance Codex — The Practice of Drama and Light ✨⛓️🔥  
-
-*"Play is the body of philosophy; performance, its heartbeat."*
+> *"Play is the body of philosophy; performance, its heartbeat."*
 
 ---
 

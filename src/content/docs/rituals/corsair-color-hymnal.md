@@ -1,5 +1,5 @@
 ---
-title: "Corsair Color Hymnal"
+title: "🌈 Corsair Color Hymnal ✨⛓️🔥"
 description: "Liturgical chantbook of the Voidlight Armada, mapping color to consent."
 entryType: ritual
 id: "corsair-color-hymnal"
@@ -8,6 +8,7 @@ level: 3
 castingTime: "5 minutes of collective resonance"
 participants: "Any willing crew"
 safeword: fiction
+publish: true
 tags:
   - ritual
   - hymn
@@ -15,9 +16,7 @@ tags:
   - luminous-oath
 ---
 
-# 🌈 Corsair Color Hymnal ✨⛓️🔥  
-
-*"We sing the spectrum so the void may know our tone."*  
+> *"We sing the spectrum so the void may know our tone."*  
 
 ---
 
@@ -47,36 +46,42 @@ No instrument required — breath, rhythm, and intention suffice.
 Each verse may be read, chanted, or whispered in sequence; pauses mark inhalations of shared trust.  
 
 ### **Violet — Consent-Prime (⛓️)**  
+>
 > *“Chain of choice, bright and kind,*  
 > *hold our wills yet leave them free.*  
 > *In orbit shared, we align by yes —*  
 > *the word that makes all travel true.”*
 
 ### **Gold — Empathic Trust (💕)**  
+>
 > *“Golden pulse, radiant thread,*  
 > *our laughter lights the path ahead.*  
 > *No captain commands the sun alone;*  
 > *we rise together, tone by tone.”*
 
 ### **Crimson — Passion Discipline (⚔️)**  
+>
 > *“Flame that burns without consuming,*  
 > *teach our heat to honor form.*  
 > *Strike in art, not anger born —*  
 > *our courage clothed in care.”*
 
 ### **Cyan — Reflective Silence (🪞)**  
+>
 > *“Mirror breath, cool and clear,*  
 > *echo our flaws without fear.*  
 > *In stillness, truth unveils herself —*  
 > *silence as our sweetest helm.”*
 
 ### **Silver — Transparency (🔮)**  
+>
 > *“Silver chord, data divine,*  
 > *we open all we wish to share.*  
 > *Knowledge asks, never takes;*  
 > *clarity is sacred air.”*
 
 ### **Blackglass — Ethical Lockdown (🕯️)**  
+>
 > *“Dark flame, patient guard,*  
 > *seal our guilt without despair.*  
 > *Let pause be prayer, let shame be door —*  

@@ -1,5 +1,7 @@
 export const ENTRY_TYPES = [
   'document',
+  'appendix',
+  'codex',
   'page',
   'character',
   'companion',

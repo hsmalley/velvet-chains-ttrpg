@@ -4,6 +4,7 @@ description: "{{One-line legend whispered in starlight}}"
 entryType: character
 id: "{{slug-id}}"
 name: "{{Character Name}}"
+alias: "{{Character Name}}"
 system: "Velvet Chains"
 alignment: "{{Alignment}}"
 level: "{{Charater Level}}"
@@ -12,6 +13,7 @@ affiliation: "{{Faction or Fleet}}"
 class: "{{Charater Class}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
+publish: true
 tags:
   - npc
   - "{{arc-tag}}"
@@ -46,17 +48,32 @@ Let this section breathe like a theatre monologue before the stats arrive.
 
 | Field | Value | Notes |
 |-------|------:|-------|
-| **Level** | {{level}} |  |
-| **HP** | {{hp_max}} |  |
-| **AC** | {{ac}} |  |
-| **Speed** | {{speed}} |  |
-| **Initiative** | {{initiative}} |  |
-| **System** | Velvet Chains / PF2e / SF2e |  |
+| **Level / Tier** | {{level}} |  |
+| **Heart Stress** | {{heart_stress}} |  |
+| **Pulse Stress** | {{pulse_stress}} |  |
+| **Mind Stress** | {{mind_stress}} |  |
+| **Initiative Edge** | {{initiative_edge}} |  |
+| **System** | Velvet Chains / Daggerheart |  |
 
-**Ability Scores**  
-| STR | DEX | CON | INT | WIS | CHA |
-|-----|-----|-----|-----|-----|-----|
-| {{str}} | {{dex}} | {{con}} | {{int}} | {{wis}} | {{cha}} |
+**Approaches & Edges**  
+
+| Approach | Die | Hope Edge | Fear Shadow |
+|----------|-----|-----------|-------------|
+| Body | {{body_die}} | {{body_edge}} | {{body_shadow}} |
+| Mind | {{mind_die}} | {{mind_edge}} | {{mind_shadow}} |
+| Spirit | {{spirit_die}} | {{spirit_edge}} | {{spirit_shadow}} |
+
+---
+
+## 🛡️ Lineage, Calling & Domains  
+
+- **Lineage Traits:** {{lineage}} — {{gift}} • {{legacy}}  
+- **Calling Sparks:** {{calling}} • {{specialty}}  
+- **Domains / Talents:** {{domainList}}  
+- **Discoveries & Relics:** {{discoveries}}  
+- **Tri-Engine Adjustments:** {{How VC/SP/PE alter talents, Hope refresh, or Fear triggers}}  
+
+Outline how their outrageous consent rituals map to signature Daggerheart moves and narrative edges.  
 
 ---
 
@@ -82,6 +99,18 @@ Let this section breathe like a theatre monologue before the stats arrive.
 > *"Drama is the currency of empathy; spend it where hearts might break open."*
 
 List any feats, spells, or gestures that convert emotion into mechanics.
+
+---
+
+## 🛠️ Consent Responses (Daggerheart)
+
+| Trigger | Response Move | Outcome | Engine Boost |
+|---------|----------------|---------|--------------|
+| {{Trigger 1}} | {{Response Name}} | {{Triumph / Success / Mixed / Setback notes}} | {{VC / SP / PE bonus}} |
+| {{Trigger 2}} | {{Response Name}} | {{Outcome text}} | {{VC / SP / PE bonus}} |
+| {{Trigger 3}} | {{Response Name}} | {{Outcome text}} | {{VC / SP / PE bonus}} |
+
+Detail how these map to Daggerheart reactions (Defy Danger, Protect, Reveal the Heart) while honoring consent signals.
 
 ---
 
@@ -121,6 +150,68 @@ If any possess their own consent subroutines, describe how they negotiate agency
 
 > "{{quote}}"  
 > *Alternative reflection line or mantra.*
+
+---
+
+## 💕 Romantic Bonds
+
+List primary, secondary, and aspirational connections using short vignettes or bullet lines.  
+Note shared safewords, negotiated boundaries, and how each bond influences the character’s choices in play.  
+
+---
+
+## 🎴 Strings & Heartbeats (TSL Overlay)
+
+- **Strings Held On Others:** {{Who, why it matters, what temptation you evoke}}  
+- **Strings Others Hold On You:** {{What leverage they gain when you bare your heart}}  
+- **Heartbeat Promise:** {{Core vow that grants Hope/Advantage when pursued, but hands the Guide a String on a mixed result}}  
+- **Entanglement:** {{Triangle or polycule tension that invites dramatic complications}}  
+
+Document how spending or burning Strings converts into Hope, cancels Danger, or forges new scars in Daggerheart scenes.
+
+---
+
+## 🏴‍☠️ Corsair History
+
+Summarize formative raids, mutinies, or acts of defiance that define their legend.  
+Tie each event to a lesson about loyalty, freedom, or the price of breaking consent.  
+
+---
+
+## 🧬 Soulmark & Echoes
+
+Describe the appearance, origin, and emotional trigger of each soulmark.  
+Explain how echoes manifest—visions, sensations, AI whispers—and what support they require from allies.  
+
+---
+
+## 🎯 Mode-Switch Talents & Bonds
+
+Detail which talents, boons, or bonds awaken under each engine.  
+
+- **Heart (VC):** {{Hope refresh, condition soothe, or bond-deepening effect}}  
+- **Pulse (SP):** {{Adrenaline surge, daring gambit, Advantage cascade}}  
+- **Mind (PE):** {{Revelations, reroll authority, or consequence rewriting}}  
+
+Note any new scars, oaths, or lingering effects when the engine surges or crashes.
+
+---
+
+## 🎭 Signature Performance
+
+Outline their go-to cinematic move, including staging, dialogue cues, and expected audience reaction.  
+Offer advice for dialing the performance toward VC tenderness, SP swagger, or PE reflection as the scene demands.  
+
+---
+
+## 🌹 Emotional Conditions (TSL Influence)
+
+| Condition | Trigger | Clearing the Storm |
+|-----------|---------|--------------------|
+| {{Condition 1}} | {{How you gained it}} | {{What kindness, apology, or risk clears it}} |
+| {{Condition 2}} | {{Trigger}} | {{Resolution}} |
+
+Conditions can gift the Guide Strings, add Danger dice, or block Hope refresh until healed.
 
 ---
 

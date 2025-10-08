@@ -1,5 +1,7 @@
 ---
 title: "{{Ritual Title}}"
+name: "{{Ritual Name}}"
+alias: "{{Ritual Name}}"
 description: "{{Short invocation line}}"
 entryType: ritual
 id: "{{slug-id}}"
@@ -9,6 +11,7 @@ castingTime: "{{Casting Time}}"
 participants: "{{Number / Type}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
+publish: true
 tags:
   - ritual
   - "{{arc-tag}}"
@@ -33,8 +36,23 @@ Describe the ritual as sensory art: the space, light, sound, emotion, and intent
 | **Level** | {{level}} |
 | **Casting Time** | {{castingTime}} |
 | **Participants** | {{participants}} |
-| **Primary Skills** | {{skills}} |
-| **DCs** | {{DCs}} |
+| **Secondary Casters** | {{secondary_roles}} |
+| **Primary Checks** | {{Primary skill + DC}} |
+| **Secondary Checks** | {{Secondary skills + DCs}} |
+| **Counteract Level** | {{counteract_level / counteract_type}} |
+| **Traits** | {{Emotion, Mental, Voidlight, Ritual}} |
+
+---
+
+## 🧮 Daggerheart Check Sequence
+
+| Phase | Skill / Save | Degrees of Success | Engine Inflection |
+|-------|--------------|--------------------|-------------------|
+| {{Opening Consent Oath}} | {{Skill + DC}} | {{Critical success/success/failure/critical failure text}} | {{VC effect}} |
+| {{Pulse Surge}} | {{Skill + DC}} | {{Outcome text}} | {{SP effect}} |
+| {{Mind Reflection}} | {{Skill + DC}} | {{Outcome text}} | {{PE effect}} |
+
+Note how Advantage dice, Hope tokens, or Consent resources can substitute for failed checks. Mention required materials, cost, and backlash options.
 
 ---
 
@@ -48,6 +66,7 @@ Include Drama Point or Echo Token interactions.
 ## 💀 𝘍𝘢𝘪𝘭𝘶𝘳𝘦 & 𝘉𝘢𝘤𝘬𝘭𝘢𝘴𝘩  
 
 State narrative and mechanical consequences when consent or intention falters.  
+Include the Daggerheart backlash clause (stress spikes, scars, or corrupted relationships) and how Fear-dominant outcomes manifest.
 
 ---
 

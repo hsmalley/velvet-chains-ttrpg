@@ -1,5 +1,5 @@
 ---
-title: "The Resonant Veil"
+title: "🚀 The Resonant Veil ✨⛓️🔥"
 description: "A ship that sings back to the stars when loved correctly."
 entryType: ship
 id: "resonant-veil"
@@ -8,15 +8,14 @@ affiliation: "Voidlight Armada"
 captain: "Aurelia Veil"
 File-Hash: VCSPPE-SHP-v1.0-20251006
 safeword: fiction
+publish: true
 tags:
   - ship
   - voidlight
   - luminous-oath
 ---
 
-# 🚀 The Resonant Veil ✨⛓️🔥  
-
-*"Her hull hums in the key of consent."*  
+> *"Her hull hums in the key of consent."*  
 
 ---
 

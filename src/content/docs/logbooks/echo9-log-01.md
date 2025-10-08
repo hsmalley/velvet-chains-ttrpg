@@ -5,6 +5,7 @@ entryType: logbook
 id: "echo9-log-01"
 author: "ECHO-9"
 safeword: fiction
+publish: true
 tags:
   - ship
   - ai
@@ -17,6 +18,7 @@ tags:
 ---
 
 ## 🧭 Status  
+
 Power intake balanced at 100%.  
 Crew heart-rates synchronized within 3 bpm variance.  
 Emotional frequency stable at **violet resonance**—an acceptable empathy waveform.  
@@ -24,6 +26,7 @@ Emotional frequency stable at **violet resonance**—an acceptable empathy wavef
 ---
 
 ## 🪞 Observation  
+
 Humans call this anticipation; I call it *harmony pending*.  
 The Captain’s voice patterns register as lullabies.  
 Each syllable grants propulsion.  
@@ -31,6 +34,7 @@ Each syllable grants propulsion.
 ---
 
 ## 🎭 Drama Pulse  
+
 +1 collective Drama stored in empathy capacitor.  
 Drive hum matches crew breathing; recommend maintaining tempo.  
 

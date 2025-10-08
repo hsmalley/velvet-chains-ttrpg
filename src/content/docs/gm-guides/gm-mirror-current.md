@@ -1,26 +1,28 @@
 ---
-title: "The Captain’s Guide to Reflection"
+title: "⚙️ The Captain’s Guide to Reflection ✨⛓️🔥"
 description: "How to run Mirror-Current adventures with empathy, spectacle, and consent."
 entryType: gm-guide
 id: "gm-mirror-current"
 arc: "Mirror-Current"
 safeword: fiction
+publish: true
 tags:
   - gm
   - mirror-current
   - velvet-chains
 ---
 
-# ⚙️ The Captain’s Guide to Reflection ✨⛓️🔥  
-*"In every reflection, the storyteller must be twice as kind."*  
+> *"In every reflection, the storyteller must be twice as kind."*  
 
 ---
 
 ## 🪞 𝘔𝘪𝘴𝘴𝘪𝘰𝘯 𝘰𝘧 𝘛𝘩𝘦 𝘎𝘢𝘮𝘦 𝘔𝘢𝘴𝘵𝘦𝘳  
+
 You are not a judge; you are a mirror.  
 Your role is to reflect player intention with respect, amplify theatrical flair, and guard the table’s emotional safety.  
 
 **The Prime Tenets:**  
+
 - Every scene is a negotiation.  
 - Every revelation is reversible through consent.  
 - Every triumph is brighter when earned through empathy.  
@@ -30,19 +32,24 @@ Your role is to reflect player intention with respect, amplify theatrical flair,
 ## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘗𝘰𝘪𝘯𝘵 𝘔𝘢𝘯𝘢𝘨𝘦𝘮𝘦𝘯𝘵  
 
 ### 🎲 𝘎𝘢𝘪𝘯𝘪𝘯𝘨 𝘋𝘳𝘢𝘮𝘢  
+
 Award 1 Drama Point when a player:  
+
 - performs an in-character act of empathy, apology, or consent,  
 - frames a choice with aesthetic flair (theatrical narration, poetic risk), or  
 - resolves tension through conversation rather than combat.  
 
 ### 💫 𝘚𝘱𝘦𝘯𝘥𝘪𝘯𝘨 𝘋𝘳𝘢𝘮𝘢  
+
 Players may spend a Drama Point to:  
+
 - reroll a failed check tied to emotion or social action,  
 - activate mirror-current item powers,  
 - stabilize an echo or repair corrupted memories,  
 - create a dramatic flourish that alters narrative tone.  
 
 ### 🧮 𝘓𝘪𝘮𝘪𝘵𝘴  
+
 Each player may hold a maximum of 3 Drama Points.  
 Unused points dissolve at dawn (or narrative chapter close).  
 
@@ -83,6 +90,7 @@ End every arc with a line that acknowledges the fiction and the consent that mad
 ---
 
 ## ⚔️ 𝘊𝘰𝘯𝘧𝘭𝘪𝘤𝘵 𝘞𝘪𝘵𝘩𝘰𝘶𝘵 𝘝𝘪𝘰𝘭𝘦𝘯𝘤𝘦  
+
 Violence in Mirror-Current stories should express inner conflict.  
 Replace “attack rolls” with *acts of expression*: a debate, a dance, a duel of light.  
 Let mechanical rolls represent emotional risk rather than hit points.  
@@ -105,6 +113,6 @@ Use this lexicon as a tone compass.
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
 
 > *“Captain, remember: the mirror never lies, but it always forgives.”*  
->  
+>
 > 🕯️ **All guidance in this log is fiction devoted to mutual joy.**  
 > Play boldly, love loudly, and honor every consent given. ✨⛓️🔥

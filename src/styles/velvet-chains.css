@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
 :root {
   --bg: #0f0f1a;
   --fg: #e0e0e0;
@@ -5,8 +7,8 @@
   --accent-alt: #ff6ac1;
   --muted: #888;
   --border: #2a2a3a;
-  --font-body: 'Inter', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-body: 'Space Grotesk', 'IBM Plex Sans', 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'Fira Code', 'IBM Plex Mono', 'JetBrains Mono', 'Menlo', 'Consolas', monospace;
 }
 
 body {

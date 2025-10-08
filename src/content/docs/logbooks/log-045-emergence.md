@@ -5,6 +5,7 @@ entryType: logbook
 id: "log-045-emergence"
 captain: "Captain Vel"
 safeword: fiction
+publish: true
 tags:
   - logbook
   - mirror-current
@@ -15,6 +16,7 @@ tags:
 ---
 
 ## 🌌 Preface  
+
 The final chorus of the Fractured Choir accompanied our exit.  
 Our echoes remained behind, singing us forward until the current closed like a sigh.  
 For one instant, every memory we’d ever hidden glowed on the ship’s hull.  
@@ -22,18 +24,21 @@ For one instant, every memory we’d ever hidden glowed on the ship’s hull.
 ---
 
 ## 🎭 Drama Resolution  
+
 All Drama Points spent in reflection restored as Empathy Credits.  
 Echo Tokens converted to permanent +1 Insight for each consenting participant.  
 
 ---
 
 ## 🪞 Observation  
+
 The mirror left residue—silver script across the Corsair’s prow reading: *“You were kind.”*  
 I have ordered it left unpolished.  
 
 ---
 
 ## 🧭 Navigator’s Note  
+
 Future captains: always end the voyage with gratitude.  
 The currents crave acknowledgment more than sacrifice.  
 

@@ -1,5 +1,5 @@
 ---
-title: "Captain Aurelia Veil"
+title: "⚔️ Captain Aurelia Veil ✨⛓️🔥"
 description: "The corsair who hears the stars argue about consent."
 entryType: character
 id: "aurelia-veil"
@@ -12,15 +12,14 @@ class: "Voidlight Corsair (Empathic Captain hybrid)"
 File-Hash: "VCSPPE-CHR-v1.0-20251006"
 level: 9
 safeword: fiction
+publish: true
 tags:
   - npc
   - voidlight
   - luminous-oath
 ---
 
-# ⚔️ Captain Aurelia Veil ✨⛓️🔥  
-
-*Keeper of the Resonant Chains, Mistress of the Echo Drive.*  
+> *Keeper of the Resonant Chains, Mistress of the Echo Drive.*  
 
 ---
 
@@ -53,6 +52,7 @@ She moves like a confession whispered through static. Her voice carries a low tr
 | **System** | Velvet Chains / PF2e Hybrid |  |
 
 **Ability Scores**  
+
 | STR | DEX | CON | INT | WIS | CHA |
 |-----|-----|-----|-----|-----|-----|
 | 12 | 16 | 14 | 18 | 16 | 20 |

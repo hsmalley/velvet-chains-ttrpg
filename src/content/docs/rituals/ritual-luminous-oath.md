@@ -1,5 +1,5 @@
 ---
-title: "The Luminous Oath"
+title: "🔮 The Luminous Oath ✨⛓️🔥"
 description: "A ritual that harmonizes ship hearts across light-years."
 entryType: ritual
 id: "luminous-oath"
@@ -9,14 +9,13 @@ castingTime: "1 hour (plus 3 deep breaths)"
 participants: "Two or more captains and their willing crews"
 File-Hash: VCSPPE-RIT-v1.0-20251006
 safeword: fiction
+publish: true
 tags:
   - ritual
   - luminous-oath
 ---
 
-# 🔮 The Luminous Oath ✨⛓️🔥  
-
-*"Magic is consent shaped into pattern — and sung into propulsion."*  
+> *"Magic is consent shaped into pattern — and sung into propulsion."*  
 
 ---
 

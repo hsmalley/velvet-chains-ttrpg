@@ -43,11 +43,13 @@ The **LEGENDARY VELVET CHAINS ARMADA** sails majestically under **GLORIOUS FLAGS
 Discovered a vulnerability that threatens our velvet empire? Contact us through proper corsair channels:
 
 **💀 PREFERRED METHOD**: GitHub Security Advisory (The Encrypted Parley)
+
 - Navigate to our repository's Security sanctum
 - Select "Report a vulnerability" with theatrical gravity
 - Provide detailed intelligence about the threat with appropriate dramatic flair
 
 **📜 ALTERNATIVE DISPATCH**: Encrypted correspondence to the admiralty
+
 - Email with **"SECURITY BREACH"** blazoned in the subject line
 - Encrypt sensitive details with our PGP armaments if available
 - Include your corsair credentials for proper response protocols
@@ -55,12 +57,14 @@ Discovered a vulnerability that threatens our velvet empire? Contact us through 
 ### **🏴‍☠️ Intelligence Report Requirements**
 
 **INCLUDE WITH PASSIONATE URGENCY:**
+
 - **📋 Vulnerability Description**: Crystal-clear explanation worthy of our theatrical standards
 - **💥 Impact Assessment**: How this breach could compromise our consensual empire
 - **🎭 Reproduction Choreography**: Step-by-step instructions to recreate the security theater
 - **🛠️ Proposed Remediation**: Your brilliant suggestions for fortifying our defenses
 
 **ABSOLUTELY FORBIDDEN:**
+
 - **📢 Public Exhibition**: Never parade security vulnerabilities in public repositories
 - **💣 Exploit Weaponization**: Avoid including functional attacks in initial intelligence
 - **👑 Blame Theatrics**: Focus on technical solutions, not dramatic finger-pointing
@@ -78,16 +82,19 @@ Discovered a vulnerability that threatens our velvet empire? Contact us through 
 
 **🔴 CRIMSON ALERT (Critical)**
 *Immediate data exposure, remote code execution, reality-shattering vulnerabilities*
+
 - **Response**: Emergency admiralty assembly within 24 hours
 - **Resolution**: Crisis patch deployed within 72 hours of discovery
 
 **🟡 AMBER WARNING (High)**
 *Significant functionality compromise, local privilege escalation, consent protocol violations*
+
 - **Response**: Corsair security council convened within 48 hours
 - **Resolution**: Fortification patch within 1 week of assessment
 
 **🟢 EMERALD NOTICE (Medium/Low)**
 *Minor information leakage, denial of service conditions, aesthetic disruptions*
+
 - **Response**: Security review scheduled within 1 week
 - **Resolution**: Improvements included in next theatrical release cycle
 
@@ -173,6 +180,7 @@ We maintain a **Security Hall of Fame** recognizing responsible security researc
 ### **💰 Bounty Considerations**
 
 Currently our treasury offers no monetary rewards, but we shower exceptional security contributors with:
+
 - **Prominent recognition** in our security documentation
 - **Eternal gratitude** expressed through appropriately theatrical channels
 - **Special corsair titles** reflecting their contributions to our empire's security
@@ -181,6 +189,7 @@ Currently our treasury offers no monetary rewards, but we shower exceptional sec
 ### **📚 Security Grimoire Collection**
 
 Essential reading for security-conscious corsairs:
+
 - [GitHub Security Advisory Database](https://github.com/advisories) - Learn from other empires' vulnerabilities
 - [Git Security Best Practices](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) - Fortify your git archaeology
 - [Rust Security Guidelines](https://doc.rust-lang.org/nomicon/ffi.html#safety) - Steel your Rust against vulnerabilities

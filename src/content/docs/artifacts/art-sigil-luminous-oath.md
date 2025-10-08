@@ -1,11 +1,12 @@
 ---
-title: "Sigil of the Luminous Oath"
+title: "🌌 Sigil of the Luminous Oath ✨⛓️🔥"
 description: "An illuminated mandala linking every node of the Oath’s constellation."
 entryType: artifact
 id: "sigil-luminous-oath"
 arc: "The Luminous Oath"
 rarity: "Unique"
 safeword: fiction
+publish: true
 tags:
   - sigil
   - art
@@ -13,9 +14,7 @@ tags:
   - voidlight
 ---
 
-# 🌌 Sigil of the Luminous Oath ✨⛓️🔥  
-
-*"Between vow and void, geometry remembers."*
+> *"Between vow and void, geometry remembers."*
 
 ---
 
@@ -41,6 +40,7 @@ Each orbit glows in rhythm with its emotional temperature: calm pulses indigo, d
 ## ⚙️ 𝘌𝘯𝘨𝘪𝘯𝘦 𝘍𝘶𝘯𝘤𝘵𝘪𝘰𝘯  
 
 When displayed aboard any ship equipped with an Echo Drive:  
+
 - Reading the sigil aloud in unison synchronizes the crew’s Drama Points into a single pool for one session.  
 - Tracing a path from **Heart → Halo → Crown** grants a +2 morale bonus to Diplomacy and Insight for one scene.  
 - If someone touches the sigil while concealing truth, the light dulls and their reflection vanishes until they confess.  

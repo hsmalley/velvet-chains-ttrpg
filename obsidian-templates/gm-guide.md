@@ -1,11 +1,15 @@
 ---
 title: "{{Guide Title}}"
+name: "{{Guide Name}}"
+alias: "{{Guide Name}}"
 description: "{{One-line summary of guidance}}"
 entryType: gm-guide
 id: "{{slug-id}}"
 arc: "{{Arc Name}}"
+author: "{{Author Name}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
+publish: true
 tags:
   - gm
   - guide
@@ -66,14 +70,39 @@ Encourage GMs to use sensory detail and consent-driven tension.
 ## 🧩 𝘙𝘦𝘧𝘭𝘦𝘤𝘵𝘪𝘷𝘦 𝘛𝘰𝘰𝘭𝘬𝘪𝘵  
 
 List quick reference tables or emotional safety macros.  
+
 | Trigger | GM Response | Reward |
 |----------|--------------|--------|
+| {{Event}} | {{Action}} | {{Drama Gain}} |
+| {{Event}} | {{Action}} | {{Drama Gain}} |
 | {{Event}} | {{Action}} | {{Drama Gain}} |
 
 ---
 
+## 💕 Running Romantic Themes
+
+Guidance on how to safely and effectively incorporate dark romance and intimate bonds into play.
+
+---
+
+## 🏴‍☠️ Space-Pirate Encounters
+
+Tips for designing and running engaging space-pirate scenarios, heists, and chases.
+
+---
+
+## 🎭 Theatrical Direction
+
+Advice on encouraging dramatic flair, player performance, and cinematic descriptions.
+
+---
+
+## 🧬 Voidlight Physics
+
+Explanations of how Voidlight, echoes, and soulmarks function in the game world for GMs.
+
+---
 
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
 
 > *“{{GM benediction or reflection}}”*  
-

@@ -5,6 +5,7 @@ entryType: gm-guide
 id: "gm-captains-summary-table"
 arc: "Mirror-Current"
 safeword: fiction
+publish: true
 tags:
   - gm
   - mirror-current
@@ -23,8 +24,10 @@ tags:
 ---
 
 ### 📜 𝘕𝘢𝘷𝘪𝘨𝘢𝘵𝘰𝘳’𝘴 𝘕𝘰𝘵𝘦  
+
 Keep this table on your bridge or GM screen.  
 Each column is a compass direction:  
+
 - *Tone* guides performance.  
 - *Mechanic* guides play.  
 - *Theme* guides emotion.  

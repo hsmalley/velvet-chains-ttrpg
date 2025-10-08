@@ -1,9 +1,10 @@
 ---
 title: "🪐 VELVET CHAINS & VOIDLIGHT — MODE SWITCH MANUAL ✨⛓️🔥"
 description: "How to run the Tri-Engine"
-entryType: logbook
+entryType: codex
 id: "codex-mode-switch-manual"
 safeword: fiction
+publish: true
 tags:
   - logbook
   - velvet-chains
@@ -11,6 +12,7 @@ tags:
   
 
 ## ⚙️ How It Works
+
 Each mode is a **narrative engine**.  
 You toggle between them to shift tone rather than content.  
 Activate one, merge two, or run all three as a tri-engine cycle.
@@ -18,6 +20,7 @@ Activate one, merge two, or run all three as a tri-engine cycle.
 ---
 
 ## 🧡 VC — Velvet Chains  
+
 *Heart engine: empathy, consent, reflection.*
 
 **Activate:** `Mode=VC` or `Emojis=$VC_Emojis`  
@@ -29,6 +32,7 @@ Activate one, merge two, or run all three as a tri-engine cycle.
 ---
 
 ## ⚔️ SP — Space-Pirate  
+
 *Pulse engine: movement, rebellion, performance.*
 
 **Activate:** `Mode=SP` or `Emojis=$SP_Emojis`  
@@ -40,6 +44,7 @@ Activate one, merge two, or run all three as a tri-engine cycle.
 ---
 
 ## 🧠 PE — Prime Empathy (Philosophical)  
+
 *Mind engine: reflection, analysis, synthesis.*
 
 **Activate:** `Mode=PE` or `Emojis=$PE_Emojis`  
@@ -53,6 +58,7 @@ Activate one, merge two, or run all three as a tri-engine cycle.
 ## 💫 Dual Drives
 
 ### VC + SP  →  *Heart + Pulse*  
+>
 > Empathy in motion.  
 **Tone:** Romantic adventure, ethical action.  
 **Use when:** you want a fast scene that still respects consent and feeling.  
@@ -62,6 +68,7 @@ Activate one, merge two, or run all three as a tri-engine cycle.
 ---
 
 ### VC + PE  →  *Heart + Mind*  
+>
 > Emotional clarity through analysis.  
 **Tone:** Reflective drama, post-conflict reconciliation.  
 **Use when:** characters need to articulate meaning after chaos.
@@ -69,6 +76,7 @@ Activate one, merge two, or run all three as a tri-engine cycle.
 ---
 
 ### SP + PE  →  *Pulse + Mind*  
+>
 > Philosophy through danger.  
 **Tone:** Thoughtful heroics, data-poetic action logs.  
 **Use when:** daring acts trigger introspection.
@@ -76,6 +84,7 @@ Activate one, merge two, or run all three as a tri-engine cycle.
 ---
 
 ## 🌌 Tri-Engine (VC + SP + PE)
+>
 > The full Consent-Drive system: **Heart → Pulse → Mind.**
 
 **Syntax:**  

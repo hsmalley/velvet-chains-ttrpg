@@ -1,5 +1,5 @@
 ---
-title: "The Luminous Oath Network"
+title: "⚙️ The Luminous Oath Network ✨⛓️🔥"
 description: "A federation of ships bound by vow, data, and shared empathy."
 name: "The Luminous Oath Network"
 entryType: faction
@@ -8,15 +8,14 @@ arc: "The Luminous Oath"
 alignment: "Chaotic Benevolent"
 File-Hash: VCSPPE-FAC-v1.0-20251006
 safeword: fiction
+publish: true
 tags:
   - faction
   - luminous-oath
   - voidlight
 ---
 
-# ⚙️ The Luminous Oath Network ✨⛓️🔥  
-
-*"Our light is the promise we keep, not the weapon we wield."*  
+> *"Our light is the promise we keep, not the weapon we wield."*  
 
 ---
 

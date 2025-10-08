@@ -3,6 +3,7 @@ title: "{{Adventure Title}}"
 description: "{{One-line teaser or poetic hook}}"
 name: "{{Adventure Title}}"
 duration: "{{How long this should take}}"
+alias: "{{Adventure Name}}"
 recommendedLevel: "{{String Value of Recommended Play levels}}"
 entryType: adventure
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
@@ -10,6 +11,7 @@ id: "{{slug-id}}"
 arc: "{{Parent Arc Name}}"
 tier: "{{Recommended Level or Tier}}"
 location: "{{Primary Setting}}"
+publish: true
 safeword: fiction
 tags:
   - adventure
@@ -24,7 +26,7 @@ tags:
 
 ## 🌌 𝘖𝘷𝘦𝘳𝘷𝘪𝘦𝘸  
 
-Summarize the drama in three sentences as if written in a captain’s log. 
+Summarize the drama in three sentences as if written in a captain’s log.
 Set tone, emotional stakes, aesthetic,  and key question for the session.  
 Frame it as a legend told around a ship’s hearth.  
 
@@ -37,7 +39,6 @@ Frame it as a legend told around a ship’s hearth.
 | {{Theme 1}} | {{Symbol}} | {{Moral tension}} |
 | {{Theme 2}} | {{Symbol}} | {{Boundary to explore}} |
 | {{Theme 2}} | {{Symbol}} | {{Reflections to mirror the present}} |
-
 
 ---
 
@@ -53,9 +54,7 @@ Frame it as a legend told around a ship’s hearth.
 ## 🔮 𝘚𝘺𝘯𝘰𝘱𝘴𝘪𝘴  
 
 Write as a theatrical trailer. End each paragraph with a sensory cue.
-
 A short narrative overview describing what happens if no one intervenes.  
-
 Then hint at how player choices will alter this timeline.  
 
 ---
@@ -83,6 +82,7 @@ Then hint at how player choices will alter this timeline.
 ## 🎯 𝘖𝘣𝘫𝘦𝘤𝘵𝘪𝘷𝘦𝘴  
 
 List the key goals or moral crossroads the players must navigate.  
+
 1. {{Objective 1}}  
 2. {{Objective 2}}  
 3. {{Objective 3}}  
@@ -99,16 +99,28 @@ List the key goals or moral crossroads the players must navigate.
 
 Each scene is a dance of boundaries and revelation.  
 Brief bullet notes for 3–5 pivotal events.  
-Include sensory detail, safe-word triggers, and suggested DCs or Drama costs.
+Include sensory detail, safe-word triggers, Hope opportunities, and outrageous consequences.
 
-| Scene | Description | Skill / Save | Consent Cue |
-|--------|--------------|--------------|--------------|
-| {{Scene 1}} | {{What happens}} | {{DC / Skill}} | {{Dialogue / Safeword usage}} |
-| {{Scene 2}} | {{What happens}} | {{DC / Skill}} | {{Dialogue / Safeword usage}} |
-| {{Scene 3}} | {{What happens}} | {{DC / Skill}} | {{Dialogue / Safeword usage}} |
-| {{Scene 4}} | {{What happens}} | {{DC / Skill}} | {{Dialogue / Safeword usage}} |
-| {{Scene 5}} | {{What happens}} | {{DC / Skill}} | {{Dialogue / Safeword usage}} |
-| {{Scene 6}} | {{What happens}} | {{DC / Skill}} | {{Dialogue / Safeword usage}} |
+| Scene | Description | Trial Type & Momentum | Advantage Sources | Consent Cue |
+|--------|--------------|-----------------------|-------------------|--------------|
+| {{Scene 1}} | {{What happens}} | {{Duel / Social Trial / Journey • Difficulty tokens}} | {{How hearts earn Hope or Advantage dice}} | {{Dialogue / Safeword usage}} |
+| {{Scene 2}} | {{What happens}} | {{Trial details}} | {{Hope opportunities}} | {{Consent signal}} |
+| {{Scene 3}} | {{What happens}} | {{Trial details}} | {{Hope opportunities}} | {{Consent signal}} |
+| {{Scene 4}} | {{What happens}} | {{Trial details}} | {{Hope opportunities}} | {{Consent signal}} |
+| {{Scene 5}} | {{What happens}} | {{Trial details}} | {{Hope opportunities}} | {{Consent signal}} |
+| {{Scene 6}} | {{What happens}} | {{Trial details}} | {{Hope opportunities}} | {{Consent signal}} |
+
+---
+
+## 🪐 𝘒𝘦𝘺 𝘓𝘰𝘤𝘢𝘵𝘪𝘰𝘯𝘴  
+
+List the spaces that define the geography of this story.
+
+| Name | Type | Description |
+|------|------|-------------|
+| {{Location 1}} | {{Type}} | {{Atmosphere or symbolism}} |
+| {{Location 2}} | {{Type}} | {{Atmosphere or symbolism}} |
+| {{Location 3}} | {{Type}} | {{Atmosphere or symbolism}} |
 
 ---
 
@@ -137,6 +149,97 @@ Detail one key negotiation per act—what boundaries, what offers, what risks.
 
 Detail color, temperature, scent, and emotional cadence of play.  
 Use it to guide narration tone and pacing.  
+
+---
+
+## 📈 Mechanical Guidelines *optional*
+
+Outline how the Tri-Engine shifts interact with Daggerheart’s Hope/Fear engine.  
+
+- **Hope Hooks:** {{Moments that hand out Advantage dice or Hope tokens when hearts are honored}}  
+- **Danger Escalation:** {{When to add Danger dice, stress, or scars as pulses flare or minds fracture}}  
+- **Consent Tokens:** {{Shared resources the crew can spend to cancel Fear results, rewrite mixed outcomes, or bargain with villains}}  
+- **Scene Momentum:** {{How many Difficulty tokens the Guide places per trial and what removes them}}
+- **Strings Economy (TSL):** {{When to award or burn Strings to fuel Hope, sway NPCs, or escalate dark-romance stakes}}
+
+---
+
+## 🎲 Quick Tables *optional*
+
+{{4-6 quick tables for this adventure}}
+
+---
+
+## 🧾 Player Handouts *optional*
+
+{{ Player handouts }}
+
+---
+
+## 🌱 Modular Side Scenes *optional*
+
+{{table of side quests to earn extra drama points}}
+
+---
+
+## 🛡️ GM Guidance & Safety *optional*
+
+{{GM Guidance & Safety}}
+
+---
+
+## 🔮 Continuing Threads
+
+List 2–3 unresolved mysteries or emotional debts that echo into future sessions.  
+Tie each thread to a faction, relationship, or consent ritual so GMs know what to spotlight next.  
+
+---
+
+## ⛓️ Consent Protocols
+
+Explicitly detail any unique consent rituals, safe words, or negotiation mechanics central to this adventure.  
+How does consent drive the plot or resolve conflict?
+
+---
+
+## 💋 Romantic Entanglements
+
+A section to outline potential romantic subplots, character bonds, or emotional stakes that align with the dark romance theme.
+
+---
+
+## 🏴‍☠️ Corsair Challenges
+
+Specific space-pirate elements like heist mechanics, ship combat nuances, or bounty hunting rules.
+
+---
+
+## 🎴 Strings & Entanglement Web
+
+Sketch the relationship knots inspired by Thirsty Sword Lesbians.  
+
+- **Strings To Earn:** {{Key NPCs or crews who can claim Strings on the heroes and why}}  
+- **Player Strings:** {{Opportunities for PCs to gain leverage or burn Strings for Hope}}  
+- **Entanglement Beats:** {{Moments when VC/SP/PE modes intersect with Strings, forcing dramatic choices}}  
+
+Use this web to decide when mixed results add Danger, offer Strings, or trigger consensual complications.
+
+---
+
+## ⚔️ Tactical Echo (Daggerheart Mode Switch)
+
+Define how each engine bends Hope and Fear.  
+
+- **VC:** {{Adds Hope dice when compassion is shown; mixed results become hard-won intimacy instead of setbacks}}  
+- **SP:** {{Turns Hope into Advantage for daring stunts; hesitation spawns extra Danger dice}}  
+- **PE:** {{Lets minds bank Hope for future scenes, transmute Fear into insight, or redraw consequences through reflection}}  
+Clarify how transitions cost tokens, trigger rituals, or shift Momentum between crews.
+
+---
+
+## 🔮 Mythpunk Echoes
+
+How does ancient lore, prophecy, or myth influence the adventure's narrative or mechanics?
 
 ---
 

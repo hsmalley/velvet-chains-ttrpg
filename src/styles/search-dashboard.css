@@ -12,7 +12,7 @@
   padding: 2rem;
   border-radius: 0.5rem;
   border: 1px solid var(--border);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Space Grotesk', 'IBM Plex Sans', 'Inter', 'Segoe UI', sans-serif;
 }
 
 .search-dashboard input[type="text"] {
@@ -46,6 +46,7 @@
   border-radius: 4px;
   font-size: 0.85rem;
   color: var(--accent);
+  font-family: 'Fira Code', 'IBM Plex Mono', 'Menlo', 'Consolas', monospace;
 }
 
 .search-dashboard ul {

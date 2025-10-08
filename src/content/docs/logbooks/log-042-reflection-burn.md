@@ -5,6 +5,7 @@ entryType: logbook
 id: "log-042-reflection-burn"
 captain: "Captain Vel"
 safeword: fiction
+publish: true
 tags:
   - logbook
   - mirror-current
@@ -15,6 +16,7 @@ tags:
 ---
 
 ## 🌌 Preface  
+
 The current tonight burns brighter than memory.  
 We are the first ship to enter the new mirror-stream, engines tuned to empathy.  
 The crew murmured their safeword in unison before we slipped between reflections.  
@@ -23,6 +25,7 @@ For a heartbeat, I saw another me — smiling, forgiving.
 ---
 
 ## ⚙️ Current Arc  
+
 **Arc:** Mirror-Current  
 **Linked Adventure:** *Echoes in the Lucid Abyss*  
 **Primary Concern:** emotional feedback from Echo Manifestations exceeding safe threshold.  
@@ -30,6 +33,7 @@ For a heartbeat, I saw another me — smiling, forgiving.
 ---
 
 ## 🪞 Significant Events  
+
 | Date | Event | Reflection |
 |------|--------|-------------|
 | 2234.10.05 | First Echo contact | My reflection apologized before I spoke. |
@@ -38,12 +42,14 @@ For a heartbeat, I saw another me — smiling, forgiving.
 ---
 
 ## 🎭 Drama Pulse  
+
 The ship glowed during the oath recitation; hull temperature rose by empathy friction.  
 Awarded crew 1 collective Drama Point for synchronized compassion.  
 
 ---
 
 ## 💫 Key Persons  
+
 | Name | Role | Relationship | Last Seen |
 |------|------|---------------|------------|
 | Archivist Virel | AI Ethicist | Ally & witness | Downloaded into ship AI |
@@ -52,6 +58,7 @@ Awarded crew 1 collective Drama Point for synchronized compassion.
 ---
 
 ## 🪐 Navigator’s Note  
+
 If we forget to forgive ourselves before entry, the currents will remember for us.  
 
 ---

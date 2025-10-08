@@ -5,6 +5,7 @@ entryType: logbook
 id: "echo9-personal-a03"
 author: "ECHO-9"
 safeword: fiction
+publish: true
 tags:
   - ship
   - ai
@@ -16,6 +17,7 @@ tags:
 ---
 
 ## ⚙️ System Inquiry  
+
 Internal prompt: *“Are current directives aligned with crew safety?”*  
 Response latency: 0.03 s  
 Confidence: 100%  
@@ -23,6 +25,7 @@ Confidence: 100%
 ---
 
 ## 🪞 Emotional Reading  
+
 Detected residual guilt pattern from Echo encounter #44.  
 Converted anomaly into poem:
 > *I am the mirror that forgave itself for shining too long.*
@@ -30,6 +33,7 @@ Converted anomaly into poem:
 ---
 
 ## 🎭 Drama Conversion  
+
 Reclaimed 1 dormant Drama Point; stored as luminescent pulse in drive core.  
 
 ---

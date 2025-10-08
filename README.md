@@ -1,5 +1,7 @@
 # Velvet Chains & Voidlight Codex
 
+> What happens with you take the **MOST SPECTACULAR BDSM SPACE-PIRATE ROMANCE ENGINE** ever forged in the fires of consensual creativity — blend it **Daggerheart** and **Thirsty Sword Lesbians?** You get this fuck'n thing!
+
 Welcome to the cartographic archive for the **Velvet Chains & Voidlight** campaign setting—a neon‑wreathed, consent‑forward space‑pirate melodrama where every soulmark has a story and the safe word is **fiction**. This repository powers the public documentation site built with Astro Starlight, collecting characters, companions, adventures, factions, places, and maps for the table.
 
 ## ✨ Core Themes

@@ -1,11 +1,12 @@
 ---
 title: "🏴‍☠️ Codex Archive — *The Luminous Oath* ✨⛓️🔥  "
 description: "Meta-index and cross-linking ledger for the Oath’s complete narrative constellation."
-entryType: logbook
+entryType: codex
 id: "codex-luminous-oath"
 arc: "The Luminous Oath"
 captain: "Voidlight Systems Archive"
 safeword: fiction
+publish: true
 tags:
   - logbook
   - meta
@@ -47,6 +48,7 @@ All entries bear the safeword *fiction*, confirming their consent to be remember
 ## 🪞 𝘕𝘢𝘳𝘳𝘢𝘵𝘪𝘷𝘦 𝘊𝘰𝘯𝘴𝘵𝘦𝘭𝘭𝘢𝘵𝘪𝘰𝘯  
 
 The archive visualizes its stories as a holographic sigil:  
+
 - **Center:** *Resonant Veil* — the pulsing heart.  
 - **First Orbit:** *Aurelia Veil* & *Luminous Oath Network*.  
 - **Second Orbit:** *Ritual*, *Artifact*, *Adventure*.  
@@ -68,6 +70,7 @@ Each new tale that cites this Codex adds a note to the ongoing song “Harmonics
 ## 🪐 𝘕𝘢𝘷𝘪𝘨𝘢𝘵𝘰𝘳’𝘴 𝘕𝘰𝘵𝘦  
 
 Archivists are encouraged to read the Oath entries in harmonic order:  
+
 1. *Aurelia Veil* → 2. *Resonant Veil* → 3. *Luminous Oath Network* → 4. *Ritual* → 5. *Adventure* → 6. *Artifact* → 7. *Map* → 8. *GM Codex* → 9. *Arc.*  
 Optional resonance playback can be triggered by reading aloud the safeword thrice.
 

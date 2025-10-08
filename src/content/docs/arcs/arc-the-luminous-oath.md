@@ -1,17 +1,17 @@
 ---
-title: "The Luminous Oath"
+title: "🪐 The Luminous Oath ✨⛓️🔥"
 description: "An arc about trust as technology and empathy as propulsion."
 entryType: arc
 id: "the-luminous-oath"
 arc: "The Luminous Oath"
 safeword: fiction
+publish: true
 tags:
   - arc
   - luminous-oath
----
+---  
 
-# 🪐 The Luminous Oath ✨⛓️🔥  
-*"To navigate the void, first harmonize the heart."*  
+> *"To navigate the void, first harmonize the heart."*  
 
 ---
 

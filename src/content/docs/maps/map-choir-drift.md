@@ -1,5 +1,5 @@
 ---
-title: "The Choir Drift"
+title: "🗺️ The Choir Drift ✨⛓️🔥"
 description: "A derelict constellation of oath-bound ships frozen mid-song."
 name: "The Choir Drift"
 entryType: map
@@ -7,12 +7,11 @@ id: "choir-drift"
 arc: "The Luminous Oath"
 mapScale: "20 km across; visible from the Spindle Belt rim"
 safeword: fiction
+publish: true
 tags:
   - map
   - luminous-oath
 ---
-
-# 🗺️ The Choir Drift ✨⛓️🔥  
 
 > *“Even silence leaves a chart.”*
 
@@ -36,6 +35,7 @@ A marginal note, scrawled in silver: *drawn under informed enthusiasm and one br
 ---
 
 ## 🌌 Key Landmarks  
+
 | Name | Type | Note |
 |------|------|------|
 | The Cathedral Cluster | Station-wrecks fused into a star-shaped formation | Emits light that forms moving sigils across nearby asteroids |

@@ -38,6 +38,7 @@ When misaligned, the resulting *Dissonant Harmonic* manifests as corruption, gui
 ## 💎 𝘛𝘩𝘪𝘳𝘥 𝘗𝘳𝘦𝘮𝘪𝘴𝘦 — 𝘋𝘳𝘢𝘮𝘢 𝘢𝘴 𝘛𝘩𝘦𝘳𝘮𝘰𝘥𝘺𝘯𝘢𝘮𝘪𝘤 𝘔𝘰𝘥𝘦𝘭  
 
 Drama Points are emotional calories:  
+
 - Earned through theatrical consent (expressed creativity, negotiation, humor).  
 - Spent through risk, revelation, or artful conflict.  
 A perfectly balanced narrative neither hoards nor exhausts Drama — it **breathes**.  

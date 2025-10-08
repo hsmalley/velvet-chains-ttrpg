@@ -5,6 +5,7 @@ entryType: gm-guide
 id: "gm-rune-chart"
 author: "UNKNOWN"
 safeword: fiction
+publish: true
 tags:
   - document
   - runes
@@ -46,6 +47,7 @@ Each rune is designed to feel alien but still “learnable.”
 |𐑾|**Z** / Zenith|Climax, summit, ecstasy|
 
 ---
+
 ### **🔮 How to Use**
 
 - These **invented runes** can be wrapped around your sigils to look like occult text.

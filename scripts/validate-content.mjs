@@ -55,6 +55,12 @@ function validateAttributes(entryType, frontmatter, errors) {
     case 'document':
       // No specific attributes for 'document' type yet.
       break;
+    case 'appendix':
+      // No specific attributes for 'document' type yet.
+      break;
+    case 'codex':
+      // No specific attributes for 'document' type yet.
+      break;
     case 'character': {
       if (!isString(frontmatter.name)) errors.push('name is required for characters');
       if (!isString(frontmatter.class)) errors.push('class is required for characters');

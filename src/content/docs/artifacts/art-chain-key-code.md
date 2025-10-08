@@ -1,5 +1,5 @@
 ---
-title: "The Chain-Key Codex"
+title: "💎 The Chain-Key Codex ✨⛓️🔥"
 description: "A crystalline data tome that binds promises to memory."
 entryType: artifact
 id: "chain-key-codex"
@@ -7,14 +7,13 @@ rarity: "Unique"
 level: 12
 arc: "The Luminous Oath"
 safeword: fiction
+publish: true
 tags:
   - artifact
   - luminous-oath
----
+---  
 
-# 💎 The Chain-Key Codex ✨⛓️🔥  
-
-*"Every vow must have a door, and every door its key."*  
+> *"Every vow must have a door, and every door its key."*  
 
 ---
 

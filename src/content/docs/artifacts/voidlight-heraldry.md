@@ -1,11 +1,12 @@
 ---
-title: "Voidlight Heraldry Sheet"
+title: "⚔️ Voidlight Heraldry Sheet ✨⛓️🔥"
 description: "Emblems, glyphs, and chromatic codes of the Ebonverse fleets and covenants."
 entryType: artifact
 id: "voidlight-heraldry"
 arc: "The Luminous Oath"
 rarity: "Common Reference Codex"
 safeword: fiction
+publish: true
 tags:
   - heraldry
   - voidlight
@@ -13,9 +14,7 @@ tags:
   - luminous-oath
 ---
 
-# ⚔️ Voidlight Heraldry Sheet ✨⛓️🔥  
-
-*"Every emblem is a boundary turned beautiful."*
+> *"Every emblem is a boundary turned beautiful."*
 
 ---
 

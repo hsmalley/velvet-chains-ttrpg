@@ -1,0 +1,35 @@
+# Default state for all rules
+default: true
+
+# Rule configuration
+config:
+  # MD001: Heading levels should only increment by one level at a time
+  heading-increment: true
+  # MD013: Line length (disabled for cinematic prose layout)
+  line-length: false
+  # MD007: Unordered list indentation
+  ul-indent:
+    indent: 2
+  # MD033: No inline HTML
+  no-inline-html:
+    allowed_elements: []
+  # MD041: First line in file should be a top level heading
+  first-line-h1: false
+  # MD046: Code block style (prefer fenced)
+  code-block-style:
+    style: fenced
+  # MD051: Link fragments should exist
+  link-fragments: true
+
+# Globs to lint
+globs:
+  - "**/*.md"
+  - "**/*.mdx"
+
+# Globs to ignore
+ignores:
+  - "node_modules"
+  - "dist"
+  - "out"
+  - "public"
+  - "obsidian-theme"

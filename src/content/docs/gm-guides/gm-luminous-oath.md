@@ -1,19 +1,18 @@
 ---
-title: "The Luminous Oath — GM Codex"
+title: "⚙️ The Luminous Oath — GM Codex ✨⛓️🔥"
 description: "Guidance for running empathy-powered adventures among the oath-bound."
 entryType: gm-guide
 id: "gm-luminous-oath"
 arc: "The Luminous Oath"
 safeword: fiction
+publish: true
 tags:
   - gm
   - guide
   - luminous-oath
 ---
 
-# ⚙️ The Luminous Oath — GM Codex ✨⛓️🔥  
-
-*"A captain’s compass for empathy and drama."*  
+> *"A captain’s compass for empathy and drama."*  
 
 ---
 
@@ -28,11 +27,13 @@ The GM serves as **choral conductor** — harmonizing character arcs into one ev
 ## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘔𝘢𝘯𝘢𝘨𝘦𝘮𝘦𝘯𝘵  
 
 Award Drama Points for:  
+
 - Players voicing boundaries in-character.  
 - Transforming hostility into humor.  
 - Acts of forgiveness that change scene outcomes.  
 
 Spend Drama to:  
+
 - Add sensory splendor (light flares, resonance ripples).  
 - Invoke ship or faction powers like *Echo Drive Surge*.  
 - Trigger “flashback negotiations” to reframe consent before a risky act.  
@@ -59,6 +60,7 @@ Use the safeword “fiction” to pause and renegotiate; treat it as worldbuildi
 ## 🔮 𝘕𝘢𝘳𝘳𝘢𝘵𝘪𝘷𝘦 𝘗𝘢𝘤𝘪𝘯𝘨  
 
 The arc follows the rhythm of a hymn:  
+
 1. **Verse:** Discovery of trust.  
 2. **Refrain:** Doubt or betrayal.  
 3. **Coda:** Renewal of consent and identity.  
@@ -69,6 +71,7 @@ Keep emotional tempo by alternating dialogue scenes with vivid sensory travel th
 ## ⚔️ 𝘊𝘰𝘯𝘧𝘭𝘪𝘤𝘵 𝘔𝘰𝘥𝘦𝘭𝘴  
 
 Favor non-violent duels:  
+
 - **Mirror Dances:** choreographed empathy tests.  
 - **Debate Orbits:** verbal sparring in micro-gravity.  
 - **Echo Games:** opponents swap memories until truth surfaces.  

@@ -1,5 +1,5 @@
 ---
-title: "The Fractured Choir"
+title: "⚔️ The Fractured Choir ✨⛓️🔥"
 description: "When harmony becomes weapon, and silence must heal it."
 name: "The Fractured Choir"
 duration: "3–5 sessions"
@@ -11,12 +11,12 @@ tier: "Veteran"
 location: "The Spindle Belt / Resonant Veil"
 File-Hash: VCSPPE-ADV-v1.0-20251006
 safeword: fiction
+publish: true
 tags:
   - adventure
   - luminous-oath
 ---
 
-# ⚔️ The Fractured Choir ✨⛓️🔥  
 
 > *“Every song can break when sung without consent.”*  
 

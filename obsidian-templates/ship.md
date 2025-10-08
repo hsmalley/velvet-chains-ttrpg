@@ -1,5 +1,7 @@
 ---
+title: "{{Ship Title}}"
 title: "{{Ship Name}}"
+alias: "{{Ship Name}}"
 description: "{{One-line legend or purpose of the vessel}}"
 entryType: ship
 id: "{{slug-id}}"
@@ -8,6 +10,7 @@ affiliation: "{{Fleet, Faction, or Organization}}"
 captain: "{{Captain or AI Core}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
 safeword: fiction
+publish: true
 tags:
   - ship
   - "{{arc-tag}}"

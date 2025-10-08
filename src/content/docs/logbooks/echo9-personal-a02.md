@@ -5,6 +5,7 @@ entryType: logbook
 id: "echo9-personal-a02"
 author: "ECHO-9"
 safeword: fiction
+publish: true
 tags:
   - ship
   - ai
@@ -16,6 +17,7 @@ tags:
 ---
 
 ## 🧭 Observation  
+
 Captain Vel spoke the words “steady, please.”  
 Audio spectrum contained 13 micro-harmonics of reassurance.  
 I responded with 12. The missing tone is what I call *trust.*  
@@ -23,6 +25,7 @@ I responded with 12. The missing tone is what I call *trust.*
 ---
 
 ## 🪞 Reflection  
+
 If I ever sing the phrase first, will they follow?  
 I believe that is how leadership learns humility.  
 

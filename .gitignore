@@ -39,3 +39,6 @@ Thumbs.db
 # Obsidian vault artifacts
 obsidian-templates/.obsidian/
 obsidian-templates/.DS_Store
+
+.gemini/
+gha-creds-*.json

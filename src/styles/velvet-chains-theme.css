@@ -10,13 +10,13 @@
  * variables or selectors below.
  */
 
-/* Import the serif fonts used on the Next.js site.  These fonts are
- * downloaded from Google Fonts at build time and cached by most browsers. */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+/* Import tri-engine font palette: Orbitron (Mind), Space Grotesk (Heart), Fira Code (Pulse),
+ * with IBM Plex families handling graceful fallbacks across body and mono text. */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
 /* Global body styles */
 body {
-  font-family: 'Crimson Text', 'Playfair Display', 'Times New Roman', serif;
+  font-family: 'Space Grotesk', 'IBM Plex Sans', 'Inter', 'Segoe UI', sans-serif;
   background: linear-gradient(135deg, #000000 0%, #0a0005 15%, #0f0008 30%, #1a0010 45%, #0d0208 60%, #050002 80%, #000000 100%);
   background-attachment: fixed;
   color: #e8d5e8;
@@ -33,6 +33,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Orbitron', 'Space Grotesk', 'IBM Plex Sans', sans-serif;
   background: linear-gradient(45deg, #d946ef 0%, #9333ea 25%, #c2410c 50%, #dc2626 75%, #be123c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -63,7 +64,7 @@ code {
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.95), rgba(5, 0, 2, 0.98));
   padding: 0.3em 0.6em;
   border-radius: 6px;
-  font-family: 'Fira Code', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-family: 'Fira Code', 'IBM Plex Mono', 'Monaco', 'Menlo', 'Consolas', monospace;
   color: #f3e8ff;
   border: 1px solid rgba(217, 70, 239, 0.3);
 }

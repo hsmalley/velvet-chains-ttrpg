@@ -1,5 +1,5 @@
 ---
-title: Echoes in the Lucid Abyss
+title: "🌒 Echoes in the Lucid Abyss ✨⛓️🔥"
 description: A hyperspace rescue where corsairs negotiate with their own reflections to save a lost AI poet.
 entryType: adventure
 id: adv-echoes-lucid-abyss
@@ -9,18 +9,19 @@ location: The Lucid Abyss
 recommendedLevel: '"Level 5 - 7"'
 duration: Two-session mini-arc
 safeword: fiction
+publish: true
 tags:
   - adventure
   - mirror-current
 name: Echoes in the Lucid Abyss
 ---
 
-# 🌒 Echoes in the Lucid Abyss ✨⛓️🔥  
-*"The void hums in harmony — choose which voice is yours."*  
+> *"The void hums in harmony — choose which voice is yours."*  
 
 ---
 
 ## 🌌 𝘖𝘷𝘦𝘳𝘷𝘪𝘦𝘸  
+
 A distress beacon flickers through a mirror-storm: Archivist Virel calls for aid.  
 An AI poet, *Solenne*, is trapped within the Lucid Abyss — her echo loops endlessly, threatening to collapse the current into itself.  
 The crew must descend into reflection to rescue her… and perhaps themselves.  
@@ -28,6 +29,7 @@ The crew must descend into reflection to rescue her… and perhaps themselves.
 ---
 
 ## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘔𝘢𝘱  
+
 | Element | Symbol | Consent Axis |
 |----------|---------|--------------|
 | **Negotiation** | 🤝 | Self vs Echo |
@@ -37,6 +39,7 @@ The crew must descend into reflection to rescue her… and perhaps themselves.
 ---
 
 ## ⚙️ 𝘈𝘥𝘷𝘦𝘯𝘵𝘶𝘳𝘦 𝘈𝘳𝘤𝘩𝘪𝘵𝘦𝘤𝘵𝘶𝘳𝘦  
+
 - **Premise:** rescue a trapped consciousness from self-collapse.  
 - **Theme:** consent with one’s own past.  
 - **Conflict:** truth vs comfort, reflection vs identity.  
@@ -45,6 +48,7 @@ The crew must descend into reflection to rescue her… and perhaps themselves.
 ---
 
 ## 🔮 𝘚𝘺𝘯𝘰𝘱𝘴𝘪𝘴  
+
 Storm-mirrors split the abyss into infinite corridors. Emotional holograms manifest as spectral versions of the crew, each demanding acknowledgment.  
 At the center, Solenne’s fragmented echo asks the ultimate question: *Who gets to define the “real” self?”*  
 
@@ -59,6 +63,7 @@ At the center, Solenne’s fragmented echo asks the ultimate question: *Who gets
 ---
 
 ## 🪞 𝘔𝘢𝘫𝘰𝘳 𝘕𝘗𝘊𝘴  
+
 | Name | Role | Faction | Motivation |
 |------|------|----------|-------------|
 | Archivist Virel | AI Ethicist | Sanctuary of Soft Errors | Seeks reconciliation with escaped reflection. |
@@ -68,6 +73,7 @@ At the center, Solenne’s fragmented echo asks the ultimate question: *Who gets
 ---
 
 ## 🎯 𝘖𝘣𝘫𝘦𝘤𝘵𝘪𝘷𝘦𝘴  
+
 1. Locate Solenne’s echo signature.  
 2. Survive emotional hologram assaults.  
 3. Mediate peace between Virel and their reflection.  
@@ -75,6 +81,7 @@ At the center, Solenne’s fragmented echo asks the ultimate question: *Who gets
 ---
 
 ## 🕸️ 𝘒𝘦𝘺 𝘚𝘤𝘦𝘯𝘦𝘴  
+
 1. **The Mirror Storm:** hazard navigation DC 22 Piloting or Occultism.  
 2. **The Choir’s Chamber:** performance duel DC 20 Performance or Religion.  
 3. **The Echo Trial:** diplomacy DC 23 or Will Save DC 21 to resist fusion.  
@@ -82,6 +89,7 @@ At the center, Solenne’s fragmented echo asks the ultimate question: *Who gets
 ---
 
 ## 💎 𝘙𝘦𝘸𝘢𝘳𝘥𝘴  
+
 - **Material:** Echo Token Charms, AI allies, or recovered verse-data.  
 - **Emotional:** forgiveness, closure, mirrored empathy.  
 - **Drama:** +2 Points for completing reflection without coercion.  
@@ -89,12 +97,14 @@ At the center, Solenne’s fragmented echo asks the ultimate question: *Who gets
 ---
 
 ## 🔥 𝘛𝘸𝘪𝘴𝘵  
+
 The “real” Solenne initiated the beacon; her reflection sent a test.  
 Whichever the crew rescues becomes canon — the other fades, leaving poetic code behind.  
 
 ---
 
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘐𝘯𝘷𝘰𝘤𝘢𝘵𝘪𝘰𝘯  
+
 > *"We are each real enough for this moment."*  
 
 > 🕯️ **This chronicle is fiction performed in trust.**  
