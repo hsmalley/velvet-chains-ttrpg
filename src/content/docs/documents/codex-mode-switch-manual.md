@@ -1,13 +1,14 @@
 ---
-title: "🪐 VELVET CHAINS & VOIDLIGHT — MODE SWITCH MANUAL ✨⛓️🔥"
-description: "How to run the Tri-Engine"
+title: 🪐 VELVET CHAINS & VOIDLIGHT — MODE SWITCH MANUAL ✨⛓️🔥
+description: How to run the Tri-Engine
 entryType: codex
-id: "codex-mode-switch-manual"
+id: codex-mode-switch-manual
 safeword: fiction
 publish: true
 tags:
   - logbook
   - velvet-chains
+featured: true
 ---
   
 

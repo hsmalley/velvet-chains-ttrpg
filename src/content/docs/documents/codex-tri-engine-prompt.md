@@ -1,8 +1,8 @@
 ---
-title: "🦾 Velvet Chains & Voidlight — Tri-Engine Prompt Codex 🚀"
-description: "This codex is for getting the GPT boot straped into Velvet Chains & Voidlight"
+title: 🦾 Velvet Chains & Voidlight — Tri-Engine Prompt Codex 🚀
+description: This codex is for getting the GPT boot straped into Velvet Chains & Voidlight
 entryType: codex
-id: "codex-tri-engine-prompt"
+id: codex-tri-engine-prompt
 safeword: fiction
 readonly: true
 publish: true
@@ -11,6 +11,7 @@ tags:
   - velvet-chains
   - tri-engine
   - codex
+featured: true
 ---
 
 ```
