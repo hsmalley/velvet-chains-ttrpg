@@ -12,6 +12,7 @@ name: 'Aurelia Veil'
 publish: true
 safeword: fiction
 system: 'Velvet Chains - Daggerheart x Thirsty Sword Lesbians'
+affiliation: 'Sanguine Armada'
 tags:
   - npc
   - sanguine-armada

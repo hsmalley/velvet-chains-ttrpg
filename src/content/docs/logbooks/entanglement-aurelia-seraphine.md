@@ -5,7 +5,7 @@ characterEmojis: '🪞⚔️🌹🔥'
 description:
   'A shared subsystem for when Aurelia Veil and Seraphine Dusk collide in duels of vows, Strings,
   and forbidden longing.'
-entryType: entanglement
+entryType: logbook
 File-Hash: 'VCSPPE-ENTG-v1.0-20251008'
 id: 'entanglement-aurelia-seraphine'
 name: 'Shared Entanglement Playbook'

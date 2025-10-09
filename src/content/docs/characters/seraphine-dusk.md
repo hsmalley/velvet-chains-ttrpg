@@ -13,6 +13,7 @@ name: 'Seraphine Dusk'
 publish: true
 safeword: fiction
 system: 'Velvet Chains - Daggerheart x Thirsty Sword Lesbians'
+affiliation: 'Luminous Oath Network'
 tags:
   - npc
   - sanguine-armada

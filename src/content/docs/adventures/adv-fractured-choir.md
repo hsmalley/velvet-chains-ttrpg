@@ -15,11 +15,12 @@ publish: true
 tags:
   - adventure
   - luminous-oath
->
+---
 
 > _“Before action, all consent. Before consent, all names spoken.”_
 >
-> **Consent Codex Invocation:** Each participant declares their safeword as “fiction” before play begins.
+> **Consent Codex Invocation:** Each participant declares their safeword as “fiction” before play
+> begins.
 >
 > ✨⛓️ This adventure honors the Tri-Engine of Heart, Pulse, and Mind.
 
