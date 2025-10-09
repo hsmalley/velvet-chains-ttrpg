@@ -1,0 +1,22 @@
+{
+  "name": "velvet-chains-voidlight-theme",
+  "displayName": "Velvet Chains & Voidlight",
+  "description": "Neon, consent‑forward dark theme — magenta/violet Voidlight palette.",
+  "version": "0.0.1",
+  "publisher": "voidlight-local",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Velvet Chains & Voidlight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/velvet-chains-voidlight-color-theme.json"
+      }
+    ]
+  }
+}

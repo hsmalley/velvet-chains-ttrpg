@@ -15,7 +15,13 @@ publish: true
 tags:
   - adventure
   - luminous-oath
----
+>
+
+> _“Before action, all consent. Before consent, all names spoken.”_
+>
+> **Consent Codex Invocation:** Each participant declares their safeword as “fiction” before play begins.
+>
+> ✨⛓️ This adventure honors the Tri-Engine of Heart, Pulse, and Mind.
 
 > _“Every song can break when sung without consent.”_
 
@@ -25,17 +31,19 @@ tags:
 
 The _Luminous Oath Network_ has begun broadcasting corrupted frequencies that enthrall crews into
 perfect obedience. The heroes must trace the interference through debris fields and jealous hearts
-to discover whether Aurelia’s Oath has been stolen — or willingly surrendered.
+to discover whether Aurelia’s Oath has been stolen — or willingly surrendered. The corrupted
+frequencies shimmer in three hues — crimson for Heart, violet for Pulse, and silver for Mind — each
+distorting a different aspect of the Choir’s empathy.
 
 ---
 
 ## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘔𝘢𝘱
 
-| Element               | Symbol | Consent Axis                       |
-| --------------------- | ------ | ---------------------------------- |
-| Faith vs. Freedom     | 🔮     | When does belief override choice?  |
-| Silence vs. Obedience | 🪞     | Is peace still sacred if imposed?  |
-| Love vs. Loyalty      | 💕     | Can devotion survive disagreement? |
+| Element               | Symbol | Consent Axis (Tri-Engine Resonance) |
+| --------------------- | ------ | ----------------------------------- |
+| Faith vs. Freedom     | 🔮     | When does belief override choice?   |
+| Silence vs. Obedience | 🪞     | Is peace still sacred if imposed?   |
+| Love vs. Loyalty      | 💕     | Can devotion survive disagreement?  |
 
 ---
 
@@ -71,6 +79,8 @@ of lost memories, revealing a saboteur who believed obedience was the highest fo
 - **Material:** Access to Echo-tech blueprints.
 - **Emotional:** Reconciliation between captains.
 - **Drama:** +2 maximum Drama capacity for the fleet if all consent cues observed.
+- **Tri-Engine Effect:** Each act of harmony can convert 1 Echo Token into a Hope die or remove one
+  Fear token from the GM’s pool.
 
 ---
 
@@ -82,4 +92,6 @@ The “saboteur” is a fragment of Aurelia herself — the emotion she discarde
 
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
 
+> ✨⛓️ The Choir now sings in three harmonies — Heart, Pulse, and Mind — united through consent.
+>
 > _“Even broken voices can form a new harmony, if they dare to listen.”_

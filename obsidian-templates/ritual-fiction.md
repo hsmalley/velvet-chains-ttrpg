@@ -1,23 +1,35 @@
 ---
 alias: '{{Document Name}}'
 arc: '{{Associated Arc Name}}'
-description: '{{One-line summary, vow, note, or purpose}}'
+description: '{{One-line summary, note, vow, or purpose}}'
 entryType: document
 File-Hash: 'VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}'
 id: '{{slug-id}}'
 name: '{{Document Name}}'
 publish: true
 safeword: fiction
-system: Velvet Chains Codex (open-flavor)
+system: 'Velvet Chains Codex (open-flavor)'
 tags:
   - document
   - '{{arc-tag}}'
 title: '{{📄 Document Title (add flair if desired)}}'
+Agent-Mode: 'OVER_THE_TOP'
+Style: 'Bombastic'
 ---
 
-> _"{{Evocative summary, vow, reflection, note, or key impression}}"_
+> _"{{Evocative summary, vow, reflection, or key impression}}"_
 
-{{Document content — details, rules, lore, scars, vows, revelations, or notes}}
+{{Document content — details, notes, scars, vows, revelations, or reflections}}
+
+---
+
+## 🪐🔥 AGENT PROCLAMATION
+
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
+
+---
 
 ## 🎆🔥 Bombastic Mode (Optional)
 
@@ -35,5 +47,5 @@ This can be written as bardic exaggeration, an in-world proclamation, or a playe
 
 ## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
 
-> _“{{Closing line: final thought, reflection, benediction, or curse}}”_ ✨⛓️ Optionally, add ritual
-> flourish, vow, or dramatic closure.
+> _“{{Closing line: final thought, reflection, or vow}}”_ ✨⛓️ Optional: Add ritual flourish,
+> benediction, or curse.

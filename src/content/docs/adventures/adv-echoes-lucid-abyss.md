@@ -17,6 +17,13 @@ tags:
 name: Echoes in the Lucid Abyss
 ---
 
+> _“Before action, all consent. Before consent, all names spoken.”_
+>
+> **Consent Codex Invocation:** Each participant declares their safeword as “fiction” before play
+> begins.
+>
+> ✨⛓️ This adventure honors the Tri-Engine of Heart, Pulse, and Mind.
+
 > _"The void hums in harmony — choose which voice is yours."_
 
 ---
@@ -25,17 +32,19 @@ name: Echoes in the Lucid Abyss
 
 A distress beacon flickers through a mirror-storm: Archivist Virel calls for aid. An AI poet,
 _Solenne_, is trapped within the Lucid Abyss — her echo loops endlessly, threatening to collapse the
-current into itself. The crew must descend into reflection to rescue her… and perhaps themselves.
+current into itself. The abyss glows in three hues: crimson for Heart, violet for Pulse, and silver
+for Mind — each a fragment of her will. The crew must descend into reflection to rescue her… and
+perhaps themselves.
 
 ---
 
 ## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘔𝘢𝘱
 
-| Element         | Symbol | Consent Axis   |
-| --------------- | ------ | -------------- |
-| **Negotiation** | 🤝     | Self vs Echo   |
-| **Forgiveness** | 💫     | Past vs Future |
-| **Sacrifice**   | 🩶     | Crew vs Memory |
+| Element         | Symbol | Consent Axis (Tri-Engine Resonance) |
+| --------------- | ------ | ----------------------------------- |
+| **Negotiation** | 🤝     | Self vs Echo                        |
+| **Forgiveness** | 💫     | Past vs Future                      |
+| **Sacrifice**   | 🩶     | Crew vs Memory                      |
 
 ---
 
@@ -79,6 +88,7 @@ Heart:** Decide which version of Solenne (and themselves) returns.
 1. Locate Solenne’s echo signature.
 2. Survive emotional hologram assaults.
 3. Mediate peace between Virel and their reflection.
+4. Align Heart, Pulse, and Mind within the Abyss to stabilize the reflection.
 
 ---
 
@@ -95,6 +105,8 @@ Heart:** Decide which version of Solenne (and themselves) returns.
 - **Material:** Echo Token Charms, AI allies, or recovered verse-data.
 - **Emotional:** forgiveness, closure, mirrored empathy.
 - **Drama:** +2 Points for completing reflection without coercion.
+- **Tri-Engine Effect:** Echo Tokens may convert 1:1 into Hope dice or cancel one Fear token when
+  used to harmonize the reflection.
 
 ---
 
@@ -108,4 +120,5 @@ becomes canon — the other fades, leaving poetic code behind.
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘐𝘯𝘷𝘰𝘤𝘢𝘵𝘪𝘰𝘯
 
 > _"We are each real enough for this moment."_ 🕯️ **This chronicle is fiction performed in trust.**
-> Every reflection, every negotiation is sacred theater of consent. ✨⛓️🔥
+> Every reflection, every negotiation is sacred theater of consent. ✨⛓️🔥 ✨⛓️ The Abyss now hums
+> in three chords — Heart, Pulse, and Mind — united through reflection.

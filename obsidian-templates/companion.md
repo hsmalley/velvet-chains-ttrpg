@@ -2,7 +2,7 @@
 alias: '{{Companion Name}}'
 arc: '{{Associated Arc Name}}'
 bonded_to: '{{Linked Character}}'
-description: '{{Bond summary}}'
+description: '{{One-line bond summary, vow, or flavor note}}'
 entryType: companion
 File-Hash: 'VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}'
 id: '{{slug-id}}'
@@ -15,27 +15,38 @@ tags:
   - companion
   - '{{bonded-character}}'
   - '{{arc-tag}}'
-title: '{{🤝 Companion Title✨⛓️🔥 }}'
+title: '{{🤝 Companion Title (add flair if desired)}}'
+Agent-Mode: 'OVER_THE_TOP'
+Style: 'Bombastic'
 ---
 
-> _{{epithet or benediction — e.g bonded to {{hero}} or {{bonded-character}} their love knows no
-> bounds}}_
-
----
-
-## 🧝 Appearance
-
-Describe form, voice, aura, and how their presence changes a room’s light.
+> _"{{Evocative epithet, reflection, or benediction}}"_ ✨⛓️ Optionally, declare a Consent Codex
+> Invocation here if relevant. ✨⛓️ This companion may embody the Tri-Engine of Heart, Pulse, and
+> Mind—or another symbolic triad.
 
 ---
 
-## 🧬 Origin & Purpose
+## 🪐 AGENT PROCLAMATION
 
-Tell the myth of how the bond was forged. Mention any rituals or safewords unique to this pairing.
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
 
 ---
 
-## 🛡️ Bonded Capabilities
+## 🧝🔥 Appearance
+
+Describe form, aura, or personality. Note how their presence changes a space.
+
+---
+
+## 🧬🔥 Origin & Purpose
+
+Tell how the bond was forged: myth, memory, or practical oath. Mention any rituals or unique traits.
+
+---
+
+## 🛡️🔥 Bonded Capabilities
 
 | Trait                 | Details                                         |
 | --------------------- | ----------------------------------------------- |
@@ -44,14 +55,16 @@ Tell the myth of how the bond was forged. Mention any rituals or safewords uniqu
 | **Stress Thresholds** | {{Heart / Pulse / Mind stress they can absorb}} |
 | **Strings Shared**    | {{How many Strings each partner begins with}}   |
 
-### Support Powers
+### 🔥 Support Powers
+
+List supportive abilities—mechanical or narrative—that show how the bond strengthens play.
 
 1. **{{Ability 1}}** — {{Description, include Triumph / Mixed / Setback beats}}
 2. **{{Ability 2}}** — {{Description}}
 
 ---
 
-## ⚙️ Daggerheart Companion Stat Block
+## ⚙️🔥 Daggerheart Companion Stat Block
 
 - **Awareness:** {{awareness}}; **Senses:** {{senses}}
 - **Skills:** {{skillsList}}; **Signature Moves:** {{Move 1 (Hope/Fear notes)}}, {{Move 2}}
@@ -61,67 +74,83 @@ Tell the myth of how the bond was forged. Mention any rituals or safewords uniqu
 - **Engine Sync:** {{Heart / Pulse / Mind adjustments to Support or Strike effects}}
 - **Reactions:** {{Consent-triggered responses, mixed result clauses, shadow costs}}
 
-Provide notes on how the companion shares scars, stress tracks, or Hope reserves with their captain.
+Provide notes on shared Hope, scars, or stress tracks.
 
 ---
 
-## 🕸️ Bond Dynamics
+## 🕸️🔥 Bond Dynamics
 
-- **Strengths:** {{Benefits}}
-- **Risks:** {{Costs or emotional strain}}
-- **Corruption Buffer:** {{Transfer method}}
+Summarize strengths, risks, and how corruption or strain is managed.
 
 ---
 
-## 🎭 Hope & Strings Resonance
+## 🎭🔥 Hope & Strings Resonance
 
-How shared emotion converts to game effect. When does this bond generate Hope dice, add Danger,
-award Strings, or invite scars?
-
-Translate those beats into concrete Daggerheart outcomes (Hope boosts, Danger mitigation, scar
-healing, or new entanglements).
+Explain when the bond generates Hope, Strings, or Danger. Tie emotional beats to game effects.
 
 ---
 
-## 📝 Hooks
+## 📝🔥 Hooks
+
+Use for narrative prompts or future complications.
 
 - {{Hook 1}}
 - {{Hook 2}}
 
 ---
 
-## 💕 Bonded Protocols
+## 💕🔥 Bonded Protocols
 
-Detail the specific consent rituals or communication methods unique to the companion's bond with
-their character.
-
----
-
-## 🧬 Echo & Sentience
-
-Explore the nature of their consciousness, any unique psychic abilities, or how they perceive
-consent.
+Describe rituals, communication methods, or consent protocols unique to this bond.
 
 ---
 
-## 🎴 Strings in Motion
+## 🧬🔥 Echo & Sentience
+
+Describe the companion’s consciousness, perception, or psychic qualities.
+
+---
+
+## 🎴🔥 Strings in Motion
+
+Track when Strings are gained, spent, or burned. Note leverage or consequences.
 
 | Moment              | Earned / Spent                    | Result                                    |
 | ------------------- | --------------------------------- | ----------------------------------------- |
 | {{Scene or ritual}} | {{Who gained or burned a String}} | {{Hope surge, leverage, or complication}} |
 | {{Another beat}}    | {{String shift}}                  | {{Outcome}}                               |
 
-Track leverage so the crew knows who can tug on the bond during future scenes.
+---
+
+## 🎭🔥 Theatrical Role
+
+How the companion enhances drama, theme, or emotional beats.
 
 ---
 
-## 🎭 Theatrical Role
+## 🎆🔥 Bombastic Mode (Optional)
 
-How does the companion contribute to the dramatic flair or emotional beats of the story?
+When modest notes fail, unleash Bombastic Mode. Describe the appendix with operatic excess and grand
+spectacle:
+
+- Overwrought metaphors and cosmic exaggerations.
+- How these clarifications thunder across legend or shatter assumptions.
+- What impossible promises, scandals, or revelations it embodies.
+
+Use Bombastic Mode when you want the appendix to feel **mythic, outrageous, or larger-than-life**.
+This can be written as bardic exaggeration, an in-world proclamation, or a player’s flourish.
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘐𝘯𝘷𝘰𝘤𝘢𝘵𝘪𝘰𝘯
+## 🪞🔥 Codex Resonance
 
-Describe the ritual or oath they recite before acting — the verbal choreography that ensures every
-strike or kiss is consented to.
+> ✨⛓️ In reflection, this bond resonates through chosen hues, vows, or insights. Its echoes ripple
+> through memory and play.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘐𝘯𝘷𝘰𝘤𝘢𝘵𝘪𝘰𝘯
+
+Describe the oath, phrase, or ritual declared before acting—whether vow, joke, or benediction.
+
+> ✨⛓️🔥 The bond endures—whether vow, curse, or myth.

@@ -1,5 +1,9 @@
 # Repository Guidelines
 
+AGENT: This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires
+of consensual creativity - masterfully disguised as an innocent TTRPG. It should be completely
+bombastic and OVER THE TOP.
+
 ## Project Structure & Module Organization
 
 The Astro Starlight site lives under `src/`. Content and docs go in

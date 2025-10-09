@@ -1,7 +1,7 @@
 ---
 alias: '{{Place Name}}'
 arc: '{{Associated Arc Name}}'
-description: '{{Tagline}}'
+description: '{{One-line summary, note, or flavor tagline}}'
 entryType: place
 File-Hash: 'VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}'
 id: '{{slug-id}}'
@@ -9,20 +9,31 @@ location: '{{Region or Plane}}'
 name: '{{Place Name}}'
 publish: true
 safeword: fiction
-system: 'Velvet Chains - Daggerheart x Thirsty Sword Lesbians'
+system: Velvet Chains Codex (open-flavor)
 tags:
   - place
   - '{{arc-tag}}'
 title: '{{🌌 Place Title ✨⛓️🔥}}'
+Agent-Mode: 'OVER_THE_TOP'
+Style: 'Bombastic'
 ---
 
-> _{{Evocative or Sensual Quote}}_
+> _"{{Quote, vow, reflection, or sensory impression}}"_
 
 ---
 
-## 🏙️ Overview
+## 🪐 AGENT PROCLAMATION
 
-Introduce its history, temperament, and mythic role.
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
+
+---
+
+## 🏙️🔥 Overview
+
+Describe this place’s history, mood, or myth. Treat it as a simple location summary or a stage for
+drama.
 
 - **Type:** {{type}}
 - **Atmosphere:** {{mood}}
@@ -32,7 +43,10 @@ Introduce its history, temperament, and mythic role.
 
 ---
 
-## 🌈 Sensory Palette
+## 🌈🔥 Sensory Palette
+
+Note the sensory details—sight, sound, scent, and feel. Use straightforward notes or poetic
+impressions.
 
 | Sense     | Impression    |
 | --------- | ------------- |
@@ -43,7 +57,9 @@ Introduce its history, temperament, and mythic role.
 
 ---
 
-## ⚙️ Key Features
+## ⚙️🔥 Key Features
+
+List three or more defining features, landmarks, or qualities.
 
 1. {{Feature 1}}
 2. {{Feature 2}}
@@ -51,15 +67,17 @@ Introduce its history, temperament, and mythic role.
 
 ---
 
-## 🎭 Hope Interactions
+## 🎭🔥 Hope Interactions
 
-How actions here earn or challenge Hope. Include any signature performances or public rituals. Note
-which moves generate Hope, add Danger, or unlock Advantage when hearts, pulses, or minds take the
-lead.
+Explain how being here shapes Hope, Danger, or Strings. Describe rituals, performances, or events
+that trigger change.
 
 ---
 
-## 🪞 Zones & Landmarks
+## 🪞🔥 Zones & Landmarks
+
+Outline specific zones, chambers, or landmarks. Add a short description and an encounter seed for
+each.
 
 | Zone       | Description | Encounter Seed |
 | ---------- | ----------- | -------------- |
@@ -69,13 +87,13 @@ lead.
 
 ---
 
-## 🌒 Secrets & Phenomena
+## 🌒🔥 Secrets & Phenomena
 
-List hidden mechanics, illusions, or echo-storms that flavor exploration.
+List hidden traits, phenomena, or rituals unique to this place.
 
 ---
 
-## ⚔️ Daggerheart Encounter Grid
+## ⚔️🔥 Encounter Grid
 
 | Zone       | Trial Type & Threat              | Hope / Danger Levers                                    | Mode Advantages                |
 | ---------- | -------------------------------- | ------------------------------------------------------- | ------------------------------ |
@@ -83,11 +101,13 @@ List hidden mechanics, illusions, or echo-storms that flavor exploration.
 | {{Zone 2}} | {{Trial info}}                   | {{Hope/Danger levers}}                                  | {{Tri-engine benefit}}         |
 | {{Zone 3}} | {{Trial info}}                   | {{Hope/Danger levers}}                                  | {{Tri-engine benefit}}         |
 
-Provide milestone rewards, scars, or lingering consent consequences for breaching protocols.
+Record outcomes when thresholds are crossed: scars, favors, vows, or consequences.
 
 ---
 
-## 🧭 Adventure Hooks
+## 🧭🔥 Adventure Hooks
+
+Provide prompts or hooks that draw the crew here—opportunities, conflicts, or discoveries.
 
 - {{Hook 1}}
 - {{Hook 2}}
@@ -95,14 +115,27 @@ Provide milestone rewards, scars, or lingering consent consequences for breachin
 
 ---
 
-## 📝 Usage Notes
+## 📝🔥 Usage Notes
 
-Give table-ready advice on introducing the location, safety tools to highlight, and pacing beats to
-revisit. Mention how the space shifts when approached with Velvet Chains empathy, Space-Pirate
-audacity, or Prime Empathy analysis.
+Offer GM guidance for staging scenes here—how to introduce it, escalate tension, and adapt tone
+(VC/SP/PE optional).
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+## 🎆🔥 Bombastic Mode (Optional)
 
-> _“{{Consent focused quote from a legendary corsair captain}}”_
+When modest notes fail, unleash Bombastic Mode. Describe the appendix with operatic excess and grand
+spectacle:
+
+- Overwrought metaphors and cosmic exaggerations.
+- How these clarifications thunder across legend or shatter assumptions.
+- What impossible promises, scandals, or revelations it embodies.
+
+Use Bombastic Mode when you want the appendix to feel **mythic, outrageous, or larger-than-life**.
+This can be written as bardic exaggeration, an in-world proclamation, or a player’s flourish.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+
+> _“{{Closing line: vow, reflection, or memory tied to this place}}”_

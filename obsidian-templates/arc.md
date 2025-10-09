@@ -12,13 +12,26 @@ tags:
   - arc
   - '{{arc-tag}}'
 title: '{{🪐 Arc Title ✨⛓️🔥}}'
+Agent-Mode: 'OVER_THE_TOP'
+Style: 'Bombastic'
 ---
 
-> _"{{Tagline or ritual line that defines the arc}}"_
+> _“Before action, all consent. Before consent, all names spoken.”_
+>
+> **Consent Codex Invocation:** Each participant declares their safeword as “fiction” before play
+> begins.
 
 ---
 
-## 🧭 𝘊𝘰𝘳𝘦 𝘗𝘳𝘦𝘮𝘪𝘴𝘦
+## 🪐 AGENT PROCLAMATION
+
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
+
+---
+
+## 🧭🔥 𝘊𝘰𝘳𝘦 𝘗𝘳𝘦𝘮𝘪𝘴𝘦
 
 Describe the central idea of this arc:
 
@@ -28,14 +41,14 @@ Describe the central idea of this arc:
 
 ---
 
-## 🌈 𝘛𝘰𝘯𝘦 & 𝘛𝘩𝘦𝘮𝘦𝘴
+## 🌈🔥 𝘛𝘰𝘯𝘦 & 𝘛𝘩𝘦𝘮𝘦𝘴
 
 List the defining moods and aesthetic threads of the story. Example categories: surreal, intimate,
 revolutionary, devotional. Each should mirror a moral axis or sensory palette.
 
 ---
 
-## ⚙️ 𝘕𝘦𝘸 𝘙𝘶𝘭𝘦𝘴 & 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤𝘴
+## ⚙️🔥 𝘕𝘦𝘸 𝘙𝘶𝘭𝘦𝘴 & 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤𝘴
 
 If this arc introduces Hope/Fear tweaks, Strings triggers, or unique consent rituals, note them
 here. Use short bullet paragraphs explaining what each adds to play and how VC/SP/PE engines
@@ -43,7 +56,7 @@ interact with the changes.
 
 ---
 
-## 🌊 Hope Currents & Fear Shadows
+## 🌊🔥 Hope Currents & Fear Shadows
 
 - **Hope Sources:** {{Key beats that hand players Advantage dice or Hope tokens}}
 - **Fear Escalation:** {{Moments the Guide adds Danger dice, scars, or mixed-result complications}}
@@ -52,7 +65,7 @@ interact with the changes.
 
 ---
 
-## 🪐 𝘒𝘦𝘺 𝘓𝘰𝘤𝘢𝘵𝘪𝘰𝘯𝘴
+## 🪐🔥 𝘒𝘦𝘺 𝘓𝘰𝘤𝘢𝘵𝘪𝘰𝘯𝘴
 
 List the worlds, stations, or psychic spaces that define the geography of this story.
 
@@ -67,7 +80,7 @@ List the worlds, stations, or psychic spaces that define the geography of this s
 
 ---
 
-## 🧬 𝘍𝘢𝘤𝘵𝘪𝘰𝘯𝘴 & 𝘍𝘪𝘨𝘶𝘳𝘦𝘴
+## 🧬🔥 𝘍𝘢𝘤𝘵𝘪𝘰𝘯𝘴 & 𝘍𝘪𝘨𝘶𝘳𝘦𝘴
 
 | Name               | Role     | Description             | Hope / String Trigger                |
 | ------------------ | -------- | ----------------------- | ------------------------------------ |
@@ -80,7 +93,7 @@ List the worlds, stations, or psychic spaces that define the geography of this s
 
 ---
 
-## 🔮 𝘈𝘥𝘷𝘦𝘯𝘵𝘶𝘳𝘦 𝘚𝘦𝘦𝘥𝘴
+## 🔮🔥 𝘈𝘥𝘷𝘦𝘯𝘵𝘶𝘳𝘦 𝘚𝘦𝘦𝘥𝘴
 
 1. {{Adventure Hook 1 — the promise}}
 2. {{Adventure Hook 2 — the paradox}}
@@ -88,7 +101,7 @@ List the worlds, stations, or psychic spaces that define the geography of this s
 
 ---
 
-## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘈𝘳𝘤
+## 🎭🔥 𝘋𝘳𝘢𝘮𝘢 𝘈𝘳𝘤
 
 Sketch a three-act rhythm for how emotions and consent evolve through play.
 
@@ -100,46 +113,78 @@ Sketch a three-act rhythm for how emotions and consent evolve through play.
 
 ---
 
-## 💋 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘈𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦
+## 🪞🔥 Tri-Engine Resonance
+
+Describe how Heart, Pulse, and Mind color this arc’s emotional journey. Example: “Heart tests the
+bond between captains, Pulse drives rebellion, Mind seeks forgiveness.”
+
+---
+
+## 💋🔥 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘈𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦
 
 Describe the sensory tone of the arc—color palettes, sounds, tastes, emotional climate. How does the
 environment mirror the themes of consent, empathy, or power?
 
 ---
 
-## 🧩 𝘓𝘰𝘳𝘦 & 𝘊𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯𝘴
+## 🧩🔥 𝘓𝘰𝘳𝘦 & 𝘊𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯𝘴
 
 Note which existing arcs, ships, or factions intersect with this storyline. Cross-link using
 `[[arc-name]]`, `[[ship-name]]`, or relevant tags.
 
 ---
 
-## 💕 Core Consent Dilemma
+## 💕🔥 Core Consent Dilemma
 
 What overarching consent-related philosophical question or conflict defines this arc? (e.g., "Can
 freedom exist without boundaries?")
 
 ---
 
-## 🌌 Ebonverse Lore Hooks
+## 🌌🔥 Ebonverse Lore Hooks
 
 How does this arc connect to the broader universe's history, major events, or ancient mysteries?
 
 ---
 
-## 🎭 Theatrical Stakes
+## 🎭🔥 Theatrical Stakes
 
 What are the grand, dramatic performances or rituals that drive the arc's narrative?
 
 ---
 
-## 🏳️‍🌈 Identity & Belonging
+## 🏳️‍🌈🔥 Identity & Belonging
 
 How does the arc explore themes of identity, chosen family, or diverse relationships within the
 setting?
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+---
 
-> _“{{Closing benediction or moral of the arc}}”_
+## 🎆🔥 Bombastic Mode (Optional)
+
+When moderation fails, unleash Bombastic Mode. Describe the arc with maximum spectacle and operatic
+excess:
+
+- Overwrought metaphors, cosmic drama, and emotional cataclysms.
+- How this storyline could shatter stars or rewrite myth.
+- What impossible promises, scandals, or vows it embodies.
+
+Use Bombastic Mode when you want the arc to feel **mythic, outrageous, and larger-than-life**. This
+can be voiced as an in-world proclamation, bardic exaggeration, or GM flourish.
+
+---
+
+## 🪞🔥 Codex Resonance
+
+> ✨⛓️ In reflection, the arc harmonizes through three hues—Heart for devotion, Pulse for passion,
+> Mind for truth. These threads ripple through the Ebonverse, reshaping every connection through
+> consent.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+
+> _“{{Closing benediction or moral of the arc}}”_ ✨⛓️🔥 The story closes, but the vow
+> endures—Heart, Pulse, and Mind entwined.

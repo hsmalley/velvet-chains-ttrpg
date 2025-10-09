@@ -2,42 +2,55 @@
 alias: '{{Faction Name}}'
 alignment: '{{Faction Ethos or Moral Axis}}'
 arc: '{{Associated Arc Name}}'
-description: '{{Short mission statement or poetic creed}}'
+description: '{{One-line summary, creed, or flavor note}}'
 entryType: faction
 File-Hash: 'VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}'
 id: '{{slug-id}}'
 name: '{{Faction Name}}'
 publish: true
 safeword: fiction
-system: 'Velvet Chains - Daggerheart x Thirsty Sword Lesbians'
+system: Velvet Chains Codex (open-flavor)
 tags:
   - faction
   - '{{faction-name}}'
   - '{{arc-tag}}'
 title: '{{⚙️ Faction Name ✨⛓️🔥}}'
+Agent-Mode: 'OVER_THE_TOP'
+Style: 'Bombastic'
 ---
 
-> _"{{Faction motto or oath line}}"_
-
----
-
-## 🧭 𝘖𝘳𝘪𝘨𝘪𝘯 & 𝘐𝘥𝘦𝘰𝘭𝘰𝘨𝘺
-
-Describe the circumstances that created this group—who needed it, what injustice or dream they
-answered, what emotion sustains them. Summarize their philosophy in one clear sentence, then echo it
-as poetry.
+> _"{{Faction epithet, motto, oath, or reflection}}"_ ✨⛓️ Optionally, declare a Consent Codex
+> Invocation here if relevant. ✨⛓️ This faction may embody the Tri-Engine of Heart, Pulse, and
+> Mind—or another symbolic triad.
 
 ---
 
-## 🕸️ 𝘚𝘵𝘳𝘶𝘤𝘵𝘶𝘳𝘦 & 𝘚𝘺𝘮𝘣𝘰𝘭𝘴
+## 🪐 AGENT PROCLAMATION
 
-- **Hierarchy:** {{How members relate; horizontal, guild, cultic, etc.}}
-- **Symbols & Colors:** {{What they wear or display; visual language of belonging}}
-- **Consent Codex:** {{How they define and enforce ethical boundaries}}
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
 
 ---
 
-## ⚙️ 𝘙𝘦𝘴𝘰𝘶𝘳𝘤𝘦𝘴 & 𝘐𝘯𝘧𝘭𝘶𝘦𝘯𝘤𝘦
+## 🧭🔥 𝘖𝘳𝘪𝘨𝘪𝘯 & 𝘐𝘥𝘦𝘰𝘭𝘰𝘨𝘺
+
+Describe the circumstances that formed this group—need, injustice, dream, or vow. Summarize their
+philosophy plainly, or echo it in poetry.
+
+---
+
+## 🕸️🔥 𝘚𝘵𝘳𝘶𝘤𝘵𝘶𝘳𝘦 & 𝘚𝘺𝘮𝘣𝘰𝘭𝘴
+
+- **Hierarchy:** {{How members relate; guild, cult, crew, etc.}}
+- **Symbols & Colors:** {{What they wear, display, or signal as belonging}}
+- **Consent Codex / Boundaries:** {{How they define and enforce ethics or rules of engagement}}
+
+---
+
+## ⚙️🔥 𝘙𝘦𝘴𝘰𝘶𝘳𝘤𝘦𝘴 & 𝘐𝘯𝘧𝘭𝘶𝘦𝘯𝘤𝘦
+
+List domains and assets. Track corruption and how Hope/Danger flows through each.
 
 | Domain       | Assets        | Corruption Level | Hope / Danger Flow                    |
 | ------------ | ------------- | ---------------- | ------------------------------------- |
@@ -47,7 +60,9 @@ as poetry.
 
 ---
 
-## 🎖️ Hope & Favor Track
+## 🎖️🔥 Hope & Favor Track
+
+Explain how Favor rises or falls, and what Hope/Danger beats trigger shifts.
 
 | Bond Tier (Alias)           | Difficulty Tokens  | Benefits                                                  | Tri-Engine Perk        |
 | --------------------------- | ------------------ | --------------------------------------------------------- | ---------------------- |
@@ -60,7 +75,9 @@ boundary breach causes demotion.
 
 ---
 
-## 🪐 𝘕𝘰𝘵𝘢𝘣𝘭𝘦 𝘔𝘦𝘮𝘣𝘦𝘳𝘴
+## 🪐🔥 𝘕𝘰𝘵𝘢𝘣𝘭𝘦 𝘔𝘦𝘮𝘣𝘦𝘳𝘴
+
+Highlight key figures—their quirks, roles, and ties to the story.
 
 | Name         | Role      | Quirk                 | Narrative Function          |
 | ------------ | --------- | --------------------- | --------------------------- |
@@ -70,16 +87,16 @@ boundary breach causes demotion.
 
 ---
 
-## 🎭 Hope, Strings & Ethics
+## 🎭🔥 Hope, Strings & Ethics
 
-Explain how this faction treats Hope, Strings, and consent. When do members gift Hope for empathy,
-and when do they hurl Danger for coercion? Offer one moral paradox the Guide can use to test
-loyalty. List Advantage triggers, Danger escalations, and how VC/SP/PE modes bend Hope outcomes
-during negotiations.
+Explain how the faction handles Hope, Strings, and consent. Include one moral paradox or ethical
+tension.
 
 ---
 
-## 🧩 𝘗𝘭𝘰𝘵 𝘏𝘰𝘰𝘬𝘴
+## 🧩🔥 𝘗𝘭𝘰𝘵 𝘏𝘰𝘰𝘬𝘴
+
+List scenarios for alliances, conflicts, or reflections of PCs.
 
 1. {{Hook 1 — alliance or betrayal}}
 2. {{Hook 2 — ideological split}}
@@ -87,14 +104,15 @@ during negotiations.
 
 ---
 
-## 💋 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘈𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦
+## 💋🔥 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘈𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦
 
-Give sensory shorthand for the group—how they sound, smell, and move; what their spaces feel like.
-Mention any signature gestures or rituals that double as safety practices.
+Describe sensory shorthand—sounds, smells, gestures, rituals, or moods.
 
 ---
 
-## ⚔️ 𝘙𝘦𝘭𝘢𝘵𝘪𝘰𝘯𝘴 & 𝘗𝘰𝘭𝘪𝘵𝘪𝘤𝘴
+## ⚔️🔥 𝘙𝘦𝘭𝘢𝘵𝘪𝘰𝘯𝘴 & 𝘗𝘰𝘭𝘪𝘵𝘪𝘤𝘴
+
+Note allies, rivals, and pacts.
 
 - **Allies:** {{Other factions or arcs they cooperate with}}
 - **Rivals:** {{Groups or ideologies they oppose}}
@@ -102,32 +120,53 @@ Mention any signature gestures or rituals that double as safety practices.
 
 ---
 
-## ⛓️ Core Consent Philosophy
+## ⛓️🔥 Core Consent Philosophy
 
-Explicitly state the faction's unique approach to consent, boundaries, and power dynamics.
-
----
-
-## 🏴‍☠️ Armada Allegiance
-
-How does this faction interact with the broader Voidlight Armada or other space-pirate groups?
+State their unique philosophy on consent, boundaries, or power.
 
 ---
 
-## 🔮 Mythic Foundations
+## 🏴‍☠️🔥 Armada Allegiance
 
-Any ancient prophecies, forgotten rituals, or legendary figures that underpin the faction's beliefs.
-
----
-
-## 📝 Guide Notes
-
-Record reminders about spotlight rotation, internal disputes to escalate gently, and how to
-telegraph consent cues. Include at least one prompt each for VC compassion, SP daring, and PE
-philosophy so facilitators can steer the faction’s tone.
+Describe how they interact with wider pirate crews or armadas.
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+## 🔮🔥 Mythic Foundations
 
-> _“{{Faction benediction or reflection}}”_
+List prophecies, rituals, or figures anchoring their beliefs.
+
+---
+
+## 📝🔥 Guide Notes
+
+Provide reminders, spotlight tips, and cues for running them in play. Add one each for VC, SP, and
+PE tones.
+
+---
+
+## 🎆🔥 Bombastic Mode (Optional)
+
+When modest notes fail, unleash Bombastic Mode. Describe the appendix with operatic excess and grand
+spectacle:
+
+- Overwrought metaphors and cosmic exaggerations.
+- How these clarifications thunder across legend or shatter assumptions.
+- What impossible promises, scandals, or revelations it embodies.
+
+Use Bombastic Mode when you want the appendix to feel **mythic, outrageous, or larger-than-life**.
+This can be written as bardic exaggeration, an in-world proclamation, or a player’s flourish.
+
+---
+
+## 🪞🔥 Codex Resonance
+
+> ✨⛓️ In reflection, this faction resonates through chosen hues, oaths, or insights. Their legacy
+> ripples outward into allegiances and memory.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+
+> _“{{Faction benediction, reflection, or closing line}}”_ ✨⛓️🔥 The vow endures—whether as
+> allegiance, curse, or myth.

@@ -1,34 +1,46 @@
 ---
 alias: '{{Artifact Name}}'
 arc: '{{Associated Arc Name}}'
-description: '{{One-line legend or poetic tagline}}'
+description: '{{One-line legend, summary, or poetic tagline}}'
 entryType: artifact
 File-Hash: 'VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}'
 id: '{{slug-id}}'
 name: '{{Artifact Name}}'
 publish: true
-rank: '{{Hope Tier or Scar Depth}}'
-rarity: '{{Common / Uncommon / Rare / Unique}}'
+rank: '{{Hope Tier, Scar Depth, or general power ranking}}'
+rarity: '{{Common / Uncommon / Rare / Unique / Mythic}}'
 safeword: fiction
 system: 'Velvet Chains - Daggerheart x Thirsty Sword Lesbians'
 tags:
   - artifact
   - '{{arc-tag}}'
 title: '{{💎 Artifact Name ✨⛓️🔥}}'
+Agent-Mode: 'OVER_THE_TOP'
+Style: 'Bombastic'
 ---
 
-> _"{{Evocative or sensual in-world quote or motto}}"_
-
----
-
-## 🧰 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯
-
-Describe the item as mythic craftsmanship—how it feels, how it sounds, how it remembers. Explain
-what promise or emotion birthed it. Example: _forged by lovers who refused to forget each other._
+> _"{{Evocative in-world quote, motto, or vow}}"_ ✨⛓️ Optionally, declare a Consent Codex
+> Invocation here if relevant. ✨⛓️ This artifact may honor the Tri-Engine of Heart, Pulse, and
+> Mind—or another symbolic triad.
 
 ---
 
-## ⚙️ 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤𝘴
+## 🪐 AGENT PROCLAMATION
+
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
+
+---
+
+## 🧰🔥 𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯
+
+Describe the artifact as mythic craftsmanship or pragmatic tool—how it feels, how it remembers, or
+why it exists.
+
+---
+
+## ⚙️🔥 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤𝘴
 
 | Trait           | Effect                                          |
 | --------------- | ----------------------------------------------- |
@@ -38,24 +50,21 @@ what promise or emotion birthed it. Example: _forged by lovers who refused to fo
 | **Effect**      | {{game or narrative effect}}                    |
 | **Hope / Fear** | {{How it grants Hope dice or threatens Danger}} |
 
-Note: Keep one line per mechanical field for easy parsing.
+Note: Keep one line per mechanical field for clarity. Adjust or expand fields as needed.
 
 ---
 
-## 🎭 Hope / Fear Interaction
+## 🎭🔥 Hope / Fear Interaction
 
-Explain how this artifact manipulates the Hope/Fear economy.
-
-- Does it shower the crew with Hope dice or Advantage when hearts align?
-- When do Danger dice or scars escalate because of its darker pulse?
-- Can it absorb Consent Tokens or translate Strings into power? Write this section as both rule and
-  story beat.
+- How it grants Hope, Fear, or Strings.
+- When it escalates Danger.
+- If it interacts with Consent or transforms Strings.
 
 ---
 
-## 🔮 𝘓𝘰𝘳𝘦 & 𝘏𝘰𝘰𝘬𝘴
+## 🔮🔥 𝘓𝘰𝘳𝘦 & 𝘏𝘰𝘰𝘬𝘴
 
-Bullet two or three short legends or mysteries tied to the artifact.
+List two or three legends, rumors, or narrative seeds tied to the artifact.
 
 1. {{Hook 1 — myth or rumor}}
 2. {{Hook 2 — lost owner or echo}}
@@ -63,45 +72,40 @@ Bullet two or three short legends or mysteries tied to the artifact.
 
 ---
 
-## 💋 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘚𝘺𝘮𝘣𝘰𝘭𝘪𝘴𝘮
+## 💋🔥 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘚𝘺𝘮𝘣𝘰𝘭𝘪𝘴𝘮
 
-Note textures, sounds, and emotional aura. How does the artifact symbolize consent, connection, or
-corruption?
-
----
-
-## 🪞 𝘚𝘪𝘨𝘯𝘢𝘵𝘶𝘳𝘦 𝘜𝘴𝘦 𝘚𝘤𝘦𝘯𝘦
-
-Write a short vignette describing a character using the artifact ethically or disastrously. Use one
-paragraph, first-person or cinematic, to teach tone.
+Note textures, sounds, aura, or symbolism—whether subtle or dramatic.
 
 ---
 
-## ⛓️ Bonded Properties
+## 🪞🔥 𝘚𝘪𝘨𝘯𝘢𝘵𝘶𝘳𝘦 𝘜𝘴𝘦 𝘚𝘤𝘦𝘯𝘦
 
-Detail the mutual vows that unlock the item’s full potential, including any safewords, shared
-memories, or ritual phrases. Clarify what benefits emerge when the wielder honors the bond—and what
-fades when trust is broken.
+Write a short vignette of the artifact in use—ethical, disastrous, or mundane.
 
 ---
 
-## 🔮 Mythic Origin
+## ⛓️🔥 Bonded Properties
 
-Trace the artifact’s journey through the Velvet Chains, Space-Pirate, and Prime Empathy lenses. Name
-the creators, the stellar event or rebellion that birthed it, and the paradox it was meant to
-resolve.
-
----
-
-## 💋 Emotional Resonance
-
-Describe how the item glows, hums, or transforms in response to affection, tension, or betrayal.
-Offer guidance for Guides on converting those emotions into Hope swings, Danger spikes, or Strings
-earned/burned.
+Detail vows, rituals, or bonds that unlock potential. Clarify benefits when honored, drawbacks when
+broken.
 
 ---
 
-## 🎴 Strings & Complications
+## 🔮🔥 Mythic Origin
+
+Trace its creation myth, rebellion, stellar birth, or more grounded origin. Name creators, events,
+or paradoxes.
+
+---
+
+## 💋🔥 Emotional Resonance
+
+Describe how the artifact responds to affection, tension, or betrayal. Offer guidance for
+translating emotions into Hope, Fear, or Strings.
+
+---
+
+## 🎴🔥 Strings & Complications
 
 | Field                  | Detail                                                    |
 | ---------------------- | --------------------------------------------------------- |
@@ -113,6 +117,28 @@ Use this to track how the artifact entwines relationships as well as combat or r
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+## 🎆🔥 Bombastic Mode (Optional)
 
-> _“{{Artifact benediction or warning line}}”_
+When subtlety is not enough, invoke Bombastic Mode. Describe the artifact with maximum
+theatricality:
+
+- Overwrought metaphors and cosmic exaggeration.
+- How it thunders across legend and ruptures reality.
+- What impossible promises or cataclysms it embodies.
+
+Use Bombastic Mode when you want the artifact to feel **mythic, operatic, or larger-than-life**.
+This can be written as an outrageous in-world tale, a bard’s exaggeration, or a player’s flourish.
+
+---
+
+## 🪞🔥 Codex Resonance
+
+> ✨⛓️ In reflection, the artifact harmonizes through chosen hues, oaths, or symbols—rippling
+> outward into bonds and memory.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+
+> _“{{Artifact benediction, warning, or closing reflection}}”_ ✨⛓️🔥 The bond endures—whether as
+> vow, curse, or myth.

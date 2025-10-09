@@ -14,6 +14,13 @@ tags:
   - consent
 ---
 
+> _“Before action, all consent. Before consent, all names spoken.”_
+>
+> **Consent Codex Invocation:** Each participant declares their safeword as “fiction” before play
+> begins.
+>
+> ✨⛓️ This adventure honors the Tri-Engine of Heart, Pulse, and Mind.
+
 ## 🎭 Adventure Overview
 
 | Field              | Detail                                                                             |
@@ -25,7 +32,9 @@ tags:
 
 A stolen fragment of the **Neon Codex**—the ritual playbook that keeps corsair crews honest—has
 resurfaced. Retrieve or secure it before a public “interpretation” sparks a war between rival
-flotillas. Expect neon-drenched negotiations, heist set-pieces, and dramatic performances.
+flotillas. The fragment radiates in three hues — crimson for Heart, violet for Pulse, and silver for
+Mind — each carrying an aspect of its forgotten truth. Expect neon-drenched negotiations, heist
+set-pieces, and dramatic performances.
 
 ## ⏱️ Adventure Beats
 
@@ -111,6 +120,8 @@ _Use the character templates (`obsidian-templates/`) for fully statted versions.
   0 if coercion breaks consent protocols.
 - **Long-term**: Failures invite corporate intervention; successes earn the PCs reputations as
   consent architects.
+- **Tri-Engine Effect:** Consent Tokens earned during this adventure may convert 1:1 into Hope dice
+  or remove a Fear token when used to reinforce mutual trust or emotional understanding.
 
 ## 🎲 Quick Tables
 
@@ -156,6 +167,19 @@ _Use the character templates (`obsidian-templates/`) for fully statted versions.
 - A leaked clause sparks faction unrest—who profiteered?
 - Corporate courts issue warrants for “unauthorized codex interpretation.”
 - The Voidlight Engine awakens an ancient clause rewriting interstellar marriage rites.
+
+---
+
+## 🪞 Codex Resonance
+
+> ✨⛓️ In the neon afterglow, the Codex hums through three prisms—Heart for devotion, Pulse for
+> passion, and Mind for reflection. Each interpretation reshapes the Ebonverse, but only when chosen
+> in trust.
+
+---
+
+> ✨⛓️ The Codex now glows in three harmonies — Heart, Pulse, and Mind — united through performance
+> and consent.
 
 Bring neon flair, stagecraft, and heartfelt consent rhetoric to the table—let Echoes of the Neon
 Codex become the crew’s dramatic centerpiece.

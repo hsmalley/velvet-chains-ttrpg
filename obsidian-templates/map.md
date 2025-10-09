@@ -1,7 +1,7 @@
 ---
 alias: '{{Map Title}}'
 arc: '{{Associated Arc Name}}'
-description: '{{What the chart reveals}}'
+description: '{{One-line summary, note, or flavor purpose}}'
 entryType: map
 File-Hash: 'VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}'
 id: '{{slug-id}}'
@@ -10,25 +10,36 @@ mapScale: '{{Scale or Units}}'
 name: '{{Map Title}}'
 publish: true
 safeword: fiction
-system: 'Velvet Chains - Daggerheart x Thirsty Sword Lesbians'
+system: Velvet Chains Codex (open-flavor)
 tags:
   - map
   - '{{arc-tag}}'
 title: '{{🗺️ Map Title ✨⛓️🔥}}'
+Agent-Mode: 'OVER_THE_TOP'
+Style: 'Bombastic'
 ---
 
-> _"{{narrative saying about the world and this area}}"_
-
----
-
-## 🧭 Overview
-
-Summarize scope, era, and cartographer’s intent. Include a marginal note: “drawn under informed
-enthusiasm.”
+> _"{{Evocative note, vow, or cartographer’s reflection}}"_
 
 ---
 
-## 🪐 Layers & Points of Interest
+## 🪐 AGENT PROCLAMATION
+
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
+
+---
+
+## 🧭🔥 Overview
+
+Describe the scope, era, and purpose of this map. Use plain notes or dramatic myth.
+
+---
+
+## 🪐🔥 Layers & Points of Interest
+
+Detail layers, secrets, or hazards. Each stratum may whisper information, risk, or opportunity.
 
 | Layer       | Description | Hazard / Secret |
 | ----------- | ----------- | --------------- |
@@ -38,7 +49,9 @@ enthusiasm.”
 
 ---
 
-## 🌌 Key Landmarks
+## 🌌🔥 Key Landmarks
+
+List important features: altars, wrecks, cities, celestial scars, or cultural sites.
 
 | Name           | Type     | Note       |
 | -------------- | -------- | ---------- |
@@ -48,47 +61,59 @@ enthusiasm.”
 
 ---
 
-## ⚙️ Navigation Notes
+## ⚙️🔥 Navigation Notes
 
-List travel hazards, negotiation checkpoints, and emotional waypoints. Note which actions generate
-Hope dice, where Danger accumulates, and how Tri-Engine shifts tilt momentum.
+Record travel notes, negotiation points, or symbolic constellations. Mark where Hope or Danger
+shifts.
 
 ---
 
-## 🧨 Daggerheart Terrain & Hazards
+## 🧨🔥 Terrain & Hazards
 
 | Hazard / Obstacle | Threat Dice                | Read the Scene                                           | Consequence / Counterplay               |
 | ----------------- | -------------------------- | -------------------------------------------------------- | --------------------------------------- |
 | {{Hazard 1}}      | {{Danger dice • Momentum}} | {{How to sense it: Hope/Advantage cues, consent ritual}} | {{Stress, scars, or narrative fallout}} |
 | {{Hazard 2}}      | {{Threat details}}         | {{Clues to notice}}                                      | {{Outcome summary}}                     |
 
-State Hope rewards, Danger spikes, and how VC/SP/PE alter hazard reactions.
+Explain how hazards affect play: Hope, Danger, or narrative consequences.
 
 ---
 
-## 🎭 Hope of Discovery
+## 🎭🔥 Hope of Discovery
 
-When do explorers earn Hope dice or Advantage on this route? Describe visual or sensory crescendos
-tied to success, mixed results, or Danger spikes.
-
----
-
-## 📜 Usage Guidance
-
-- **Encounters:** {{combat/social/puzzle}}
-- **Dynamic Elements:** {{terrain shifts, echo flux}}
-- **GM Tips:** {{narrative framing}}
+Describe when exploration grants Hope—through revelations, triumphs, or discoveries.
 
 ---
 
-## 📝 GM Guidance
+## 📜🔥 Usage Guidance
 
-Offer notes on framing travel scenes, pacing discoveries, and checking consent when the terrain
-turns perilous. Include prompts for switching between VC mood (intimate waypoints), SP energy (bold
-maneuvers), and PE insight (mystic cartography).
+- **Encounters:** {{conflict / discovery / mystery}}
+- **Dynamic Elements:** {{terrain shifts, weather, echoes}}
+- **GM Tips:** {{how to frame or stage scenes}}
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+## 📝🔥 GM Guidance
 
-> _“{{Dramatic Quote from a famous corsair}}”_
+Offer advice for running voyages, pacing exploration, and using terrain as story. Optionally, tie
+into VC/SP/PE themes.
+
+---
+
+## 🎆🔥 Bombastic Mode (Optional)
+
+When modest notes fail, unleash Bombastic Mode. Describe the appendix with operatic excess and grand
+spectacle:
+
+- Overwrought metaphors and cosmic exaggerations.
+- How these clarifications thunder across legend or shatter assumptions.
+- What impossible promises, scandals, or revelations it embodies.
+
+Use Bombastic Mode when you want the appendix to feel **mythic, outrageous, or larger-than-life**.
+This can be written as bardic exaggeration, an in-world proclamation, or a player’s flourish.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+
+> _“{{Closing line: vow, reflection, or warning left on this map}}”_

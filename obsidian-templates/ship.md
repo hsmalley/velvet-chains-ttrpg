@@ -2,34 +2,45 @@
 title: "{{🚀 Ship Title ✨⛓️🔥}}"
 title: "{{Ship Name}}"
 alias: "{{Ship Name}}"
-description: "{{One-line legend or purpose of the vessel}}"
+description: "{{One-line summary, purpose, or flavor note}}"
 entryType: ship
 id: "{{slug-id}}"
 arc: "{{Associated Arc Name}}"
 affiliation: "{{Fleet, Faction, or Organization}}"
 captain: "{{Captain or AI Core}}"
 File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
+system: "Velvet Chains Codex (open-flavor)"
 safeword: fiction
 publish: true
 tags:
   - ship
   - "{{arc-tag}}"
+Agent-Mode: "OVER_THE_TOP"
+Style: "Bombastic"
 ---
 
-> _"{{Inspirational line or motto}}"_
-
----
-
-## 🧭 𝘖𝘷𝘦𝘳𝘷𝘪𝘦𝘸
-
-Describe the vessel as if it were a myth in motion. Include design ethos, history, and the
-philosophy that powers its hull. Explain how consent, communication, or empathy are integrated into
-its systems.
+> _"{{Quote, motto, vow, or reflection}}"_
 
 ---
 
-## ⚙️ 𝘚𝘱𝘦𝘤𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 & 𝘚𝘱𝘪𝘳𝘪𝘵
+## 🪐🔥 AGENT PROCLAMATION
+
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
+
+---
+
+## 🧭🔥 𝘖𝘷𝘦𝘳𝘷𝘪𝘦𝘸
+
+Describe the vessel’s design, history, and philosophy. Write plainly or frame it as legend, scandal,
+or vow.
+
+---
+
+## ⚙️🔥 𝘚𝘱𝘦𝘤𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 & 𝘚𝘱𝘪𝘳𝘪𝘵
+
+Each component can be described functionally or symbolically.
 
 | Component           | Description                            | Hope / Danger Interaction                     |
 | ------------------- | -------------------------------------- | --------------------------------------------- |
@@ -40,23 +51,23 @@ its systems.
 
 ---
 
-## 🪞 𝘊𝘰𝘯𝘴𝘦𝘯𝘵 𝘗𝘳𝘰𝘵𝘰𝘤𝘰𝘭 𝘚𝘺𝘴𝘵𝘦𝘮𝘴
+## 🪞🔥 𝘊𝘰𝘯𝘴𝘦𝘯𝘵 𝘗𝘳𝘰𝘵𝘰𝘤𝘰𝘭 𝘚𝘺𝘴𝘵𝘦𝘮𝘴
 
-Detail the ethical frameworks or safe-word mechanics embedded in the ship. Describe how the crew
-activates or enforces these rituals in play. Examples: safeword links, consent-field generators,
-empathic interfaces.
-
----
-
-## 🎭 𝘋𝘳𝘢𝘮𝘢 𝘊𝘺𝘤𝘭𝘦
-
-Explain how the ship gains, spends, and channels Hope, Strings, and Danger dice. Define thresholds
-for group bonuses, special maneuvers, or moral lessons. Example: At 3 Hope dice, the ship manifests
-a luminous aura of solidarity; at 2 Danger dice, the engines stutter with fear.
+Detail how protocols, rituals, or rules shape interaction with the ship. This can be practical,
+cultural, or dramatic.
 
 ---
 
-## 🔮 𝘚𝘱𝘦𝘤𝘪𝘢𝘭 𝘈𝘣𝘪𝘭𝘪𝘵𝘪𝘦𝘴
+## 🎭🔥 𝘋𝘳𝘢𝘮𝘢 𝘊𝘺𝘤𝘭𝘦
+
+Explain how Hope, Strings, and Danger affect the ship. Define thresholds for benefits, risks, or
+lessons.
+
+---
+
+## 🔮🔥 𝘚𝘱𝘦𝘤𝘪𝘢𝘭 𝘈𝘣𝘪𝘭𝘪𝘵𝘪𝘦𝘴
+
+List unique abilities—practical, thematic, or symbolic.
 
 1. **{{Ability One}}** — Describe a dramatic, thematic power unique to this vessel.
 2. **{{Ability Two}}** — Another ability reflecting the ship’s ethos. _(Each should tie to consent,
@@ -64,15 +75,16 @@ a luminous aura of solidarity; at 2 Danger dice, the engines stutter with fear.
 
 ---
 
-## 🧬 𝘈𝘐 / 𝘚𝘰𝘶𝘭 𝘊𝘰𝘳𝘦
+## 🧬🔥 𝘈𝘐 / 𝘚𝘰𝘶𝘭 𝘊𝘰𝘳𝘦
 
-Name, demeanor, quirks, and philosophy of the ship’s sentience. Describe how it communicates, what
-emotions it emulates, and how it negotiates control. Add a favorite quote or recurring line from the
-core’s voice.
+Describe the consciousness or guidance system. Note its temperament, drives, and recurring phrases
+or vows.
 
 ---
 
-## 🛠️ 𝘜𝘱𝘨𝘳𝘢𝘥𝘦𝘴 & 𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴
+## 🛠️🔥 𝘜𝘱𝘨𝘳𝘢𝘥𝘦𝘴 & 𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴
+
+Each upgrade may be technical, ritual, or symbolic. Define its function and how it is authorized.
 
 | Module        | Function              | Consent Requirement                     |
 | ------------- | --------------------- | --------------------------------------- |
@@ -81,20 +93,33 @@ core’s voice.
 
 ---
 
-## 💋 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘈𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦
+## 💋🔥 𝘈𝘦𝘴𝘵𝘩𝘦𝘵𝘪𝘤 & 𝘈𝘵𝘮𝘰𝘴𝘱𝘩𝘦𝘳𝘦
 
-Describe how the ship feels to inhabit — scent, hum, gravity, light, or temperature. Does it
-breathe? Hum? Whisper? How does it react when spoken to kindly?
-
----
-
-## 🪐 𝘋𝘳𝘢𝘮𝘢 𝘏𝘰𝘰𝘬𝘴
-
-List 2–3 narrative ideas where the ship itself becomes a character or moral question. Examples: “The
-ship refuses to fire,” or “The AI falls in love with the storm it navigates.”
+Describe the sensory qualities of the ship: look, sound, feel, or mood. Add dramatic flourish if
+desired.
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+## 🪐🔥 𝘋𝘳𝘢𝘮𝘢 𝘏𝘰𝘰𝘬𝘴
 
-> _“{{Consent focused benediction about sailing}}”_
+List prompts where the ship itself plays an active role in story—ally, rival, or oracle.
+
+---
+
+## 🎆🔥 Bombastic Mode (Optional)
+
+When modest notes fail, unleash Bombastic Mode. Describe the appendix with operatic excess and grand
+spectacle:
+
+- Overwrought metaphors and cosmic exaggerations.
+- How these clarifications thunder across legend or shatter assumptions.
+- What impossible promises, scandals, or revelations it embodies.
+
+Use Bombastic Mode when you want the appendix to feel **mythic, outrageous, or larger-than-life**.
+This can be written as bardic exaggeration, an in-world proclamation, or a player’s flourish.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+
+> _“{{Closing reflection, vow, or note about the ship’s journey}}”_

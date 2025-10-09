@@ -17,18 +17,26 @@ tags:
 name: Bridge on Fire
 ---
 
+> _“Before action, all consent. Before consent, all names spoken.”_
+>
+> **Consent Codex Invocation:** Every participant declares their safeword as “fiction” before play
+> begins.
+>
+> ✨⛓️ This adventure honors the Tri‑Engine of Heart, Pulse, and Mind.
+
 > _"Every bridge remembers the hands that tied it."_
 
 ---
 
 ## 🌌 𝘖𝘷𝘦𝘳𝘷𝘪𝘦𝘸
 
-An orbital empathy-bridge connecting two colonies erupts into flame—fire without heat, woven from
-ruptured emotion. The Rope-Mage Guild calls for aid: the **Bridge’s heart** hums with disharmony,
-its cables glowing crimson as thousands of tethered travelers hang suspended in the vacuum corridor.
-The Knotless Guild claims responsibility, demanding the bridge be left to burn “so the Belt may
-breathe again.” The crew of _The Spindle Lass_ must decide: repair the link, let it fall, or find a
-third way that honors both freedom and connection.
+An orbital empathy‑bridge connecting two colonies erupts into flame—fire without heat, woven from
+ruptured emotion: three hues of burning—crimson for Heart, violet for Pulse, and silver for Mind.
+The Rope-Mage Guild calls for aid: the **Bridge’s heart** hums with disharmony, its cables glowing
+crimson as thousands of tethered travelers hang suspended in the vacuum corridor. The Knotless Guild
+claims responsibility, demanding the bridge be left to burn “so the Belt may breathe again.” The
+crew of _The Spindle Lass_ must decide: repair the link, let it fall, or find a third way that
+honors both freedom and connection.
 
 ---
 
@@ -89,11 +97,11 @@ Belt’s empathy code. Success saves lives—and transforms the meaning of bindi
 
 ## 🕸️ 𝘒𝘦𝘺 𝘚𝘤𝘦𝘯𝘦𝘴
 
-| Scene                      | Description                                                   | Skill / Save                                          | Consent Cue                                        |
-| -------------------------- | ------------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------- |
-| **The Spark**              | Emotional overload ignites bridge; crew must anchor the ends. | Acrobatics DC 21 or Religion DC 23                    | Speak each other’s names before acting.            |
-| **The Debate on the Span** | Tress and Emera face off above the burning void.              | Diplomacy DC 22 or Performance DC 20                  | Pause if voices rise; reaffirm safeword “fiction.” |
-| **The Last Knot**          | Decide fate of bridge core.                                   | Group consensus; any skill justified through empathy. | Crew speaks: “We choose together.”                 |
+| Scene                      | Description                                                   | Skill / Save                                          | Consent Cue                                                                                      |
+| -------------------------- | ------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **The Spark**              | Emotional overload ignites bridge; crew must anchor the ends. | Acrobatics DC 21 or Religion DC 23                    | Speak each other’s names before acting. Declare your chosen hue of fire (Heart, Pulse, or Mind). |
+| **The Debate on the Span** | Tress and Emera face off above the burning void.              | Diplomacy DC 22 or Performance DC 20                  | Pause if voices rise; reaffirm safeword “fiction.”                                               |
+| **The Last Knot**          | Decide fate of bridge core.                                   | Group consensus; any skill justified through empathy. | Crew speaks: “We choose together.”                                                               |
 
 ---
 
@@ -102,6 +110,8 @@ Belt’s empathy code. Success saves lives—and transforms the meaning of bindi
 - **Material:** Access to the Loom-Spirit Heart plans, or fragments of empathy filament.
 - **Emotional:** Reconciliation between factions (temporary or true).
 - **Drama:** +3 Drama Points if the bridge survives by consent rather than control.
+- **Tri‑Engine Effect:** Echo Tokens earned during this session may convert 1:1 into Hope dice or
+  cancel one Fear token.
 
 ---
 
@@ -123,6 +133,8 @@ Music of tension cables becomes chorus as the bridge hums with collective emotio
 ## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
 
 > _“To save a bridge, one must first agree on what it connects.”_
+>
+> ✨⛓️ The Bridge now burns in three lights—Heart, Pulse, and Mind—forever balanced.
 >
 > 🕯️ **This adventure is fiction devoted to repair.** May every tie burn only to be rewoven kinder.
 > ✨⛓️🔥

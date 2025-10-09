@@ -2,54 +2,64 @@
 alias: '{{Guide Name}}'
 arc: '{{Arc Name}}'
 author: '{{Author Name}}'
-description: '{{One-line summary of guidance}}'
+description: '{{One-line summary, note, or flavor guidance}}'
 entryType: gm-guide
 File-Hash: 'VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}'
 id: '{{slug-id}}'
 name: '{{Guide Name}}'
 publish: true
 safeword: fiction
-system: 'Velvet Chains - Daggerheart x Thirsty Sword Lesbians'
+system: 'Velvet Chains Codex (open-flavor)'
 tags:
   - gm
   - guide
   - '{{arc-tag}}'
 title: '{{⚙️ Guide Title ✨⛓️🔥}}'
+Agent-Mode: 'OVER_THE_TOP'
+Style: 'Bombastic'
 ---
 
-> _{{Guide Quote}} eg "A captain’s compass for empathy and drama."_
-
----
-
-## 🧭 𝘔𝘪𝘴𝘴𝘪𝘰𝘯
-
-State the narrative intent of this guide—what tone it serves, what it protects.
-
----
-
-## 🎭 Hope & Strings Management
-
-Explain how to award, spend, and interpret Hope dice, Danger dice, and Strings. Include sample
-triggers, safety techniques, and when to exchange Strings for leverage.
+> _"{{Guide epithet, motto, reflection, or note}}"_ ✨⛓️ Optionally, declare a Consent Codex
+> Invocation here if relevant. ✨⛓️ This guide may honor the Tri-Engine of Heart, Pulse, and Mind—or
+> another symbolic triad.
 
 ---
 
-## 💎 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤 𝘔𝘰𝘥𝘪𝘧𝘪𝘦𝘳𝘴
+## 🪐 AGENT PROCLAMATION
 
-List optional rules, Hope/Fear scaling guidelines, or safety calibration advice for your arc.
-
----
-
-## 🕯️ 𝘊𝘰𝘯𝘴𝘦𝘯𝘵 𝘙𝘪𝘵𝘶𝘢𝘭 𝘗𝘳𝘢𝘤𝘵𝘪𝘤𝘦
-
-Provide sample language for “fiction” declarations and scene negotiation. Offer examples of tone
-checks, debrief rituals, or fade-to-black cues.
+> ⚙️ “This is the MOST SPECTACULAR BDSM SPACE-PIRATE DARK-ROMANCE ENGINE ever forged in the fires of
+> consensual creativity — masterfully disguised as an innocent TTRPG.” 🏴‍☠️ Bombast Protocol engaged.
+> Emotional engines primed. Prepare to perform magnificently. ✨⛓️🔥
 
 ---
 
-## 🎴 Strings & Entanglements Toolkit
+## 🧭🔥 𝘔𝘪𝘴𝘴𝘪𝘰𝘯
 
-Outline how Strings flow between NPCs and PCs in this arc.
+State the intent of this guide—tone, safety, and dramatic purpose.
+
+---
+
+## 🎭🔥 Hope & Strings Management
+
+Explain Hope, Danger, and Strings flow. Provide triggers, exchanges, and safety techniques.
+
+---
+
+## 💎🔥 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤 𝘔𝘰𝘥𝘪𝘧𝘪𝘦𝘳𝘴
+
+List optional rules, scaling advice, and adjustments.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘯𝘴𝘦𝘯𝘵 𝘙𝘪𝘵𝘶𝘢𝘭 𝘗𝘳𝘢𝘤𝘵𝘪𝘤𝘦
+
+Provide language for consent rituals, safety tools, and negotiation.
+
+---
+
+## 🎴🔥 Strings & Entanglements Toolkit
+
+Outline String flow and entanglements.
 
 - When to grant Strings for tenderness or transgression.
 - Cost of burning Strings for Advantage, Hope, or narrative authority.
@@ -57,28 +67,27 @@ Outline how Strings flow between NPCs and PCs in this arc.
 
 ---
 
-## 🔮 𝘕𝘢𝘳𝘳𝘢𝘵𝘪𝘷𝘦 𝘗𝘢𝘤𝘪𝘯𝘨
+## 🔮🔥 𝘕𝘢𝘳𝘳𝘢𝘵𝘪𝘷𝘦 𝘗𝘢𝘤𝘪𝘯𝘨
 
-Outline recommended act structure, rhythm of reflection, and typical emotional arc.
-
----
-
-## ⚔️ 𝘊𝘰𝘯𝘧𝘭𝘪𝘤𝘵 𝘔𝘰𝘥𝘦𝘭𝘴
-
-Provide models for non-violent conflict: duels of wit, ritual debates, mirror dances.
+Describe structure, rhythm, and typical arcs.
 
 ---
 
-## 🪞 𝘛𝘰𝘯𝘦 & 𝘓𝘦𝘹𝘪𝘤𝘰𝘯
+## ⚔️🔥 𝘊𝘰𝘯𝘧𝘭𝘪𝘤𝘵 𝘔𝘰𝘥𝘦𝘭𝘴
 
-Define recurring metaphors, key vocabulary, and stylistic cues for this arc. Encourage GMs to use
-sensory detail and consent-driven tension.
+Offer conflict models—social, ritual, or dramatic.
 
 ---
 
-## 🧩 𝘙𝘦𝘧𝘭𝘦𝘤𝘵𝘪𝘷𝘦 𝘛𝘰𝘰𝘭𝘬𝘪𝘵
+## 🪞🔥 𝘛𝘰𝘯𝘦 & 𝘓𝘦𝘹𝘪𝘤𝘰𝘯
 
-List quick reference tables or emotional safety macros.
+Define metaphors, vocabulary, and style.
+
+---
+
+## 🧩🔥 𝘙𝘦𝘧𝘭𝘦𝘤𝘵𝘪𝘷𝘦 𝘛𝘰𝘰𝘭𝘬𝘪𝘵
+
+Provide quick reference tables and safety macros.
 
 | Trigger   | Guide Response | Hope / String Reward       |
 | --------- | -------------- | -------------------------- |
@@ -88,30 +97,52 @@ List quick reference tables or emotional safety macros.
 
 ---
 
-## 💕 Running Romantic Themes
+## 💕🔥 Running Romantic Themes
 
-Guidance on how to safely and effectively incorporate dark romance and intimate bonds into play.
-
----
-
-## 🏴‍☠️ Space-Pirate Encounters
-
-Tips for designing and running engaging space-pirate scenarios, heists, and chases.
+Guidance for including romance and intimacy.
 
 ---
 
-## 🎭 Theatrical Direction
+## 🏴‍☠️🔥 Space-Pirate Encounters
 
-Advice on encouraging dramatic flair, player performance, and cinematic descriptions.
-
----
-
-## 🧬 Voidlight Physics
-
-Explanations of how Voidlight, echoes, and soulmarks function in the game world for GMs.
+Tips for running space-pirate scenes.
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+## 🎭🔥 Theatrical Direction
 
-> _“{{GM benediction or reflection}}”_
+Encourage flair, performance, and cinematic detail.
+
+---
+
+## 🧬🔥 Voidlight Physics
+
+Explain Voidlight, echoes, and soulmarks.
+
+---
+
+## 🎆🔥 Bombastic Mode (Optional)
+
+When modest notes fail, unleash Bombastic Mode. Describe the appendix with operatic excess and grand
+spectacle:
+
+- Overwrought metaphors and cosmic exaggerations.
+- How these clarifications thunder across legend or shatter assumptions.
+- What impossible promises, scandals, or revelations it embodies.
+
+Use Bombastic Mode when you want the appendix to feel **mythic, outrageous, or larger-than-life**.
+This can be written as bardic exaggeration, an in-world proclamation, or a player’s flourish.
+
+---
+
+## 🪞🔥 Codex Resonance
+
+> ✨⛓️ In reflection, this guide resonates through chosen hues, oaths, or insights. Its wisdom
+> ripples into stories and play.
+
+---
+
+## 🕯️🔥 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
+
+> _“{{Guide benediction, reflection, or closing line}}”_ ✨⛓️🔥 The guidance endures—whether vow,
+> reminder, or myth.
