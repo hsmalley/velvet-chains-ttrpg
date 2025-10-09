@@ -1,8 +1,13 @@
 #!/usr/bin/env sh
+# 🏴‍☠️ Voidlight Corsair Pre-Commit Rite
+# Validates consent schema and runs Astro checks before sealing the commit.
 
 set -e
 
 echo "🏴‍☠️ Running Voidlight validation..."
 npm run validate:content
+
+echo "🔎 Running Astro type/syntax check..."
+npm run check:astro
 
 echo "✨ Voidlight rituals passed. Onward to commit."

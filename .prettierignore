@@ -1,3 +1,5 @@
+# 🏴‍☠️ Voidlight Prettier Ignore
+# The Corsair formatter sails around builds, caches, and vault artifacts.
 # Dependencies & builds
 node_modules
 dist

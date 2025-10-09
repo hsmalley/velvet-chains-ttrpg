@@ -1,5 +1,6 @@
 ---
-# 🏴‍☠️ Velvet Chains Pre-Commit Corsair Guard Configuration
+# 🏴‍☠️ Velvet Chains & Voidlight — Corsair Guard
+# The MOST SPECTACULAR BDSM SPACE-PIRATE ROMANCE ENGINE pre-commit rituals.
 # Ensures all code meets theatrical excellence before entering sacred git history
 repos:
   # 🐍 Python Choreographer Quality Assurance
@@ -99,43 +100,10 @@ repos:
           - prettier-plugin-astro@0.14.1
         files: \.(js|jsx|ts|tsx|json|md|mdx|astro|css|scss|yaml|yml)$
         args: ["--write"]
-  # 🔎 ESLint via Next (local hook)
+  # 🔎 Project checks (local)
   - repo: local
     hooks:
-      - id: next-lint
-        name: 🔎 ESLint (Next.js)
-        entry: bash
-        args:
-          - -lc
-          - |
-            set -euo pipefail
-            if [ -f package.json ] && grep -q '"next"' package.json; then
-              npx next lint --max-warnings=0
-            else
-              echo "Skipping Next.js lint: no Next.js detected in package.json."
-            fi
-        language: system
-        pass_filenames: false
-      # TTRPG-specific ESLint run (scoped to subproject)
-      - id: ttrpg-eslint
-        name: 🔎 ESLint (TTRPG)
-        entry: bash
-        args:
-          - -lc
-          - |
-            set -euo pipefail
-            if [ -f package.json ] && npx --no-install eslint -v >/dev/null 2>&1; then
-              if ls -1 .eslintrc.* 2>/dev/null | grep -q .; then
-                npx eslint . --max-warnings=0
-              else
-                echo "Skipping ESLint: no ESLint config present."
-              fi
-            else
-              echo "Skipping ESLint: eslint not installed in this project."
-            fi
-        language: system
-        pass_filenames: false
-      # TTRPG pre-push Astro type/syntax check
+      # Pre-push Astro type/syntax check
       - id: ttrpg-astro-check
         name: ✨ Astro Check (TTRPG)
         entry: bash

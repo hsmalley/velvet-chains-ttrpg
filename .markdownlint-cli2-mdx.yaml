@@ -1,3 +1,5 @@
+# 🏴‍☠️ Voidlight MDX Lint Charter
+# MDX pages host components and cinematic spacing; adjust rules accordingly.
 default: true
 config:
   # Disable MD037 for MDX to allow stylistic spacing around emphasis in UI-ish index pages
