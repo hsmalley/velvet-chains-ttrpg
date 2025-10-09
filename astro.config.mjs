@@ -1,7 +1,11 @@
-import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
-import starlight from '@astrojs/starlight';
-import fs from 'node:fs';
+import { defineConfig } from 'astro/config'
+import sitemap from '@astrojs/sitemap'
+import starlight from '@astrojs/starlight'
+import fs from 'node:fs'
+
+// Site-wide motto used for descriptions and social previews
+const MOTTO =
+  'The MOST SPECTACULAR BDSM SPACE-PIRATE ROMANCE ENGINE ever forged in the fires of consensual creativity - masterfully disguised as an innocent TTRPG'
 
 /**
  * Capitalizes the first letter of each word in a kebab-case string and joins them with spaces.
@@ -12,7 +16,7 @@ function kebabToTitleCase(str) {
   return str
     .split('-')
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
+    .join(' ')
 }
 
 /**
@@ -20,8 +24,8 @@ function kebabToTitleCase(str) {
  * @returns {import('@astrojs/starlight/types').SidebarItem[]}
  */
 function getSidebarItems() {
-  const contentDir = 'src/content/docs';
-  const excludedDirs = new Set(['media']);
+  const contentDir = 'src/content/docs'
+  const excludedDirs = new Set(['media'])
 
   const directories = fs
     .readdirSync(contentDir, { withFileTypes: true })
@@ -29,12 +33,12 @@ function getSidebarItems() {
     .map((dirent) => ({
       label: kebabToTitleCase(dirent.name),
       autogenerate: { directory: dirent.name },
-    }));
+    }))
 
   // Sort alphabetically by label
-  directories.sort((a, b) => a.label.localeCompare(b.label));
+  directories.sort((a, b) => a.label.localeCompare(b.label))
 
-  return directories;
+  return directories
 }
 
 // This configuration powers the Velvet Chains TTRPG site.  It mirrors the
@@ -58,8 +62,22 @@ export default defineConfig({
         {
           tag: 'meta',
           attrs: {
+            name: 'description',
+            content: MOTTO,
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
             property: 'og:image',
             content: 'https://hsmalley.github.io/velvet-chains-ttrpg/social/vcvl-og.png',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:description',
+            content: MOTTO,
           },
         },
         {
@@ -91,6 +109,13 @@ export default defineConfig({
           },
         },
         {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:description',
+            content: MOTTO,
+          },
+        },
+        {
           tag: 'link',
           attrs: {
             rel: 'apple-touch-icon',
@@ -111,4 +136,4 @@ export default defineConfig({
       customCss: ['./src/styles/velvet-chains-theme.css'],
     }),
   ],
-});
+})

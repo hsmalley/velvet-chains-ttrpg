@@ -1,8 +1,8 @@
 ---
-import { getCollection } from 'astro:content';
-import { withBasePath } from '../utils/url';
+import { getCollection } from 'astro:content'
+import { withBasePath } from '../utils/url'
 
-const docs = await getCollection('docs', ({ data }) => data.publish === true);
+const docs = await getCollection('docs', ({ data }) => data.publish === true)
 const ENTRY_TYPES = [
   'character',
   'companion',
@@ -12,14 +12,15 @@ const ENTRY_TYPES = [
   'map',
   'artifact',
   'artifact-collection',
+  'codex',
   'arc',
   'ritual',
   'logbook',
   'ship',
   'gm-guide',
-] as const;
+] as const
 
-type EntryType = (typeof ENTRY_TYPES)[number];
+type EntryType = (typeof ENTRY_TYPES)[number]
 
 const TYPE_LABELS: Record<EntryType, string> = {
   character: 'Characters',
@@ -30,111 +31,108 @@ const TYPE_LABELS: Record<EntryType, string> = {
   map: 'Maps',
   artifact: 'Artifacts',
   'artifact-collection': 'Artifact Collections',
+  codex: 'Codices',
   arc: 'Story Arcs',
   ritual: 'Rituals',
   logbook: 'Logbooks',
   ship: 'Ships',
   'gm-guide': 'GM Guides',
-};
+}
 
 type SearchEntry = {
-  slug: string;
-  entryType: EntryType;
-  tags: string[];
-  name: string;
-  title: string;
-  subtitle: string;
-  url: string;
-};
+  slug: string
+  entryType: EntryType
+  tags: string[]
+  name: string
+  title: string
+  subtitle: string
+  url: string
+}
 
 const describeEntry = (entry: SearchEntry, data: Record<string, unknown>) => {
   switch (entry.entryType) {
+    case 'codex':
+      return ''
     case 'character': {
-      const level = data.level as number | undefined;
-      const klass = data.class as string | undefined;
-      return level && klass ? `Level ${level} ${klass}` : '';
+      const level = data.level as number | undefined
+      const klass = data.class as string | undefined
+      return level && klass ? `Level ${level} ${klass}` : ''
     }
     case 'companion':
-      return (data.species as string | undefined) ?? '';
+      return (data.species as string | undefined) ?? ''
     case 'faction':
-      return (data.alignment as string | undefined) ?? '';
+      return (data.alignment as string | undefined) ?? ''
     case 'adventure': {
-      const level = data.recommendedLevel as string | number | undefined;
-      const duration = data.duration as string | undefined;
+      const level = data.recommendedLevel as string | number | undefined
+      const duration = data.duration as string | undefined
       if (level && duration) {
-        return `Level ${level} • ${duration}`;
+        return `Level ${level} • ${duration}`
       }
       if (level) {
-        return `Level ${level}`;
+        return `Level ${level}`
       }
-      return duration ?? '';
+      return duration ?? ''
     }
     case 'place':
-      return (data.location as string | undefined) ?? '';
+      return (data.location as string | undefined) ?? ''
     case 'map': {
-      const scale = data.mapScale as string | undefined;
-      const dimensions = data.mapDimensions as string | undefined;
+      const scale = data.mapScale as string | undefined
+      const dimensions = data.mapDimensions as string | undefined
       if (scale && dimensions) {
-        return `${scale} • ${dimensions}`;
+        return `${scale} • ${dimensions}`
       }
-      return scale ?? dimensions ?? '';
+      return scale ?? dimensions ?? ''
     }
     case 'artifact': {
-      const rarity = data.rarity as string | undefined;
-      const level = data.level as number | undefined;
-      const arc = data.arc as string | undefined;
-      const bits = [
-        rarity,
-        level ? `Level ${level}` : undefined,
-        arc,
-      ].filter(Boolean) as string[];
-      return bits.join(' • ');
+      const rarity = data.rarity as string | undefined
+      const level = data.level as number | undefined
+      const arc = data.arc as string | undefined
+      const bits = [rarity, level ? `Level ${level}` : undefined, arc].filter(Boolean) as string[]
+      return bits.join(' • ')
     }
     case 'artifact-collection':
-      return (data.arc as string | undefined) ?? '';
+      return (data.arc as string | undefined) ?? ''
     case 'arc':
-      return (data.arc as string | undefined) ?? '';
+      return (data.arc as string | undefined) ?? ''
     case 'ritual': {
-      const level = data.level as number | undefined;
-      const castingTime = data.castingTime as string | undefined;
-      const participants = data.participants as string | undefined;
-      const bits = [
-        level ? `Level ${level}` : undefined,
-        castingTime,
-        participants,
-      ].filter(Boolean) as string[];
-      return bits.join(' • ');
+      const level = data.level as number | undefined
+      const castingTime = data.castingTime as string | undefined
+      const participants = data.participants as string | undefined
+      const bits = [level ? `Level ${level}` : undefined, castingTime, participants].filter(
+        Boolean
+      ) as string[]
+      return bits.join(' • ')
     }
     case 'logbook': {
-      const author = data.author as string | undefined;
-      const arc = data.arc as string | undefined;
-      const bits = [author, arc].filter(Boolean) as string[];
-      return bits.join(' • ');
+      const author = data.author as string | undefined
+      const arc = data.arc as string | undefined
+      const bits = [author, arc].filter(Boolean) as string[]
+      return bits.join(' • ')
     }
     case 'ship': {
-      const captain = data.captain as string | undefined;
-      const affiliation = data.affiliation as string | undefined;
-      const arc = data.arc as string | undefined;
-      const bits = [captain, affiliation, arc].filter(Boolean) as string[];
-      return bits.join(' • ');
+      const captain = data.captain as string | undefined
+      const affiliation = data.affiliation as string | undefined
+      const arc = data.arc as string | undefined
+      const bits = [captain, affiliation, arc].filter(Boolean) as string[]
+      return bits.join(' • ')
     }
     case 'gm-guide':
-      return (data.arc as string | undefined) ?? '';
+      return (data.arc as string | undefined) ?? ''
     default:
-      return '';
+      return ''
   }
-};
+}
 
 const entries: SearchEntry[] = docs
   .map(({ data, slug }) => {
-    const entryType = data.entryType as EntryType | undefined;
+    const entryType = data.entryType as EntryType | undefined
 
     if (!entryType || !ENTRY_TYPES.includes(entryType)) {
-      return null;
+      return null
     }
 
-    const tags = Array.isArray(data.tags) ? (data.tags as string[]) : [];
-    const name = (data.name as string | undefined) ?? (data.title as string | undefined) ?? slug;
+    const tags = Array.isArray(data.tags) ? (data.tags as string[]) : []
+    const name = (data.name as string | undefined) ?? (data.title as string | undefined) ?? slug
 
     const entry: SearchEntry = {
       slug,
@@ -144,18 +142,20 @@ const entries: SearchEntry[] = docs
       title: (data.title as string | undefined) ?? name,
       subtitle: '',
       url: withBasePath(`/${slug}/`),
-    };
+    }
 
-    entry.subtitle = describeEntry(entry, data as Record<string, unknown>);
-    return entry;
+    entry.subtitle = describeEntry(entry, data as Record<string, unknown>)
+    return entry
   })
-  .filter((entry): entry is SearchEntry => Boolean(entry));
+  .filter((entry): entry is SearchEntry => Boolean(entry))
 
-const allTags = [...new Set(entries.flatMap((entry) => entry.tags))].sort((a, b) => a.localeCompare(b));
-const allTypes = [...ENTRY_TYPES];
-const serializedEntries = JSON.stringify(entries).replace(/</g, '\\u003c');
-const serializedTypeLabels = JSON.stringify(TYPE_LABELS).replace(/</g, '\\u003c');
-const serializedTypes = JSON.stringify(allTypes).replace(/</g, '\\u003c');
+const allTags = [...new Set(entries.flatMap((entry) => entry.tags))].sort((a, b) =>
+  a.localeCompare(b)
+)
+const allTypes = [...ENTRY_TYPES]
+const serializedEntries = JSON.stringify(entries).replace(/</g, '\\u003c')
+const serializedTypeLabels = JSON.stringify(TYPE_LABELS).replace(/</g, '\\u003c')
+const serializedTypes = JSON.stringify(allTypes).replace(/</g, '\\u003c')
 ---
 
 <div class="search-dashboard">
@@ -164,22 +164,26 @@ const serializedTypes = JSON.stringify(allTypes).replace(/</g, '\\u003c');
 
   <h3>🔖 Filter by Tag</h3>
   <div id="tag-filters">
-    {allTags.map((tag) => (
-      <label>
-        <input type="checkbox" value={tag} />
-        {tag}
-      </label>
-    ))}
+    {
+      allTags.map((tag) => (
+        <label>
+          <input type="checkbox" value={tag} />
+          {tag}
+        </label>
+      ))
+    }
   </div>
 
   <h3>🧩 Filter by Type</h3>
   <div id="type-filters">
-    {allTypes.map((type) => (
-      <label>
-        <input type="checkbox" value={type} checked />
-        {TYPE_LABELS[type]}
-      </label>
-    ))}
+    {
+      allTypes.map((type) => (
+        <label>
+          <input type="checkbox" value={type} checked />
+          {TYPE_LABELS[type]}
+        </label>
+      ))
+    }
   </div>
 
   <hr />
@@ -187,124 +191,126 @@ const serializedTypes = JSON.stringify(allTypes).replace(/</g, '\\u003c');
   <div id="results"></div>
   <div id="pagination"></div>
 
-  <script type="application/json" id="entry-data" set:html={serializedEntries}></script>
-  <script type="application/json" id="type-labels" set:html={serializedTypeLabels}></script>
-  <script type="application/json" id="type-data" set:html={serializedTypes}></script>
+  <script type="application/json" id="entry-data" set:html={serializedEntries} is:inline />
+  <script type="application/json" id="type-labels" set:html={serializedTypeLabels} is:inline />
+  <script type="application/json" id="type-data" set:html={serializedTypes} is:inline />
 
-  <script type="module">
-    import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.esm.js';
+  <script type="module" is:inline>
+    import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.esm.js'
 
-    const ENTRY_TYPES = JSON.parse(document.getElementById('type-data').textContent);
-    const TYPE_LABELS = JSON.parse(document.getElementById('type-labels').textContent);
-    const entries = JSON.parse(document.getElementById('entry-data').textContent);
+    const ENTRY_TYPES = JSON.parse(document.getElementById('type-data').textContent)
+    const TYPE_LABELS = JSON.parse(document.getElementById('type-labels').textContent)
+    const entries = JSON.parse(document.getElementById('entry-data').textContent)
     const fuse = new Fuse(entries, {
       keys: ['name', 'tags', 'entryType', 'subtitle'],
       threshold: 0.3,
-    });
+    })
 
-    let searchTerm = '';
-    let selectedTags = new Set();
-    let selectedTypes = new Set(ENTRY_TYPES);
-    let currentPage = 1;
-    const pageSize = 10;
+    let searchTerm = ''
+    let selectedTags = new Set()
+    let selectedTypes = new Set(ENTRY_TYPES)
+    let currentPage = 1
+    const pageSize = 10
 
-    const input = document.getElementById('search-input');
-    const tagFilters = document.getElementById('tag-filters');
-    const typeFilters = document.getElementById('type-filters');
-    const resultsContainer = document.getElementById('results');
-    const paginationContainer = document.getElementById('pagination');
+    const input = document.getElementById('search-input')
+    const tagFilters = document.getElementById('tag-filters')
+    const typeFilters = document.getElementById('type-filters')
+    const resultsContainer = document.getElementById('results')
+    const paginationContainer = document.getElementById('pagination')
 
     input.addEventListener('input', (e) => {
-      searchTerm = e.target.value;
-      currentPage = 1;
-      updateResults();
-    });
+      searchTerm = e.target.value
+      currentPage = 1
+      updateResults()
+    })
 
     tagFilters.querySelectorAll('input').forEach((input) => {
       input.addEventListener('change', () => {
-        input.checked ? selectedTags.add(input.value) : selectedTags.delete(input.value);
-        currentPage = 1;
-        updateResults();
-      });
-    });
+        input.checked ? selectedTags.add(input.value) : selectedTags.delete(input.value)
+        currentPage = 1
+        updateResults()
+      })
+    })
 
     typeFilters.querySelectorAll('input').forEach((input) => {
       input.addEventListener('change', () => {
-        input.checked ? selectedTypes.add(input.value) : selectedTypes.delete(input.value);
-        currentPage = 1;
-        updateResults();
-      });
-    });
+        input.checked ? selectedTypes.add(input.value) : selectedTypes.delete(input.value)
+        currentPage = 1
+        updateResults()
+      })
+    })
 
     function updateResults() {
-      const results = fuse.search(searchTerm).map((r) => r.item);
+      const results = fuse.search(searchTerm).map((r) => r.item)
       const filtered = results.filter(
         (entry) =>
           selectedTypes.has(entry.entryType) &&
           (selectedTags.size === 0 || entry.tags.some((tag) => selectedTags.has(tag)))
-      );
+      )
 
       const grouped = ENTRY_TYPES.reduce((acc, type) => {
-        acc[type] = [];
-        return acc;
-      }, {});
+        acc[type] = []
+        return acc
+      }, {})
 
       filtered.forEach((entry) => {
-        grouped[entry.entryType].push(entry);
-      });
+        grouped[entry.entryType].push(entry)
+      })
 
-      resultsContainer.innerHTML = '';
+      resultsContainer.innerHTML = ''
 
       ENTRY_TYPES.forEach((type) => {
-        const groupEntries = grouped[type];
-        if (groupEntries.length === 0) return;
+        const groupEntries = grouped[type]
+        if (groupEntries.length === 0) return
 
-        const groupDiv = document.createElement('div');
-        const heading = document.createElement('h3');
-        heading.textContent = TYPE_LABELS[type];
-        groupDiv.appendChild(heading);
+        const groupDiv = document.createElement('div')
+        const heading = document.createElement('h3')
+        heading.textContent = TYPE_LABELS[type]
+        groupDiv.appendChild(heading)
 
-        const ul = document.createElement('ul');
-        const start = (currentPage - 1) * pageSize;
-        const end = start + pageSize;
+        const ul = document.createElement('ul')
+        const start = (currentPage - 1) * pageSize
+        const end = start + pageSize
 
         groupEntries.slice(start, end).forEach((entry) => {
-          const li = document.createElement('li');
-          const subtitleText = entry.subtitle ? ` — ${entry.subtitle}` : '';
-          const tagText = entry.tags.length ? ` <span class="tags">(${entry.tags.join(', ')})</span>` : '';
-          li.innerHTML = `<a href="${entry.url}">${entry.name}</a>${subtitleText}${tagText}`;
-          ul.appendChild(li);
-        });
+          const li = document.createElement('li')
+          const subtitleText = entry.subtitle ? ` — ${entry.subtitle}` : ''
+          const tagText = entry.tags.length
+            ? ` <span class="tags">(${entry.tags.join(', ')})</span>`
+            : ''
+          li.innerHTML = `<a href="${entry.url}">${entry.name}</a>${subtitleText}${tagText}`
+          ul.appendChild(li)
+        })
 
-        groupDiv.appendChild(ul);
-        resultsContainer.appendChild(groupDiv);
-      });
+        groupDiv.appendChild(ul)
+        resultsContainer.appendChild(groupDiv)
+      })
 
-      paginationContainer.innerHTML = '';
-      const prevBtn = document.createElement('button');
-      prevBtn.textContent = '⬅ Prev';
+      paginationContainer.innerHTML = ''
+      const prevBtn = document.createElement('button')
+      prevBtn.textContent = '⬅ Prev'
       prevBtn.onclick = () => {
         if (currentPage > 1) {
-          currentPage--;
-          updateResults();
+          currentPage--
+          updateResults()
         }
-      };
+      }
 
-      const nextBtn = document.createElement('button');
-      nextBtn.textContent = 'Next ➡';
+      const nextBtn = document.createElement('button')
+      nextBtn.textContent = 'Next ➡'
       nextBtn.onclick = () => {
-        currentPage++;
-        updateResults();
-      };
+        currentPage++
+        updateResults()
+      }
 
-      const pageLabel = document.createElement('span');
-      pageLabel.textContent = `Page ${currentPage}`;
+      const pageLabel = document.createElement('span')
+      pageLabel.textContent = `Page ${currentPage}`
 
-      paginationContainer.appendChild(prevBtn);
-      paginationContainer.appendChild(pageLabel);
-      paginationContainer.appendChild(nextBtn);
+      paginationContainer.appendChild(prevBtn)
+      paginationContainer.appendChild(pageLabel)
+      paginationContainer.appendChild(nextBtn)
     }
 
-    window.addEventListener('DOMContentLoaded', updateResults);
+    window.addEventListener('DOMContentLoaded', updateResults)
   </script>
 </div>

@@ -20,7 +20,9 @@ body {
   padding: 2rem;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--accent);
   font-weight: 600;
   margin-top: 2rem;
@@ -48,7 +50,8 @@ table {
   border-collapse: collapse;
   margin-top: 1rem;
 }
-th, td {
+th,
+td {
   border: 1px solid var(--border);
   padding: 0.5rem;
   text-align: left;
@@ -58,13 +61,15 @@ th {
   color: var(--accent);
 }
 
-input[type="text"], input[type="checkbox"], button {
+input[type='text'],
+input[type='checkbox'],
+button {
   font-family: var(--font-body);
   font-size: 1rem;
   margin: 0.5rem 0;
 }
 
-input[type="text"] {
+input[type='text'] {
   background-color: #1a1a2a;
   color: var(--fg);
   border: 1px solid var(--border);

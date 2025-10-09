@@ -1,25 +1,32 @@
 ---
-import { getCollection } from 'astro:content';
-import { withBasePath } from '../utils/url';
+import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
+import { withBasePath } from '../utils/url'
 
-const { entryType, showSummary = false } = Astro.props;
+const { entryType, showSummary = false } = Astro.props
 
-const docs = await getCollection('docs', ({ data }) => data.entryType === entryType && data.publish === true);
+const docs: CollectionEntry<'docs'>[] = await getCollection(
+  'docs',
+  ({ data }) => data.entryType === entryType && data.publish === true
+)
 const sorted = docs.sort((a, b) => {
-  const titleA = (a.data.name ?? a.data.title ?? '').toLowerCase();
-  const titleB = (b.data.name ?? b.data.title ?? '').toLowerCase();
-  return titleA.localeCompare(titleB);
-});
+  const titleA = (a.data.name ?? a.data.title ?? '').toLowerCase()
+  const titleB = (b.data.name ?? b.data.title ?? '').toLowerCase()
+  return titleA.localeCompare(titleB)
+})
 
-const makeUrl = (entry) => withBasePath(`/${entry.slug}/`);
-const getLabel = (entry) => entry.data.name ?? entry.data.title ?? entry.slug;
+const makeUrl = (entry: CollectionEntry<'docs'>) => withBasePath(`/${entry.slug}/`)
+const getLabel = (entry: CollectionEntry<'docs'>) =>
+  entry.data.name ?? entry.data.title ?? entry.slug
 ---
 
 <ul>
-  {sorted.map((entry) => (
-    <li>
-      <a href={makeUrl(entry)}>{getLabel(entry)}</a>
-      {showSummary && entry.data.description ? <> — {entry.data.description}</> : null}
-    </li>
-  ))}
+  {
+    sorted.map((entry) => (
+      <li>
+        <a href={makeUrl(entry)}>{getLabel(entry)}</a>
+        {showSummary && entry.data.description ? <> — {entry.data.description}</> : null}
+      </li>
+    ))
+  }
 </ul>

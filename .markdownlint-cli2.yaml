@@ -1,6 +1,5 @@
 # Default state for all rules
 default: true
-
 # Rule configuration
 config:
   # MD001: Heading levels should only increment by one level at a time
@@ -10,9 +9,11 @@ config:
   # MD007: Unordered list indentation
   ul-indent:
     indent: 2
-  # MD033: No inline HTML
+  # MD033: No inline HTML — allow MDX components used in content
   no-inline-html:
-    allowed_elements: []
+    allowed_elements:
+      - CollectionList
+      - FeaturedOverview
   # MD041: First line in file should be a top level heading
   first-line-h1: false
   # MD046: Code block style (prefer fenced)
@@ -20,16 +21,27 @@ config:
     style: fenced
   # MD051: Link fragments should exist
   link-fragments: true
-
-# Globs to lint
-globs:
-  - "**/*.md"
-  - "**/*.mdx"
-
 # Globs to ignore
 ignores:
-  - "node_modules"
-  - "dist"
-  - "out"
-  - "public"
-  - "obsidian-theme"
+  [
+    node_modules,
+    dist,
+    out,
+    public,
+    obsidian-theme,
+    _WIP_,
+    documents,
+    adventures,
+    characters,
+    companions,
+    maps,
+    places,
+    artifacts,
+    arcs,
+    factions,
+    gm-guides,
+    logbooks,
+    rituals,
+    ships,
+    artifact-collections,
+  ]

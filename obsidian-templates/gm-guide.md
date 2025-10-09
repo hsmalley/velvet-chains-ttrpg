@@ -1,90 +1,90 @@
 ---
-alias: "{{Guide Name}}"
-arc: "{{Arc Name}}"
-author: "{{Author Name}}"
-description: "{{One-line summary of guidance}}"
+alias: '{{Guide Name}}'
+arc: '{{Arc Name}}'
+author: '{{Author Name}}'
+description: '{{One-line summary of guidance}}'
 entryType: gm-guide
-File-Hash: "VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}"
-id: "{{slug-id}}"
-name: "{{Guide Name}}"
+File-Hash: 'VCSPPE-{{TypeCode}}-v1.0-{{YYYYMMDD}}'
+id: '{{slug-id}}'
+name: '{{Guide Name}}'
 publish: true
 safeword: fiction
-system: "Velvet Chains - Daggerheart x Thirsty Sword Lesbians"
+system: 'Velvet Chains - Daggerheart x Thirsty Sword Lesbians'
 tags:
   - gm
   - guide
-  - "{{arc-tag}}"
-title: "{{⚙️ Guide Title ✨⛓️🔥}}"
+  - '{{arc-tag}}'
+title: '{{⚙️ Guide Title ✨⛓️🔥}}'
 ---
 
-> *{{Guide Quote}} eg "A captain’s compass for empathy and drama."*
-
----
-
-## 🧭 𝘔𝘪𝘴𝘴𝘪𝘰𝘯  
-
-State the narrative intent of this guide—what tone it serves, what it protects.  
+> _{{Guide Quote}} eg "A captain’s compass for empathy and drama."_
 
 ---
 
-## 🎭 Hope & Strings Management  
+## 🧭 𝘔𝘪𝘴𝘴𝘪𝘰𝘯
 
-Explain how to award, spend, and interpret Hope dice, Danger dice, and Strings.  
-Include sample triggers, safety techniques, and when to exchange Strings for leverage.
+State the narrative intent of this guide—what tone it serves, what it protects.
 
 ---
 
-## 💎 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤 𝘔𝘰𝘥𝘪𝘧𝘪𝘦𝘳𝘴  
+## 🎭 Hope & Strings Management
+
+Explain how to award, spend, and interpret Hope dice, Danger dice, and Strings. Include sample
+triggers, safety techniques, and when to exchange Strings for leverage.
+
+---
+
+## 💎 𝘔𝘦𝘤𝘩𝘢𝘯𝘪𝘤 𝘔𝘰𝘥𝘪𝘧𝘪𝘦𝘳𝘴
 
 List optional rules, Hope/Fear scaling guidelines, or safety calibration advice for your arc.
 
 ---
 
-## 🕯️ 𝘊𝘰𝘯𝘴𝘦𝘯𝘵 𝘙𝘪𝘵𝘶𝘢𝘭 𝘗𝘳𝘢𝘤𝘵𝘪𝘤𝘦  
+## 🕯️ 𝘊𝘰𝘯𝘴𝘦𝘯𝘵 𝘙𝘪𝘵𝘶𝘢𝘭 𝘗𝘳𝘢𝘤𝘵𝘪𝘤𝘦
 
-Provide sample language for “fiction” declarations and scene negotiation.  
-Offer examples of tone checks, debrief rituals, or fade-to-black cues.  
+Provide sample language for “fiction” declarations and scene negotiation. Offer examples of tone
+checks, debrief rituals, or fade-to-black cues.
 
 ---
 
 ## 🎴 Strings & Entanglements Toolkit
 
-Outline how Strings flow between NPCs and PCs in this arc.  
+Outline how Strings flow between NPCs and PCs in this arc.
 
-- When to grant Strings for tenderness or transgression.  
-- Cost of burning Strings for Advantage, Hope, or narrative authority.  
+- When to grant Strings for tenderness or transgression.
+- Cost of burning Strings for Advantage, Hope, or narrative authority.
 - Entanglement triangles or polycules to spotlight.
 
 ---
 
-## 🔮 𝘕𝘢𝘳𝘳𝘢𝘵𝘪𝘷𝘦 𝘗𝘢𝘤𝘪𝘯𝘨  
+## 🔮 𝘕𝘢𝘳𝘳𝘢𝘵𝘪𝘷𝘦 𝘗𝘢𝘤𝘪𝘯𝘨
 
-Outline recommended act structure, rhythm of reflection, and typical emotional arc.  
-
----
-
-## ⚔️ 𝘊𝘰𝘯𝘧𝘭𝘪𝘤𝘵 𝘔𝘰𝘥𝘦𝘭𝘴  
-
-Provide models for non-violent conflict: duels of wit, ritual debates, mirror dances.  
+Outline recommended act structure, rhythm of reflection, and typical emotional arc.
 
 ---
 
-## 🪞 𝘛𝘰𝘯𝘦 & 𝘓𝘦𝘹𝘪𝘤𝘰𝘯  
+## ⚔️ 𝘊𝘰𝘯𝘧𝘭𝘪𝘤𝘵 𝘔𝘰𝘥𝘦𝘭𝘴
 
-Define recurring metaphors, key vocabulary, and stylistic cues for this arc.  
-Encourage GMs to use sensory detail and consent-driven tension.  
+Provide models for non-violent conflict: duels of wit, ritual debates, mirror dances.
 
 ---
 
-## 🧩 𝘙𝘦𝘧𝘭𝘦𝘤𝘵𝘪𝘷𝘦 𝘛𝘰𝘰𝘭𝘬𝘪𝘵  
+## 🪞 𝘛𝘰𝘯𝘦 & 𝘓𝘦𝘹𝘪𝘤𝘰𝘯
 
-List quick reference tables or emotional safety macros.  
+Define recurring metaphors, key vocabulary, and stylistic cues for this arc. Encourage GMs to use
+sensory detail and consent-driven tension.
 
-| Trigger | Guide Response | Hope / String Reward |
-|----------|--------------|--------|
-| {{Event}} | {{Action}} | {{Hope or Strings gained}} |
-| {{Event}} | {{Action}} | {{Hope / Strings}} |
-| {{Event}} | {{Action}} | {{Hope / Strings}} |
+---
+
+## 🧩 𝘙𝘦𝘧𝘭𝘦𝘤𝘵𝘪𝘷𝘦 𝘛𝘰𝘰𝘭𝘬𝘪𝘵
+
+List quick reference tables or emotional safety macros.
+
+| Trigger   | Guide Response | Hope / String Reward       |
+| --------- | -------------- | -------------------------- |
+| {{Event}} | {{Action}}     | {{Hope or Strings gained}} |
+| {{Event}} | {{Action}}     | {{Hope / Strings}}         |
+| {{Event}} | {{Action}}     | {{Hope / Strings}}         |
 
 ---
 
@@ -112,6 +112,6 @@ Explanations of how Voidlight, echoes, and soulmarks function in the game world 
 
 ---
 
-## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦  
+## 🕯️ 𝘊𝘰𝘥𝘦𝘹 𝘊𝘭𝘰𝘴𝘶𝘳𝘦
 
-> *“{{GM benediction or reflection}}”*  
+> _“{{GM benediction or reflection}}”_

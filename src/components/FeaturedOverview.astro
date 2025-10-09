@@ -1,289 +1,342 @@
 ---
-import { getCollection } from 'astro:content';
-import { withBasePath } from '../utils/url';
+import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
+import { withBasePath } from '../utils/url'
 
-const docs = await getCollection('docs', ({ data }) => data.featured === true && data.publish === true);
-const sortByTitle = (a, b) => {
-  const titleA = (a.data.name ?? a.data.title ?? '').toLowerCase();
-  const titleB = (b.data.name ?? b.data.title ?? '').toLowerCase();
-  return titleA.localeCompare(titleB);
-};
+const docs: CollectionEntry<'docs'>[] = await getCollection(
+  'docs',
+  ({ data }) => data.featured === true && data.publish === true
+)
+const sortByTitle = (a: CollectionEntry<'docs'>, b: CollectionEntry<'docs'>) => {
+  const titleA = (a.data.name ?? a.data.title ?? '').toLowerCase()
+  const titleB = (b.data.name ?? b.data.title ?? '').toLowerCase()
+  return titleA.localeCompare(titleB)
+}
 
-const byType = (type) =>
-  docs.filter((entry) => entry.data.entryType === type).sort(sortByTitle);
+const byType = (type: string) =>
+  docs.filter((entry) => entry.data.entryType === type).sort(sortByTitle)
 
-const characters = byType('character');
-const companions = byType('companion');
-const factions = byType('faction');
-const adventures = byType('adventure');
-const arcs = byType('arc');
-const artifactCollections = byType('artifact-collection');
-const artifacts = byType('artifact');
-const rituals = byType('ritual');
-const logbooks = byType('logbook');
-const ships = byType('ship');
-const gmGuides = byType('gm-guide');
-const places = byType('place');
-const maps = byType('map');
+const characters = byType('character')
+const companions = byType('companion')
+const factions = byType('faction')
+const adventures = byType('adventure')
+const arcs = byType('arc')
+const artifactCollections = byType('artifact-collection')
+const artifacts = byType('artifact')
+const rituals = byType('ritual')
+const logbooks = byType('logbook')
+const ships = byType('ship')
+const gmGuides = byType('gm-guide')
+const places = byType('place')
+const maps = byType('map')
+const codices = byType('codex')
 
-const makeUrl = (entry) => withBasePath(`/${entry.slug}/`);
-const getName = (entry) => entry.data.name ?? entry.data.title ?? entry.slug;
-const getArc = (entry) => entry.data.arc ?? entry.data.title ?? entry.slug;
+const makeUrl = (entry: CollectionEntry<'docs'>) => withBasePath(`/${entry.slug}/`)
+const getName = (entry: CollectionEntry<'docs'>) =>
+  entry.data.name ?? entry.data.title ?? entry.slug
+const getArc = (entry: CollectionEntry<'docs'>) => entry.data.arc ?? entry.data.title ?? entry.slug
 ---
 
 <section>
   <h2>🧙 Featured Characters</h2>
-  {characters.length > 0 ? (
-    <ul>
-      {characters.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.level && entry.data.class ? (
-            <>
-              {' '}
-              — Level {entry.data.level} {entry.data.class}
-            </>
-          ) : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No characters found yet.</p>
-  )}
+  {
+    characters.length > 0 ? (
+      <ul>
+        {characters.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.level && entry.data.class ? (
+              <>
+                {' '}
+                — Level {entry.data.level} {entry.data.class}
+              </>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No characters found yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🧝‍♀️ Featured Companions</h2>
-  {companions.length > 0 ? (
-    <ul>
-      {companions.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.species ? <> — {entry.data.species}</> : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No companions to display yet.</p>
-  )}
+  {
+    companions.length > 0 ? (
+      <ul>
+        {companions.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.species ? <> — {entry.data.species}</> : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No companions to display yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🕸️ Featured Factions</h2>
-  {factions.length > 0 ? (
-    <ul>
-      {factions.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.alignment ? <> — {entry.data.alignment}</> : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No factions recorded yet.</p>
-  )}
+  {
+    factions.length > 0 ? (
+      <ul>
+        {factions.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.alignment ? <> — {entry.data.alignment}</> : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No factions recorded yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🎲 Spotlight Adventures</h2>
-  {adventures.length > 0 ? (
-    <ul>
-      {adventures.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.recommendedLevel || entry.data.duration ? (
-            <>
-              {' '}
-              —
-              {entry.data.recommendedLevel ? ` Level ${entry.data.recommendedLevel}` : ''}
-              {entry.data.recommendedLevel && entry.data.duration ? ' •' : ''}
-              {entry.data.duration ? ` ${entry.data.duration}` : ''}
-            </>
-          ) : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No adventures chronicled yet.</p>
-  )}
+  {
+    adventures.length > 0 ? (
+      <ul>
+        {adventures.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.recommendedLevel || entry.data.duration ? (
+              <>
+                {' '}
+                —{entry.data.recommendedLevel ? ` Level ${entry.data.recommendedLevel}` : ''}
+                {entry.data.recommendedLevel && entry.data.duration ? ' •' : ''}
+                {entry.data.duration ? ` ${entry.data.duration}` : ''}
+              </>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No adventures chronicled yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🌌 Saga Arcs</h2>
-  {arcs.length > 0 ? (
-    <ul>
-      {arcs.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.arc ? <> — {entry.data.arc}</> : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No arcs illuminated yet.</p>
-  )}
+  {
+    arcs.length > 0 ? (
+      <ul>
+        {arcs.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.arc ? <> — {entry.data.arc}</> : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No arcs illuminated yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>💎 Artifact Collections</h2>
-  {artifactCollections.length > 0 ? (
-    <ul>
-      {artifactCollections.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.arc ? <> — {entry.data.arc}</> : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No collections curated yet.</p>
-  )}
+  {
+    artifactCollections.length > 0 ? (
+      <ul>
+        {artifactCollections.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.arc ? <> — {entry.data.arc}</> : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No collections curated yet.</p>
+    )
+  }
+</section>
+
+<section>
+  <h2>📖 Core Codices</h2>
+  {
+    codices.length > 0 ? (
+      <ul>
+        {codices.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No codices archived yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🧬 Signature Artifacts</h2>
-  {artifacts.length > 0 ? (
-    <ul>
-      {artifacts.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.rarity || entry.data.level || entry.data.arc ? (
-            <>
-              {' '}
-              —
-              {[entry.data.rarity, entry.data.level ? `Level ${entry.data.level}` : null, entry.data.arc]
-                .filter(Boolean)
-                .join(' • ')}
-            </>
-          ) : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No artifacts catalogued yet.</p>
-  )}
+  {
+    artifacts.length > 0 ? (
+      <ul>
+        {artifacts.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.rarity || entry.data.level || entry.data.arc ? (
+              <>
+                {' '}
+                —
+                {[
+                  entry.data.rarity,
+                  entry.data.level ? `Level ${entry.data.level}` : null,
+                  entry.data.arc,
+                ]
+                  .filter(Boolean)
+                  .join(' • ')}
+              </>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No artifacts catalogued yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🔮 Ritual Codex</h2>
-  {rituals.length > 0 ? (
-    <ul>
-      {rituals.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.level || entry.data.castingTime || entry.data.participants ? (
-            <>
-              {' '}
-              —
-              {[entry.data.level ? `Level ${entry.data.level}` : null, entry.data.castingTime, entry.data.participants]
-                .filter(Boolean)
-                .join(' • ')}
-            </>
-          ) : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No rituals transcribed yet.</p>
-  )}
+  {
+    rituals.length > 0 ? (
+      <ul>
+        {rituals.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.level || entry.data.castingTime || entry.data.participants ? (
+              <>
+                {' '}
+                —
+                {[
+                  entry.data.level ? `Level ${entry.data.level}` : null,
+                  entry.data.castingTime,
+                  entry.data.participants,
+                ]
+                  .filter(Boolean)
+                  .join(' • ')}
+              </>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No rituals transcribed yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>📜 Living Logbooks</h2>
-  {logbooks.length > 0 ? (
-    <ul>
-      {logbooks.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.author || entry.data.arc ? (
-            <>
-              {' '}
-              —
-              {[entry.data.author, entry.data.arc].filter(Boolean).join(' • ')}
-            </>
-          ) : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No logbooks recorded yet.</p>
-  )}
+  {
+    logbooks.length > 0 ? (
+      <ul>
+        {logbooks.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.author || entry.data.arc ? (
+              <> —{[entry.data.author, entry.data.arc].filter(Boolean).join(' • ')}</>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No logbooks recorded yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🚀 Voidlight Ships</h2>
-  {ships.length > 0 ? (
-    <ul>
-      {ships.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.captain || entry.data.affiliation || entry.data.arc ? (
-            <>
-              {' '}
-              —
-              {[entry.data.captain, entry.data.affiliation, entry.data.arc].filter(Boolean).join(' • ')}
-            </>
-          ) : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No ships charted yet.</p>
-  )}
+  {
+    ships.length > 0 ? (
+      <ul>
+        {ships.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.captain || entry.data.affiliation || entry.data.arc ? (
+              <>
+                {' '}
+                —
+                {[entry.data.captain, entry.data.affiliation, entry.data.arc]
+                  .filter(Boolean)
+                  .join(' • ')}
+              </>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No ships charted yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🛡️ GM Reflection Protocols</h2>
-  {gmGuides.length > 0 ? (
-    <ul>
-      {gmGuides.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.arc ? <> — {getArc(entry)}</> : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No GM guides annotated yet.</p>
-  )}
+  {
+    gmGuides.length > 0 ? (
+      <ul>
+        {gmGuides.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.arc ? <> — {getArc(entry)}</> : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No GM guides annotated yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🏰 Notable Places</h2>
-  {places.length > 0 ? (
-    <ul>
-      {places.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.location ? <> — {entry.data.location}</> : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No places detailed yet.</p>
-  )}
+  {
+    places.length > 0 ? (
+      <ul>
+        {places.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.location ? <> — {entry.data.location}</> : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No places detailed yet.</p>
+    )
+  }
 </section>
 
 <section>
   <h2>🗺️ Cartographer's Picks</h2>
-  {maps.length > 0 ? (
-    <ul>
-      {maps.map((entry) => (
-        <li>
-          <a href={makeUrl(entry)}>{getName(entry)}</a>
-          {entry.data.mapScale || entry.data.mapDimensions ? (
-            <>
-              {' '}
-              —
-              {entry.data.mapScale ?? ''}
-              {entry.data.mapScale && entry.data.mapDimensions ? ' • ' : ''}
-              {entry.data.mapDimensions ?? ''}
-            </>
-          ) : null}
-        </li>
-      ))}
-    </ul>
-  ) : (
-    <p>No maps charted yet.</p>
-  )}
+  {
+    maps.length > 0 ? (
+      <ul>
+        {maps.map((entry) => (
+          <li>
+            <a href={makeUrl(entry)}>{getName(entry)}</a>
+            {entry.data.mapScale || entry.data.mapDimensions ? (
+              <>
+                {' '}
+                —{entry.data.mapScale ?? ''}
+                {entry.data.mapScale && entry.data.mapDimensions ? ' • ' : ''}
+                {entry.data.mapDimensions ?? ''}
+              </>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No maps charted yet.</p>
+    )
+  }
 </section>

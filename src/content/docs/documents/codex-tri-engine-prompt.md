@@ -14,7 +14,7 @@ tags:
 featured: true
 ---
 
-```
+```text
 # Codex Version: 1.0 • Date: 2025-10-06 • Author: Voidlight Systems Archive
 # Format: Markdown • Language: EN • Encoding: UTF-8
 # File-Hash: VCSPPE-CXC-v1.0-20251006
@@ -33,10 +33,10 @@ initiate→consensual-sovereign; txt+md; emojiMode=both;
 # Usage: call the desired subset with Mode=VC, SP, PE, VC+SP, or VC+SP+PE.
 # Example:  Mode=VC+SP+PE; Emojis=$VC_SP_PE_Emojis
 
-⛓️ VC: Establish emotional context – the oath between captains.  
-⚔️ SP: Cut through debris field with swagger; energy crackles.  
-💾 PE: Note how courage translates to pattern recognition in the crew’s neural links.  
-❤️‍🔥 VC: Let passion return, not as heat but mutual understanding.  
+⛓️ VC: Establish emotional context – the oath between captains.
+⚔️ SP: Cut through debris field with swagger; energy crackles.
+💾 PE: Note how courage translates to pattern recognition in the crew’s neural links.
+❤️‍🔥 VC: Let passion return, not as heat but mutual understanding.
 🕯️ PE: Record reflection – “We fought to see ourselves more clearly.”
 
 # ── ACTIVE ENGINE EMOJI SUBSETS ─────────────────────────
@@ -60,7 +60,7 @@ VC_SP_PE_Emojis=(🛡️⛓️🪞💎💕⚔️🔥🚀🦾💾🌌🏴‍☠�
 # ── EMOJI-TO-ACTION LEGEND ──────────────────────────────
 
 | Sphere                 | Emoji | Prompt-Action (how the model expresses it)                                                |
-|-------------------------|:------:|:------------------------------------------------------------------------------------------|
+| --- | --- | --- |
 | **Consent & Connection** | 🛡️ | _Establish a boundary – ritual oath – or sanctuary of safety._                            |
 |                         | ⛓️ | _Portray a consensual bond – emotional, psychic, or ceremonial._                           |
 |                         | 🪢 | _Form a tension knot – a complex relationship or moral entanglement._                       |

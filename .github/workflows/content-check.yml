@@ -1,51 +1,43 @@
 name: Voidlight Codex Gate
 permissions:
   contents: read
-
 on:
   push:
     paths:
-      - 'astro.config.mjs'
-      - 'src/content/**'
-      - 'src/components/**'
-      - 'src/styles/**'
-      - 'scripts/**'
-      - 'package.json'
-      - 'package-lock.json'
+      - astro.config.mjs
+      - src/content/**
+      - src/components/**
+      - src/styles/**
+      - scripts/**
+      - package.json
+      - package-lock.json
   pull_request:
     paths:
-      - 'astro.config.mjs'
-      - 'src/content/**'
-      - 'src/components/**'
-      - 'src/styles/**'
-      - 'scripts/**'
-      - 'package.json'
-      - 'package-lock.json'
-
+      - astro.config.mjs
+      - src/content/**
+      - src/components/**
+      - src/styles/**
+      - scripts/**
+      - package.json
+      - package-lock.json
 jobs:
   guardian-ritual:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout codex
         uses: actions/checkout@v5
-
       - name: Prime node engines
         uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: npm
-
       - name: Install dependencies
         run: npm ci
-
       - name: Sync soulmarks
         run: npx astro sync
-
       - name: Validate consent schema
         run: npm run validate:content
-
       - name: Check content wards
         run: npx astro check
-
       - name: Forge verification build
         run: npm run build

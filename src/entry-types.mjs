@@ -16,4 +16,4 @@ export const ENTRY_TYPES = [
   'logbook',
   'ship',
   'gm-guide',
-];
+]

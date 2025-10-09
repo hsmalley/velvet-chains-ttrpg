@@ -1,0 +1,20 @@
+# Dependencies & builds
+node_modules
+dist
+out
+.astro
+
+# Static/public assets
+public
+
+# Generated content caches
+.cache
+.next
+
+# VCS
+.git
+
+# Project-specific
+obsidian-theme
+**/.DS_Store
+**/*.lock

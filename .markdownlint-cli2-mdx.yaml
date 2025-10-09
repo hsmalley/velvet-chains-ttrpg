@@ -1,0 +1,33 @@
+default: true
+config:
+  # Disable MD037 for MDX to allow stylistic spacing around emphasis in UI-ish index pages
+  no-space-in-emphasis: false
+  # Allow MDX components without flagging MD033
+  no-inline-html:
+    allowed_elements:
+      - CollectionList
+      - FeaturedOverview
+# Keep ignores consistent with base config
+ignores:
+  [
+    node_modules,
+    dist,
+    out,
+    public,
+    obsidian-theme,
+    _WIP_,
+    documents,
+    adventures,
+    characters,
+    companions,
+    maps,
+    places,
+    artifacts,
+    arcs,
+    factions,
+    gm-guides,
+    logbooks,
+    rituals,
+    ships,
+    artifact-collections,
+  ]

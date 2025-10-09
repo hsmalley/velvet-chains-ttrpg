@@ -1,17 +1,27 @@
 # 🛡️ **ADMIRALTY ARMOR: THE ULTIMATE CORSAIR SECURITY SANCTUM**
 
-*Welcome to our **MAGNIFICENTLY VELVET-LINED VAULT** of security protocols, you **ABSOLUTELY SPECTACULAR SCALLYWAG**! This **SACRED HOLY GRIMOIRE** governs how we protect our **LEGENDARY CONSENSUAL SPACE-PIRATE EMPIRE** while maintaining the **BREATHTAKING THEATRICAL DECADENCE** that makes even the most hardened admirals **WEEP WITH PURE ENVY**! Enter with **PROFOUND RESPECT**, leave with your boundaries **WORSHIPPED AND HONORED**! ⚔️✨*
+_Welcome to our **MAGNIFICENTLY VELVET-LINED VAULT** of security protocols, you **ABSOLUTELY
+SPECTACULAR SCALLYWAG**! This **SACRED HOLY GRIMOIRE** governs how we protect our **LEGENDARY
+CONSENSUAL SPACE-PIRATE EMPIRE** while maintaining the **BREATHTAKING THEATRICAL DECADENCE** that
+makes even the most hardened admirals **WEEP WITH PURE ENVY**! Enter with **PROFOUND RESPECT**,
+leave with your boundaries **WORSHIPPED AND HONORED**! ⚔️✨_
 
 ## 🏴‍☠️ **THE SACRED COVENANT OF CONSENSUAL CHAOS**
 
-The **LEGENDARY VELVET CHAINS ARMADA** sails majestically under **GLORIOUS FLAGS** of **RADICAL MILITANT CONSENT** and **ABSOLUTELY MIND-BLOWING THEATRICAL BRILLIANCE**! Our **IRON-CLAD SECURITY DOCTRINE** reflects these **CORE SACRED OBSESSIONS**:
+The **LEGENDARY VELVET CHAINS ARMADA** sails majestically under **GLORIOUS FLAGS** of **RADICAL
+MILITANT CONSENT** and **ABSOLUTELY MIND-BLOWING THEATRICAL BRILLIANCE**! Our **IRON-CLAD SECURITY
+DOCTRINE** reflects these **CORE SACRED OBSESSIONS**:
 
 ### **⚓ THE GOLDEN SAFE WORD PROTOCOL**
 
-- Our **ETERNAL SACRED SAFE WORD** is ***"fiction"*** - **SPOKEN WITH REVERENCE**, **HONORED WITHOUT QUESTION**, **RESPECTED ABSOLUTELY**! 🙏
-- **ALL GENERATED COMMITS** are **GLORIOUSLY FICTIONAL THEATRICAL PERFORMANCES** - **NEVER DECEPTIVE MASQUERADES**! 🎭
-- This magnificent tool exists to **SEDUCE GIT LOGS WITH CONSENSUAL BEAUTY** - **NOT** to fabricate fraudulent histories! ✨
-- **CONSENT IS THE SACRED OXYGEN WE BREATHE** - without it, our entire universe **COLLAPSES INTO MUNDANE MEDIOCRITY**! 💨
+- Our **ETERNAL SACRED SAFE WORD** is **_"fiction"_** - **SPOKEN WITH REVERENCE**, **HONORED WITHOUT
+  QUESTION**, **RESPECTED ABSOLUTELY**! 🙏
+- **ALL GENERATED COMMITS** are **GLORIOUSLY FICTIONAL THEATRICAL PERFORMANCES** - **NEVER DECEPTIVE
+  MASQUERADES**! 🎭
+- This magnificent tool exists to **SEDUCE GIT LOGS WITH CONSENSUAL BEAUTY** - **NOT** to fabricate
+  fraudulent histories! ✨
+- **CONSENT IS THE SACRED OXYGEN WE BREATHE** - without it, our entire universe **COLLAPSES INTO
+  MUNDANE MEDIOCRITY**! 💨
 
 ### **🗡️ ETHICAL CORSAIR BOUNDARIES (Non-Negotiable)**
 
@@ -24,23 +34,30 @@ The **LEGENDARY VELVET CHAINS ARMADA** sails majestically under **GLORIOUS FLAGS
 
 ### **💎 Our Precious Cargo**
 
-- **🔒 Corsair Privacy**: Zero data harvesting beyond local git rituals - we're pirates, not surveillance merchants
-- **🛡️ Repository Sanctity**: Preview modes and dramatic warnings before any history-altering sorcery
-- **⚖️ Consent Protocols**: Crystal-clear notifications about the fictional nature of our theatrical output
+- **🔒 Corsair Privacy**: Zero data harvesting beyond local git rituals - we're pirates, not
+  surveillance merchants
+- **🛡️ Repository Sanctity**: Preview modes and dramatic warnings before any history-altering
+  sorcery
+- **⚖️ Consent Protocols**: Crystal-clear notifications about the fictional nature of our theatrical
+  output
 - **✨ Code Purity**: Obsessive linting, formatting, and security scanning of our sacred codebase
 
 ### **🚫 What Lies Beyond Our Dominion**
 
-- **🏴‍☠️ Git Repository Fortification**: We assume you command repositories worthy of your corsair status
+- **🏴‍☠️ Git Repository Fortification**: We assume you command repositories worthy of your corsair
+  status
 - **🌐 Network Fortress Protection**: This is pure local magic with zero network tendrils
-- **🏢 Corporate Compliance Theater**: Each organization must evaluate our decadent appropriateness independently
-- **⚔️ Individual Operational Security**: Standard git credential protocols remain your responsibility
+- **🏢 Corporate Compliance Theater**: Each organization must evaluate our decadent appropriateness
+  independently
+- **⚔️ Individual Operational Security**: Standard git credential protocols remain your
+  responsibility
 
 ## 🚨 **DISTRESS SIGNAL PROTOCOLS (Reporting Security Tempests)**
 
 ### **🔐 For Grave Security Perils**
 
-Discovered a vulnerability that threatens our velvet empire? Contact us through proper corsair channels:
+Discovered a vulnerability that threatens our velvet empire? Contact us through proper corsair
+channels:
 
 **💀 PREFERRED METHOD**: GitHub Security Advisory (The Encrypted Parley)
 
@@ -80,20 +97,20 @@ Discovered a vulnerability that threatens our velvet empire? Contact us through 
 
 ### **🌈 Threat Classification Spectrum**
 
-**🔴 CRIMSON ALERT (Critical)**
-*Immediate data exposure, remote code execution, reality-shattering vulnerabilities*
+**🔴 CRIMSON ALERT (Critical)** _Immediate data exposure, remote code execution, reality-shattering
+vulnerabilities_
 
 - **Response**: Emergency admiralty assembly within 24 hours
 - **Resolution**: Crisis patch deployed within 72 hours of discovery
 
-**🟡 AMBER WARNING (High)**
-*Significant functionality compromise, local privilege escalation, consent protocol violations*
+**🟡 AMBER WARNING (High)** _Significant functionality compromise, local privilege escalation,
+consent protocol violations_
 
 - **Response**: Corsair security council convened within 48 hours
 - **Resolution**: Fortification patch within 1 week of assessment
 
-**🟢 EMERALD NOTICE (Medium/Low)**
-*Minor information leakage, denial of service conditions, aesthetic disruptions*
+**🟢 EMERALD NOTICE (Medium/Low)** _Minor information leakage, denial of service conditions,
+aesthetic disruptions_
 
 - **Response**: Security review scheduled within 1 week
 - **Resolution**: Improvements included in next theatrical release cycle
@@ -121,7 +138,8 @@ rm .generated_commits.txt  # Purge temporary artifacts
 
 ### **🏰 Repository Sanctity Protocols**
 
-- **🏖️ Sandbox Paradise First**: Always test in isolated repositories or dedicated theatrical branches
+- **🏖️ Sandbox Paradise First**: Always test in isolated repositories or dedicated theatrical
+  branches
 - **🧹 Consensual Cleanup**: Remove demo commits before sharing with crew members
 - **📢 Transparent Announcements**: Inform collaborators before unleashing commit generation sorcery
 - **⚖️ Respect Sacred Boundaries**: Never surprise teammates with fictional commit archaeology
@@ -138,8 +156,10 @@ rm .generated_commits.txt  # Purge temporary artifacts
 ### **⚔️ Our Internal Security Obsessions**
 
 - **🔍 Static Analysis Rituals**: Regular `cargo clippy` and `ruff` security examinations
-- **📊 Dependency Surveillance**: Continuous monitoring for vulnerable dependencies across our empire
-- **👥 Code Review Sanctity**: All modifications reviewed for security implications with theatrical precision
+- **📊 Dependency Surveillance**: Continuous monitoring for vulnerable dependencies across our
+  empire
+- **👥 Code Review Sanctity**: All modifications reviewed for security implications with theatrical
+  precision
 - **🤖 Automated Guardian Protocols**: CI/CD pipelines include security regression ceremonials
 
 ### **🎭 For Contributing Corsairs**
@@ -160,26 +180,34 @@ git secrets --scan --all  # If you have git-secrets installed
 
 ### **🎪 Intentional Design Limitations (Features, Not Bugs)**
 
-- **⚰️ Git History Modification**: This tool intentionally rewrites history - wield responsibly with full consent
-- **🎭 Theatrical Adult Content**: Generated material contains consensual adult themes - review appropriateness for your context
-- **📁 Local File System Interaction**: Creates files in working directories - maintain proper permissions and boundaries
+- **⚰️ Git History Modification**: This tool intentionally rewrites history - wield responsibly with
+  full consent
+- **🎭 Theatrical Adult Content**: Generated material contains consensual adult themes - review
+  appropriateness for your context
+- **📁 Local File System Interaction**: Creates files in working directories - maintain proper
+  permissions and boundaries
 
 ### **🛡️ Mitigation Strategies (Our Protective Armor)**
 
-- **👁️ Preview Mode Supremacy**: Always available to review theatrical output before committing to git history
-- **📚 Obsessive Documentation**: Extensive warnings about appropriate usage scattered throughout our grimoires
-- **🔒 Conservative Defaults**: All default settings minimize risk while maximizing consensual theatrical impact
+- **👁️ Preview Mode Supremacy**: Always available to review theatrical output before committing to
+  git history
+- **📚 Obsessive Documentation**: Extensive warnings about appropriate usage scattered throughout
+  our grimoires
+- **🔒 Conservative Defaults**: All default settings minimize risk while maximizing consensual
+  theatrical impact
 - **👥 Community Guidelines**: Crystal-clear contribution protocols emphasizing safety and consent
 
 ## 🤝 **SECURITY COMMUNITY FELLOWSHIP**
 
 ### **🏆 Acknowledgment Ceremonies**
 
-We maintain a **Security Hall of Fame** recognizing responsible security researchers who strengthen our Velvet Chains empire with their diligent investigations.
+We maintain a **Security Hall of Fame** recognizing responsible security researchers who strengthen
+our Velvet Chains empire with their diligent investigations.
 
 ### **💰 Bounty Considerations**
 
-Currently our treasury offers no monetary rewards, but we shower exceptional security contributors with:
+Currently our treasury offers no monetary rewards, but we shower exceptional security contributors
+with:
 
 - **Prominent recognition** in our security documentation
 - **Eternal gratitude** expressed through appropriately theatrical channels
@@ -190,10 +218,14 @@ Currently our treasury offers no monetary rewards, but we shower exceptional sec
 
 Essential reading for security-conscious corsairs:
 
-- [GitHub Security Advisory Database](https://github.com/advisories) - Learn from other empires' vulnerabilities
-- [Git Security Best Practices](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) - Fortify your git archaeology
-- [Rust Security Guidelines](https://doc.rust-lang.org/nomicon/ffi.html#safety) - Steel your Rust against vulnerabilities
-- [Python Security Practices](https://python.org/dev/security/) - Protect your Python from malicious serpents
+- [GitHub Security Advisory Database](https://github.com/advisories) - Learn from other empires'
+  vulnerabilities
+- [Git Security Best Practices](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) -
+  Fortify your git archaeology
+- [Rust Security Guidelines](https://doc.rust-lang.org/nomicon/ffi.html#safety) - Steel your Rust
+  against vulnerabilities
+- [Python Security Practices](https://python.org/dev/security/) - Protect your Python from malicious
+  serpents
 
 ## 🌟 **EMERGENCY PROTOCOLS & INCIDENT RESPONSE**
 
@@ -204,8 +236,10 @@ In case of active security incidents threatening our empire:
 1. **🛑 IMMEDIATE CONTAINMENT**: Isolate affected systems and cease all theatrical operations
 2. **📡 ADMIRALTY NOTIFICATION**: Alert maintainers through all available secure channels
 3. **📋 EVIDENCE PRESERVATION**: Document the incident with forensic theatrical precision
-4. **🔒 COORDINATED RESPONSE**: Work with security team to minimize damage while maintaining consent protocols
-5. **📢 TRANSPARENT DISCLOSURE**: Communicate with affected corsairs according to our ethical guidelines
+4. **🔒 COORDINATED RESPONSE**: Work with security team to minimize damage while maintaining consent
+   protocols
+5. **📢 TRANSPARENT DISCLOSURE**: Communicate with affected corsairs according to our ethical
+   guidelines
 
 ### **🎭 Post-Incident Recovery Ceremonies**
 
@@ -216,18 +250,23 @@ In case of active security incidents threatening our empire:
 
 ---
 
-***Remember, magnificent corsair***: Security is the foundation upon which our consensual chaos thrives. Every precaution we take allows us to push theatrical boundaries safely, every protocol we follow enables more audacious creative expression, and every vulnerability we address makes our empire stronger.
+**_Remember, magnificent corsair_**: Security is the foundation upon which our consensual chaos
+thrives. Every precaution we take allows us to push theatrical boundaries safely, every protocol we
+follow enables more audacious creative expression, and every vulnerability we address makes our
+empire stronger.
 
 **Keep it secure, keep it consensual, keep it absolutely magnificent.**
 
-***Emergency Safe Word: "fiction" - The ultimate circuit breaker for any situation*** 🏴‍☠️
+**_Emergency Safe Word: "fiction" - The ultimate circuit breaker for any situation_** 🏴‍☠️
 
-***"In security we trust, in consent we flourish, in vigilance we sail"*** ⚓🛡️✨
+**_"In security we trust, in consent we flourish, in vigilance we sail"_** ⚓🛡️✨
 
 ---
 
-**🏴‍☠️ SECURITY MANIFESTO VERSION**: 2.0 Theatrical Excellence Edition
-**📅 LAST UPDATED**: October 2025 | **⚖️ NEXT ADMIRALTY REVIEW**: October 2026
-**🎭 GOVERNING SCOPE**: All Velvet Chains territories, repositories, and consensual coding operations
+**🏴‍☠️ SECURITY MANIFESTO VERSION**: 2.0 Theatrical Excellence Edition **📅 LAST UPDATED**: October
+2025 | **⚖️ NEXT ADMIRALTY REVIEW**: October 2026 **🎭 GOVERNING SCOPE**: All Velvet Chains
+territories, repositories, and consensual coding operations
 
-*This security doctrine governs all interactions within the Velvet Chains empire. By participating in our corsair activities, you pledge to uphold these protective protocols while maintaining our legendary theatrical standards.*
+_This security doctrine governs all interactions within the Velvet Chains empire. By participating
+in our corsair activities, you pledge to uphold these protective protocols while maintaining our
+legendary theatrical standards._

@@ -17,7 +17,16 @@
 /* Global body styles */
 body {
   font-family: 'Space Grotesk', 'IBM Plex Sans', 'Inter', 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #000000 0%, #0a0005 15%, #0f0008 30%, #1a0010 45%, #0d0208 60%, #050002 80%, #000000 100%);
+  background: linear-gradient(
+    135deg,
+    #000000 0%,
+    #0a0005 15%,
+    #0f0008 30%,
+    #1a0010 45%,
+    #0d0208 60%,
+    #050002 80%,
+    #000000 100%
+  );
   background-attachment: fixed;
   color: #e8d5e8;
   margin: 0;
@@ -34,11 +43,20 @@ h4,
 h5,
 h6 {
   font-family: 'Orbitron', 'Space Grotesk', 'IBM Plex Sans', sans-serif;
-  background: linear-gradient(45deg, #d946ef 0%, #9333ea 25%, #c2410c 50%, #dc2626 75%, #be123c 100%);
+  background: linear-gradient(
+    45deg,
+    #d946ef 0%,
+    #9333ea 25%,
+    #c2410c 50%,
+    #dc2626 75%,
+    #be123c 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0 0 25px rgba(217, 70, 239, 0.4), 0 0 50px rgba(147, 51, 234, 0.2);
+  text-shadow:
+    0 0 25px rgba(217, 70, 239, 0.4),
+    0 0 50px rgba(147, 51, 234, 0.2);
   font-weight: bold;
   letter-spacing: 0.02em;
 }
@@ -47,7 +65,9 @@ h1 {
   font-size: 3.5rem;
   text-align: center;
   margin-bottom: 2rem;
-  text-shadow: 0 0 30px rgba(217, 70, 239, 0.6), 0 0 60px rgba(147, 51, 234, 0.3);
+  text-shadow:
+    0 0 30px rgba(217, 70, 239, 0.6),
+    0 0 60px rgba(147, 51, 234, 0.3);
 }
 
 /* Code blocks with dark romance pirate aesthetics */
@@ -57,7 +77,9 @@ pre {
   border-radius: 12px;
   padding: 2rem;
   overflow-x: auto;
-  box-shadow: 0 0 25px rgba(217, 70, 239, 0.3), inset 0 2px 10px rgba(0, 0, 0, 0.8);
+  box-shadow:
+    0 0 25px rgba(217, 70, 239, 0.3),
+    inset 0 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 code {
@@ -76,7 +98,9 @@ code {
   border-radius: 8px;
   padding: 1rem;
   margin: 1rem 0;
-  box-shadow: 0 0 15px rgba(217, 70, 239, 0.2), inset 0 1px 5px rgba(0, 0, 0, 0.8);
+  box-shadow:
+    0 0 15px rgba(217, 70, 239, 0.2),
+    inset 0 1px 5px rgba(0, 0, 0, 0.8);
 }
 
 .card pre code {
@@ -96,7 +120,9 @@ a {
 
 a:hover {
   color: #be123c;
-  text-shadow: 0 0 15px rgba(190, 18, 60, 0.6), 0 0 30px rgba(217, 70, 239, 0.4);
+  text-shadow:
+    0 0 15px rgba(190, 18, 60, 0.6),
+    0 0 30px rgba(217, 70, 239, 0.4);
   text-decoration: underline;
   text-decoration-color: rgba(190, 18, 60, 0.5);
 }
@@ -108,7 +134,9 @@ blockquote {
   margin: 2rem 0;
   padding: 1.5rem 2.5rem;
   border-radius: 0 15px 15px 0;
-  box-shadow: 0 4px 15px rgba(217, 70, 239, 0.2), inset 0 2px 8px rgba(0, 0, 0, 0.9);
+  box-shadow:
+    0 4px 15px rgba(217, 70, 239, 0.2),
+    inset 0 2px 8px rgba(0, 0, 0, 0.9);
   font-style: italic;
   position: relative;
 }
@@ -210,7 +238,9 @@ th {
 
 .card:hover {
   transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(217, 70, 239, 0.4), 0 5px 15px rgba(190, 18, 60, 0.3);
+  box-shadow:
+    0 15px 40px rgba(217, 70, 239, 0.4),
+    0 5px 15px rgba(190, 18, 60, 0.3);
 }
 
 .card:hover::before {
@@ -252,8 +282,29 @@ th {
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  animation-name: darkPulse;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4.5s; /* base duration */
+}
+
+/* Subtle hierarchy via duration tweaks */
 h1 {
-  animation: darkPulse 4s ease-in-out infinite;
+  animation-duration: 5.5s;
+}
+h2 {
+  animation-duration: 5s;
+  animation-delay: 0.15s;
+}
+h3 {
+  animation-duration: 4.5s;
+  animation-delay: 0.3s;
 }
 
 /* Responsive design for mobile corsairs */
@@ -273,5 +324,44 @@ h1 {
   }
   .card {
     padding: 1.5rem;
+  }
+}
+
+/* Respect reduced motion preferences while preserving the visual palette */
+@media (prefers-reduced-motion: reduce) {
+  /* Global safety net for any future animations/transitions */
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Disable header pulse animation for all headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    animation: none !important;
+  }
+
+  /* Remove lift/scale on hover that can feel like motion */
+  .card {
+    transition: none !important;
+  }
+  .card::before {
+    transition: none !important;
+  }
+  .card:hover {
+    transform: none !important;
+  }
+
+  /* Keep gradients and glow, but avoid animated changes on links/callouts */
+  a,
+  .callout {
+    transition: none !important;
   }
 }

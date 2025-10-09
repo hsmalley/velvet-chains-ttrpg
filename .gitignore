@@ -1,3 +1,7 @@
+# Stuff that is NOT baked at all
+ideas
+ideas/**
+
 # IDE / editor settings
 .vscode/
 .idea/

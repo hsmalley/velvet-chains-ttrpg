@@ -1,13 +1,14 @@
-import { defineCollection, z } from 'astro:content';
-import { docsSchema } from '@astrojs/starlight/schema';
-import { ENTRY_TYPES } from './entry-types.mjs';
+import { defineCollection, z } from 'astro:content'
+import { docsSchema } from '@astrojs/starlight/schema'
+import { ENTRY_TYPES } from './entry-types.mjs'
 
 const docs = defineCollection({
   schema: docsSchema({
     extend: z.object({
       publish: z.boolean().optional(),
       featured: z.boolean().optional(),
-      entryType: z.enum(ENTRY_TYPES).default('page'),
+      // ENTRY_TYPES is imported from an .mjs file, so cast to the tuple Zod expects
+      entryType: z.enum(ENTRY_TYPES as unknown as [string, ...string[]]).default('page'),
       id: z.string().optional(),
       name: z.string().optional(),
       class: z.string().optional(),
@@ -31,8 +32,8 @@ const docs = defineCollection({
       tags: z.array(z.string()).default([]),
     }),
   }),
-});
+})
 
 export const collections = {
   docs,
-};
+}

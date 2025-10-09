@@ -1,10 +1,10 @@
 ---
-import { withBasePath } from '../utils/url';
+import { withBasePath } from '../utils/url'
 
-const { href, children } = Astro.props;
-const shouldBypass = /^(?:[a-z][a-z0-9+.-]*:|#)/i.test(href);
-const normalized = href.startsWith('/') ? href : `/${href}`;
-const fullHref = shouldBypass ? href : withBasePath(normalized);
+const { href, children } = Astro.props
+const shouldBypass = /^(?:[a-z][a-z0-9+.-]*:|#)/i.test(href)
+const normalized = href.startsWith('/') ? href : `/${href}`
+const fullHref = shouldBypass ? href : withBasePath(normalized)
 ---
 
 <a href={fullHref}>{children}</a>

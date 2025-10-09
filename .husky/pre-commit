@@ -1,7 +1,8 @@
 #!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+
+set -e
 
 echo "🏴‍☠️ Running Voidlight validation..."
-npm run validate:content || exit 1
+npm run validate:content
 
 echo "✨ Voidlight rituals passed. Onward to commit."
